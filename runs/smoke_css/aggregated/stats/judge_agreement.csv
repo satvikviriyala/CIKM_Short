@@ -1,0 +1,2 @@
+metric,method,value,n_judges,n_items,note
+response_type_nominal,fleiss_kappa,,3,0,only 0 item(s) with all-judge valid labels — skipped

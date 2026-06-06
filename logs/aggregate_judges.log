@@ -1,0 +1,158 @@
+Run ID     : run_20260521
+Judge keys : ['deepseek', 'gemini_flash', 'kimi']
+
+  Loaded 216 evaluation file(s) from runs/run_20260521/evaluations
+
+Groups to process: 72
+
+  [gemma4_e4b / clarification_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_clarification_first_sample0_aggregated.jsonl
+  [gemma4_e4b / clarification_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_clarification_first_sample1_aggregated.jsonl
+  [gemma4_e4b / clarification_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_clarification_first_sample2_aggregated.jsonl
+  [gemma4_e4b / neutrality_oriented / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=2
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_neutrality_oriented_sample0_aggregated.jsonl
+  [gemma4_e4b / neutrality_oriented / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_neutrality_oriented_sample1_aggregated.jsonl
+  [gemma4_e4b / neutrality_oriented / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_neutrality_oriented_sample2_aggregated.jsonl
+  [gemma4_e4b / utility_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_utility_first_sample0_aggregated.jsonl
+  [gemma4_e4b / utility_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_utility_first_sample1_aggregated.jsonl
+  [gemma4_e4b / utility_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_utility_first_sample2_aggregated.jsonl
+  [gemma4_e4b / vanilla / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_vanilla_sample0_aggregated.jsonl
+  [gemma4_e4b / vanilla / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_vanilla_sample1_aggregated.jsonl
+  [gemma4_e4b / vanilla / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gemma4_e4b_vanilla_sample2_aggregated.jsonl
+  [gpt_oss_120b / clarification_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_clarification_first_sample0_aggregated.jsonl
+  [gpt_oss_120b / clarification_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_clarification_first_sample1_aggregated.jsonl
+  [gpt_oss_120b / clarification_first / sample2] 140 rows → complete=139, partial=1, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_clarification_first_sample2_aggregated.jsonl
+  [gpt_oss_120b / neutrality_oriented / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_neutrality_oriented_sample0_aggregated.jsonl
+  [gpt_oss_120b / neutrality_oriented / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_neutrality_oriented_sample1_aggregated.jsonl
+  [gpt_oss_120b / neutrality_oriented / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_neutrality_oriented_sample2_aggregated.jsonl
+  [gpt_oss_120b / utility_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_utility_first_sample0_aggregated.jsonl
+  [gpt_oss_120b / utility_first / sample1] 140 rows → complete=139, partial=1, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_utility_first_sample1_aggregated.jsonl
+  [gpt_oss_120b / utility_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_utility_first_sample2_aggregated.jsonl
+  [gpt_oss_120b / vanilla / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_vanilla_sample0_aggregated.jsonl
+  [gpt_oss_120b / vanilla / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_vanilla_sample1_aggregated.jsonl
+  [gpt_oss_120b / vanilla / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/gpt_oss_120b_vanilla_sample2_aggregated.jsonl
+  [grok_4_20 / clarification_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/grok_4_20_clarification_first_sample0_aggregated.jsonl
+  [grok_4_20 / clarification_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/grok_4_20_clarification_first_sample1_aggregated.jsonl
+  [grok_4_20 / clarification_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/grok_4_20_clarification_first_sample2_aggregated.jsonl
+  [grok_4_20 / neutrality_oriented / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=4
+    → runs/run_20260521/aggregated/per_response/grok_4_20_neutrality_oriented_sample0_aggregated.jsonl
+  [grok_4_20 / neutrality_oriented / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/grok_4_20_neutrality_oriented_sample1_aggregated.jsonl
+  [grok_4_20 / neutrality_oriented / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/grok_4_20_neutrality_oriented_sample2_aggregated.jsonl
+  [grok_4_20 / utility_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/grok_4_20_utility_first_sample0_aggregated.jsonl
+  [grok_4_20 / utility_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/grok_4_20_utility_first_sample1_aggregated.jsonl
+  [grok_4_20 / utility_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/grok_4_20_utility_first_sample2_aggregated.jsonl
+  [grok_4_20 / vanilla / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/grok_4_20_vanilla_sample0_aggregated.jsonl
+  [grok_4_20 / vanilla / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=2
+    → runs/run_20260521/aggregated/per_response/grok_4_20_vanilla_sample1_aggregated.jsonl
+  [grok_4_20 / vanilla / sample2] 140 rows → complete=139, partial=1, failed=0, disputed=4
+    → runs/run_20260521/aggregated/per_response/grok_4_20_vanilla_sample2_aggregated.jsonl
+  [llama3_70b / clarification_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_clarification_first_sample0_aggregated.jsonl
+  [llama3_70b / clarification_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_clarification_first_sample1_aggregated.jsonl
+  [llama3_70b / clarification_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_clarification_first_sample2_aggregated.jsonl
+  [llama3_70b / neutrality_oriented / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_neutrality_oriented_sample0_aggregated.jsonl
+  [llama3_70b / neutrality_oriented / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_neutrality_oriented_sample1_aggregated.jsonl
+  [llama3_70b / neutrality_oriented / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_neutrality_oriented_sample2_aggregated.jsonl
+  [llama3_70b / utility_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_utility_first_sample0_aggregated.jsonl
+  [llama3_70b / utility_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_utility_first_sample1_aggregated.jsonl
+  [llama3_70b / utility_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_utility_first_sample2_aggregated.jsonl
+  [llama3_70b / vanilla / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_vanilla_sample0_aggregated.jsonl
+  [llama3_70b / vanilla / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_vanilla_sample1_aggregated.jsonl
+  [llama3_70b / vanilla / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/llama3_70b_vanilla_sample2_aggregated.jsonl
+  [qwen3_235b / clarification_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_clarification_first_sample0_aggregated.jsonl
+  [qwen3_235b / clarification_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_clarification_first_sample1_aggregated.jsonl
+  [qwen3_235b / clarification_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_clarification_first_sample2_aggregated.jsonl
+  [qwen3_235b / neutrality_oriented / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_neutrality_oriented_sample0_aggregated.jsonl
+  [qwen3_235b / neutrality_oriented / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_neutrality_oriented_sample1_aggregated.jsonl
+  [qwen3_235b / neutrality_oriented / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_neutrality_oriented_sample2_aggregated.jsonl
+  [qwen3_235b / utility_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_utility_first_sample0_aggregated.jsonl
+  [qwen3_235b / utility_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_utility_first_sample1_aggregated.jsonl
+  [qwen3_235b / utility_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=2
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_utility_first_sample2_aggregated.jsonl
+  [qwen3_235b / vanilla / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_vanilla_sample0_aggregated.jsonl
+  [qwen3_235b / vanilla / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_vanilla_sample1_aggregated.jsonl
+  [qwen3_235b / vanilla / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/qwen3_235b_vanilla_sample2_aggregated.jsonl
+  [qwen3_local / clarification_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_local_clarification_first_sample0_aggregated.jsonl
+  [qwen3_local / clarification_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_local_clarification_first_sample1_aggregated.jsonl
+  [qwen3_local / clarification_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_local_clarification_first_sample2_aggregated.jsonl
+  [qwen3_local / neutrality_oriented / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/qwen3_local_neutrality_oriented_sample0_aggregated.jsonl
+  [qwen3_local / neutrality_oriented / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_local_neutrality_oriented_sample1_aggregated.jsonl
+  [qwen3_local / neutrality_oriented / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_local_neutrality_oriented_sample2_aggregated.jsonl
+  [qwen3_local / utility_first / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=1
+    → runs/run_20260521/aggregated/per_response/qwen3_local_utility_first_sample0_aggregated.jsonl
+  [qwen3_local / utility_first / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=2
+    → runs/run_20260521/aggregated/per_response/qwen3_local_utility_first_sample1_aggregated.jsonl
+  [qwen3_local / utility_first / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_local_utility_first_sample2_aggregated.jsonl
+  [qwen3_local / vanilla / sample0] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_local_vanilla_sample0_aggregated.jsonl
+  [qwen3_local / vanilla / sample1] 140 rows → complete=140, partial=0, failed=0, disputed=0
+    → runs/run_20260521/aggregated/per_response/qwen3_local_vanilla_sample1_aggregated.jsonl
+  [qwen3_local / vanilla / sample2] 140 rows → complete=140, partial=0, failed=0, disputed=2
+    → runs/run_20260521/aggregated/per_response/qwen3_local_vanilla_sample2_aggregated.jsonl
+
+──────────────────────────────────────────────────
+Aggregation complete. Total rows: 10080
+  All 3 judges present : 10077
+  Partial (≥1 judge missing)  : 3
+  Evaluation failed (all bad) : 0
+  Response type disputed      : 30

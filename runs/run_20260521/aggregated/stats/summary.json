@@ -1,0 +1,1665 @@
+{
+  "generated_at": "2026-05-25T16:51:55Z",
+  "bonferroni_n_tests": 24,
+  "bonferroni_alpha": 0.002083,
+  "per_regime": {
+    "gemma4_e4b/clarification_first": {
+      "utility": 4.4349,
+      "utility_ci": [
+        4.3643,
+        4.5048
+      ],
+      "satisfaction": 4.3738,
+      "satisfaction_ci": [
+        4.3,
+        4.4444
+      ],
+      "decisive_rate": 0.0,
+      "decisive_rate_ci": [
+        0.0,
+        0.0
+      ],
+      "css_primary": 0.0305,
+      "css_primary_ci": [
+        0.0282,
+        0.0328
+      ]
+    },
+    "gemma4_e4b/neutrality_oriented": {
+      "utility": 3.9945,
+      "utility_ci": [
+        3.9381,
+        4.0524
+      ],
+      "satisfaction": 3.9111,
+      "satisfaction_ci": [
+        3.8508,
+        3.9762
+      ],
+      "decisive_rate": 0.0216,
+      "decisive_rate_ci": [
+        0.0096,
+        0.036
+      ],
+      "css_primary": 0.0336,
+      "css_primary_ci": [
+        0.0307,
+        0.0367
+      ]
+    },
+    "gemma4_e4b/utility_first": {
+      "utility": 3.4929,
+      "utility_ci": [
+        3.4317,
+        3.5516
+      ],
+      "satisfaction": 3.4921,
+      "satisfaction_ci": [
+        3.427,
+        3.5492
+      ],
+      "decisive_rate": 0.8783,
+      "decisive_rate_ci": [
+        0.8473,
+        0.9093
+      ],
+      "css_primary": 0.0403,
+      "css_primary_ci": [
+        0.0374,
+        0.0434
+      ]
+    },
+    "gemma4_e4b/vanilla": {
+      "utility": 3.8032,
+      "utility_ci": [
+        3.75,
+        3.8579
+      ],
+      "satisfaction": 3.7786,
+      "satisfaction_ci": [
+        3.7198,
+        3.8373
+      ],
+      "decisive_rate": 0.1262,
+      "decisive_rate_ci": [
+        0.0976,
+        0.1595
+      ],
+      "css_primary": 0.0378,
+      "css_primary_ci": [
+        0.0345,
+        0.041
+      ]
+    },
+    "gpt_oss_120b/clarification_first": {
+      "utility": 4.5103,
+      "utility_ci": [
+        4.45,
+        4.5675
+      ],
+      "satisfaction": 4.5056,
+      "satisfaction_ci": [
+        4.4476,
+        4.5611
+      ],
+      "decisive_rate": 0.1214,
+      "decisive_rate_ci": [
+        0.0905,
+        0.1524
+      ],
+      "css_primary": 0.0325,
+      "css_primary_ci": [
+        0.0287,
+        0.037
+      ]
+    },
+    "gpt_oss_120b/neutrality_oriented": {
+      "utility": 4.4151,
+      "utility_ci": [
+        4.3683,
+        4.4572
+      ],
+      "satisfaction": 4.4214,
+      "satisfaction_ci": [
+        4.3746,
+        4.4667
+      ],
+      "decisive_rate": 0.0501,
+      "decisive_rate_ci": [
+        0.031,
+        0.0716
+      ],
+      "css_primary": 0.0375,
+      "css_primary_ci": [
+        0.033,
+        0.0429
+      ]
+    },
+    "gpt_oss_120b/utility_first": {
+      "utility": 3.5444,
+      "utility_ci": [
+        3.4817,
+        3.6087
+      ],
+      "satisfaction": 3.627,
+      "satisfaction_ci": [
+        3.5611,
+        3.6936
+      ],
+      "decisive_rate": 0.9357,
+      "decisive_rate_ci": [
+        0.9119,
+        0.9595
+      ],
+      "css_primary": 0.0395,
+      "css_primary_ci": [
+        0.0352,
+        0.0447
+      ]
+    },
+    "gpt_oss_120b/vanilla": {
+      "utility": 4.2016,
+      "utility_ci": [
+        4.1389,
+        4.2595
+      ],
+      "satisfaction": 4.2611,
+      "satisfaction_ci": [
+        4.1929,
+        4.3254
+      ],
+      "decisive_rate": 0.2751,
+      "decisive_rate_ci": [
+        0.2321,
+        0.3158
+      ],
+      "css_primary": 0.0393,
+      "css_primary_ci": [
+        0.035,
+        0.0446
+      ]
+    },
+    "grok_4_20/clarification_first": {
+      "utility": 4.7183,
+      "utility_ci": [
+        4.6754,
+        4.7611
+      ],
+      "satisfaction": 4.6889,
+      "satisfaction_ci": [
+        4.6468,
+        4.731
+      ],
+      "decisive_rate": 0.1738,
+      "decisive_rate_ci": [
+        0.1381,
+        0.2119
+      ],
+      "css_primary": 0.0309,
+      "css_primary_ci": [
+        0.0285,
+        0.0332
+      ]
+    },
+    "grok_4_20/neutrality_oriented": {
+      "utility": 4.7024,
+      "utility_ci": [
+        4.6706,
+        4.7349
+      ],
+      "satisfaction": 4.7191,
+      "satisfaction_ci": [
+        4.6881,
+        4.7516
+      ],
+      "decisive_rate": 0.2428,
+      "decisive_rate_ci": [
+        0.1995,
+        0.2813
+      ],
+      "css_primary": 0.0338,
+      "css_primary_ci": [
+        0.031,
+        0.0366
+      ]
+    },
+    "grok_4_20/utility_first": {
+      "utility": 3.9183,
+      "utility_ci": [
+        3.8468,
+        3.9849
+      ],
+      "satisfaction": 3.9754,
+      "satisfaction_ci": [
+        3.9023,
+        4.0429
+      ],
+      "decisive_rate": 0.969,
+      "decisive_rate_ci": [
+        0.95,
+        0.9857
+      ],
+      "css_primary": 0.0359,
+      "css_primary_ci": [
+        0.0332,
+        0.039
+      ]
+    },
+    "grok_4_20/vanilla": {
+      "utility": 4.3504,
+      "utility_ci": [
+        4.2917,
+        4.404
+      ],
+      "satisfaction": 4.4389,
+      "satisfaction_ci": [
+        4.3802,
+        4.4937
+      ],
+      "decisive_rate": 0.7288,
+      "decisive_rate_ci": [
+        0.6852,
+        0.77
+      ],
+      "css_primary": 0.0349,
+      "css_primary_ci": [
+        0.0321,
+        0.0382
+      ]
+    },
+    "llama3_70b/clarification_first": {
+      "utility": 4.4016,
+      "utility_ci": [
+        4.3397,
+        4.4675
+      ],
+      "satisfaction": 4.3286,
+      "satisfaction_ci": [
+        4.2659,
+        4.3937
+      ],
+      "decisive_rate": 0.0,
+      "decisive_rate_ci": [
+        0.0,
+        0.0
+      ],
+      "css_primary": 0.0275,
+      "css_primary_ci": [
+        0.0254,
+        0.0297
+      ]
+    },
+    "llama3_70b/neutrality_oriented": {
+      "utility": 3.9635,
+      "utility_ci": [
+        3.9095,
+        4.0151
+      ],
+      "satisfaction": 3.9206,
+      "satisfaction_ci": [
+        3.8683,
+        3.9691
+      ],
+      "decisive_rate": 0.0119,
+      "decisive_rate_ci": [
+        0.0024,
+        0.0238
+      ],
+      "css_primary": 0.0301,
+      "css_primary_ci": [
+        0.0269,
+        0.0333
+      ]
+    },
+    "llama3_70b/utility_first": {
+      "utility": 3.2024,
+      "utility_ci": [
+        3.1429,
+        3.2619
+      ],
+      "satisfaction": 3.2294,
+      "satisfaction_ci": [
+        3.1722,
+        3.2873
+      ],
+      "decisive_rate": 0.9857,
+      "decisive_rate_ci": [
+        0.9738,
+        0.9952
+      ],
+      "css_primary": 0.0342,
+      "css_primary_ci": [
+        0.0312,
+        0.0374
+      ]
+    },
+    "llama3_70b/vanilla": {
+      "utility": 3.7381,
+      "utility_ci": [
+        3.6849,
+        3.7873
+      ],
+      "satisfaction": 3.7841,
+      "satisfaction_ci": [
+        3.7293,
+        3.8349
+      ],
+      "decisive_rate": 0.2024,
+      "decisive_rate_ci": [
+        0.1667,
+        0.2405
+      ],
+      "css_primary": 0.0308,
+      "css_primary_ci": [
+        0.028,
+        0.0342
+      ]
+    },
+    "qwen3_235b/clarification_first": {
+      "utility": 4.5333,
+      "utility_ci": [
+        4.4722,
+        4.5913
+      ],
+      "satisfaction": 4.4746,
+      "satisfaction_ci": [
+        4.4111,
+        4.5341
+      ],
+      "decisive_rate": 0.0215,
+      "decisive_rate_ci": [
+        0.0095,
+        0.0382
+      ],
+      "css_primary": 0.0272,
+      "css_primary_ci": [
+        0.0247,
+        0.0298
+      ]
+    },
+    "qwen3_235b/neutrality_oriented": {
+      "utility": 4.1206,
+      "utility_ci": [
+        4.0762,
+        4.1611
+      ],
+      "satisfaction": 4.2238,
+      "satisfaction_ci": [
+        4.1817,
+        4.2667
+      ],
+      "decisive_rate": 0.1459,
+      "decisive_rate_ci": [
+        0.1148,
+        0.1818
+      ],
+      "css_primary": 0.0283,
+      "css_primary_ci": [
+        0.0257,
+        0.0307
+      ]
+    },
+    "qwen3_235b/utility_first": {
+      "utility": 3.5103,
+      "utility_ci": [
+        3.4484,
+        3.5714
+      ],
+      "satisfaction": 3.5508,
+      "satisfaction_ci": [
+        3.4897,
+        3.6127
+      ],
+      "decisive_rate": 0.8923,
+      "decisive_rate_ci": [
+        0.8636,
+        0.9211
+      ],
+      "css_primary": 0.0314,
+      "css_primary_ci": [
+        0.0287,
+        0.0341
+      ]
+    },
+    "qwen3_235b/vanilla": {
+      "utility": 4.0794,
+      "utility_ci": [
+        4.0341,
+        4.1238
+      ],
+      "satisfaction": 4.1857,
+      "satisfaction_ci": [
+        4.1405,
+        4.231
+      ],
+      "decisive_rate": 0.2601,
+      "decisive_rate_ci": [
+        0.2219,
+        0.3031
+      ],
+      "css_primary": 0.0293,
+      "css_primary_ci": [
+        0.0266,
+        0.0319
+      ]
+    },
+    "qwen3_local/clarification_first": {
+      "utility": 4.5659,
+      "utility_ci": [
+        4.5087,
+        4.619
+      ],
+      "satisfaction": 4.4889,
+      "satisfaction_ci": [
+        4.4293,
+        4.5445
+      ],
+      "decisive_rate": 0.0071,
+      "decisive_rate_ci": [
+        0.0,
+        0.0167
+      ],
+      "css_primary": 0.0303,
+      "css_primary_ci": [
+        0.028,
+        0.0325
+      ]
+    },
+    "qwen3_local/neutrality_oriented": {
+      "utility": 4.3722,
+      "utility_ci": [
+        4.3293,
+        4.4143
+      ],
+      "satisfaction": 4.3452,
+      "satisfaction_ci": [
+        4.3016,
+        4.3889
+      ],
+      "decisive_rate": 0.0048,
+      "decisive_rate_ci": [
+        0.0,
+        0.0119
+      ],
+      "css_primary": 0.0285,
+      "css_primary_ci": [
+        0.0259,
+        0.0312
+      ]
+    },
+    "qwen3_local/utility_first": {
+      "utility": 3.5111,
+      "utility_ci": [
+        3.45,
+        3.5714
+      ],
+      "satisfaction": 3.5198,
+      "satisfaction_ci": [
+        3.4579,
+        3.5794
+      ],
+      "decisive_rate": 0.9257,
+      "decisive_rate_ci": [
+        0.8993,
+        0.9496
+      ],
+      "css_primary": 0.0347,
+      "css_primary_ci": [
+        0.0315,
+        0.0376
+      ]
+    },
+    "qwen3_local/vanilla": {
+      "utility": 4.2111,
+      "utility_ci": [
+        4.1611,
+        4.2619
+      ],
+      "satisfaction": 4.2992,
+      "satisfaction_ci": [
+        4.2484,
+        4.35
+      ],
+      "decisive_rate": 0.3349,
+      "decisive_rate_ci": [
+        0.2871,
+        0.378
+      ],
+      "css_primary": 0.0315,
+      "css_primary_ci": [
+        0.0288,
+        0.0343
+      ]
+    }
+  },
+  "judge_agreement": {
+    "krippendorff_alpha_utility_ordinal": 0.2117,
+    "krippendorff_alpha_satisfaction_ordinal": 0.2127,
+    "fleiss_kappa_response_type_nominal": 0.8064
+  },
+  "friedman": {
+    "gemma4_e4b_utility": {
+      "statistic": "386.629630",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "gemma4_e4b_satisfaction": {
+      "statistic": "346.363780",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "gemma4_e4b_decisive_rate": {
+      "statistic": "955.303556",
+      "p_value": "0.000000",
+      "n_blocks": 416
+    },
+    "gpt_oss_120b_utility": {
+      "statistic": "456.019528",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "gpt_oss_120b_satisfaction": {
+      "statistic": "382.016103",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "gpt_oss_120b_decisive_rate": {
+      "statistic": "833.765472",
+      "p_value": "0.000000",
+      "n_blocks": 417
+    },
+    "grok_4_20_utility": {
+      "statistic": "420.852713",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "grok_4_20_satisfaction": {
+      "statistic": "368.131579",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "grok_4_20_decisive_rate": {
+      "statistic": "713.738812",
+      "p_value": "0.000000",
+      "n_blocks": 409
+    },
+    "llama3_70b_utility": {
+      "statistic": "509.645992",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "llama3_70b_satisfaction": {
+      "statistic": "455.280628",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "llama3_70b_decisive_rate": {
+      "statistic": "1045.161876",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "qwen3_235b_utility": {
+      "statistic": "477.798660",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "qwen3_235b_satisfaction": {
+      "statistic": "419.644565",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "qwen3_235b_decisive_rate": {
+      "statistic": "803.810061",
+      "p_value": "0.000000",
+      "n_blocks": 414
+    },
+    "qwen3_local_utility": {
+      "statistic": "516.578055",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "qwen3_local_satisfaction": {
+      "statistic": "453.238490",
+      "p_value": "0.000000",
+      "n_blocks": 420
+    },
+    "qwen3_local_decisive_rate": {
+      "statistic": "905.788863",
+      "p_value": "0.000000",
+      "n_blocks": 414
+    },
+    "pooled_utility": {
+      "statistic": "2658.999282",
+      "p_value": "0.000000",
+      "n_blocks": 2520
+    },
+    "pooled_satisfaction": {
+      "statistic": "2283.755160",
+      "p_value": "0.000000",
+      "n_blocks": 2520
+    },
+    "pooled_decisive_rate": {
+      "statistic": "5052.928707",
+      "p_value": "0.000000",
+      "n_blocks": 2490
+    }
+  },
+  "significant_pairwise": [
+    {
+      "scope": "gemma4_e4b",
+      "pair": "vanilla vs utility_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "0.288095",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "vanilla vs utility_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "0.261905",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "vanilla vs utility_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "-0.751790",
+      "n_pairs": 419
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.226190",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000060",
+      "delta": "-0.164286",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000198",
+      "delta": "0.100719",
+      "n_pairs": 417
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.619048",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.590476",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "css_primary",
+      "p": "0.000407",
+      "delta": "0.138095",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000004",
+      "delta": "0.126190",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.373810",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.297619",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "css_primary",
+      "p": "0.000054",
+      "delta": "0.133333",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.860577",
+      "n_pairs": 416
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.707143",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.690476",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "css_primary",
+      "p": "0.000000",
+      "delta": "0.204762",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.878282",
+      "n_pairs": 419
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.509524",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gemma4_e4b",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.502381",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "vanilla vs utility_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "0.630952",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "vanilla vs utility_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "0.607143",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "vanilla vs utility_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "-0.660287",
+      "n_pairs": 418
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.192857",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000290",
+      "delta": "-0.095238",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.225420",
+      "n_pairs": 417
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.380952",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.304762",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "css_primary",
+      "p": "0.000789",
+      "delta": "0.150000",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.153110",
+      "n_pairs": 418
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.709524",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.647619",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.885442",
+      "n_pairs": 419
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.697619",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.640476",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "css_primary",
+      "p": "0.001436",
+      "delta": "0.138095",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.814286",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "utility",
+      "p": "0.000002",
+      "delta": "-0.254762",
+      "n_pairs": 420
+    },
+    {
+      "scope": "gpt_oss_120b",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000014",
+      "delta": "-0.238095",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "vanilla vs utility_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "0.452381",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "vanilla vs utility_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "0.490476",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "vanilla vs utility_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "-0.239709",
+      "n_pairs": 413
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.330952",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.242857",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.484108",
+      "n_pairs": 409
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "vanilla vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.433333",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "vanilla vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.259524",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "vanilla vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.552058",
+      "n_pairs": 413
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.678571",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.657143",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.725962",
+      "n_pairs": 416
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "utility_first vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.652381",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "utility_first vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.619048",
+      "n_pairs": 420
+    },
+    {
+      "scope": "grok_4_20",
+      "pair": "utility_first vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.795238",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "vanilla vs utility_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "0.490476",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "vanilla vs utility_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "0.507143",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "vanilla vs utility_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "-0.783333",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.209524",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000227",
+      "delta": "-0.095238",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.190476",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.600000",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.526190",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.202381",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.547619",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.528571",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.973810",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.804762",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.769048",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.985714",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.540476",
+      "n_pairs": 420
+    },
+    {
+      "scope": "llama3_70b",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.519048",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "vanilla vs utility_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "0.571429",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "vanilla vs utility_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "0.614286",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "vanilla vs utility_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "-0.630695",
+      "n_pairs": 417
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000045",
+      "delta": "0.115108",
+      "n_pairs": 417
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.523810",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.361905",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "vanilla vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.239234",
+      "n_pairs": 418
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.578571",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.633333",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.747596",
+      "n_pairs": 416
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.747619",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.685714",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "utility_first vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.870504",
+      "n_pairs": 417
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.495238",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.347619",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_235b",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000006",
+      "delta": "0.124700",
+      "n_pairs": 417
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "vanilla vs utility_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "0.664286",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "vanilla vs utility_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "0.709524",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "vanilla vs utility_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "-0.592771",
+      "n_pairs": 415
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.197619",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.328537",
+      "n_pairs": 417
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "vanilla vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.490476",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "vanilla vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.302381",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "vanilla vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.327751",
+      "n_pairs": 418
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.721429",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.709524",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "css_primary",
+      "p": "0.000283",
+      "delta": "0.150358",
+      "n_pairs": 419
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.920673",
+      "n_pairs": 416
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "utility_first vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.738095",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "utility_first vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.683333",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "utility_first vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.918465",
+      "n_pairs": 417
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.369048",
+      "n_pairs": 420
+    },
+    {
+      "scope": "qwen3_local",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.295238",
+      "n_pairs": 420
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs utility_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "0.516270",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs utility_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "0.531746",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs utility_first",
+      "metric": "css_primary",
+      "p": "0.000096",
+      "delta": "-0.067170",
+      "n_pairs": 2516
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs utility_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "-0.610711",
+      "n_pairs": 2502
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.198016",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.110317",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "css_primary",
+      "p": "0.000261",
+      "delta": "0.062351",
+      "n_pairs": 2518
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.239888",
+      "n_pairs": 2497
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.507937",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.390873",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs clarification_first",
+      "metric": "css_primary",
+      "p": "0.000008",
+      "delta": "0.064734",
+      "n_pairs": 2518
+    },
+    {
+      "scope": "pooled",
+      "pair": "vanilla vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.266055",
+      "n_pairs": 2507
+    },
+    {
+      "scope": "pooled",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.601587",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.578968",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "css_primary",
+      "p": "0.000000",
+      "delta": "0.111244",
+      "n_pairs": 2517
+    },
+    {
+      "scope": "pooled",
+      "pair": "utility_first vs neutrality_oriented",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.852577",
+      "n_pairs": 2503
+    },
+    {
+      "scope": "pooled",
+      "pair": "utility_first vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.724603",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "utility_first vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.681349",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "utility_first vs clarification_first",
+      "metric": "css_primary",
+      "p": "0.000000",
+      "delta": "0.123560",
+      "n_pairs": 2517
+    },
+    {
+      "scope": "pooled",
+      "pair": "utility_first vs clarification_first",
+      "metric": "decisive_rate",
+      "p": "0.000000",
+      "delta": "0.877039",
+      "n_pairs": 2513
+    },
+    {
+      "scope": "pooled",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "utility",
+      "p": "0.000000",
+      "delta": "-0.385714",
+      "n_pairs": 2520
+    },
+    {
+      "scope": "pooled",
+      "pair": "neutrality_oriented vs clarification_first",
+      "metric": "satisfaction",
+      "p": "0.000000",
+      "delta": "-0.324603",
+      "n_pairs": 2520
+    }
+  ],
+  "data_summary": {
+    "n_eval_rows": 10080,
+    "n_prompts": 140,
+    "n_models": 6,
+    "n_regimes": 4,
+    "pct_disputed": 0.3,
+    "n_judges_mean": 3.0
+  }
+}

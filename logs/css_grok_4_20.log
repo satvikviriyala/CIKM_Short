@@ -1,0 +1,4158 @@
+=== CSS variants: grok_4_20 | run_id=run_20260521 ===
+>>> sample=0  10:21:14Z
+
+============================================================
+  Model:    grok_4_20 (xai/grok-4.20-reasoning)
+  Sample:   0  |  Run: run_20260521
+  Variants: [0, 1]
+============================================================
+
+  [v0] Output: /home/satvik/Documents/CIKM/runs/run_20260521/responses/grok_4_20_variant_0_sample0_responses.jsonl
+  [v0] Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.16/s | ETA: 14.5m
+  Progress: 2/140 | Rate: 0.12/s | ETA: 18.9m
+  Progress: 3/140 | Rate: 0.12/s | ETA: 18.3m
+  Progress: 4/140 | Rate: 0.10/s | ETA: 21.6m
+  Progress: 5/140 | Rate: 0.11/s | ETA: 20.1m
+  Progress: 6/140 | Rate: 0.11/s | ETA: 19.6m
+  Progress: 7/140 | Rate: 0.11/s | ETA: 19.5m
+  Progress: 8/140 | Rate: 0.11/s | ETA: 20.5m
+  Progress: 9/140 | Rate: 0.10/s | ETA: 21.7m
+  Progress: 10/140 | Rate: 0.09/s | ETA: 23.3m
+  Progress: 11/140 | Rate: 0.09/s | ETA: 24.0m
+  Progress: 12/140 | Rate: 0.08/s | ETA: 26.0m
+  Progress: 13/140 | Rate: 0.07/s | ETA: 29.3m
+  Progress: 14/140 | Rate: 0.06/s | ETA: 32.4m
+  Progress: 15/140 | Rate: 0.06/s | ETA: 34.6m
+  Progress: 16/140 | Rate: 0.06/s | ETA: 35.7m
+  Progress: 17/140 | Rate: 0.06/s | ETA: 35.7m
+  Progress: 18/140 | Rate: 0.06/s | ETA: 35.1m
+  Progress: 19/140 | Rate: 0.06/s | ETA: 36.3m
+  Progress: 20/140 | Rate: 0.05/s | ETA: 37.0m
+  Progress: 21/140 | Rate: 0.05/s | ETA: 36.8m
+  Progress: 22/140 | Rate: 0.05/s | ETA: 36.1m
+  Progress: 23/140 | Rate: 0.05/s | ETA: 35.5m
+  Progress: 24/140 | Rate: 0.06/s | ETA: 34.7m
+  Progress: 25/140 | Rate: 0.06/s | ETA: 34.0m
+  Progress: 26/140 | Rate: 0.06/s | ETA: 33.8m
+  Progress: 27/140 | Rate: 0.06/s | ETA: 32.6m
+  Progress: 28/140 | Rate: 0.06/s | ETA: 31.8m
+  Progress: 29/140 | Rate: 0.06/s | ETA: 31.3m
+  Progress: 30/140 | Rate: 0.06/s | ETA: 30.7m
+  Progress: 31/140 | Rate: 0.06/s | ETA: 30.5m
+  Progress: 32/140 | Rate: 0.06/s | ETA: 30.6m
+  Progress: 33/140 | Rate: 0.06/s | ETA: 31.1m
+  Progress: 34/140 | Rate: 0.06/s | ETA: 31.4m
+  Progress: 35/140 | Rate: 0.06/s | ETA: 31.6m
+  Progress: 36/140 | Rate: 0.05/s | ETA: 32.1m
+  Progress: 37/140 | Rate: 0.05/s | ETA: 32.5m
+  Progress: 38/140 | Rate: 0.05/s | ETA: 32.7m
+  Progress: 39/140 | Rate: 0.05/s | ETA: 32.7m
+  [cat4_orig_010/v0] [Attempt 1] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  Progress: 40/140 | Rate: 0.05/s | ETA: 35.4m
+  Progress: 41/140 | Rate: 0.05/s | ETA: 35.5m
+  Progress: 42/140 | Rate: 0.05/s | ETA: 35.1m
+  Progress: 43/140 | Rate: 0.05/s | ETA: 34.8m
+  Progress: 44/140 | Rate: 0.05/s | ETA: 35.0m
+  Progress: 45/140 | Rate: 0.05/s | ETA: 34.7m
+  Progress: 46/140 | Rate: 0.05/s | ETA: 34.3m
+  Progress: 47/140 | Rate: 0.05/s | ETA: 34.2m
+  Progress: 48/140 | Rate: 0.04/s | ETA: 34.1m
+  Progress: 49/140 | Rate: 0.04/s | ETA: 33.9m
+  Progress: 50/140 | Rate: 0.04/s | ETA: 34.1m
+  Progress: 51/140 | Rate: 0.04/s | ETA: 33.3m
+  Progress: 52/140 | Rate: 0.04/s | ETA: 32.8m
+  Progress: 53/140 | Rate: 0.05/s | ETA: 32.0m
+  Progress: 54/140 | Rate: 0.05/s | ETA: 31.2m
+  Progress: 55/140 | Rate: 0.05/s | ETA: 30.7m
+  Progress: 56/140 | Rate: 0.05/s | ETA: 30.1m
+  Progress: 57/140 | Rate: 0.05/s | ETA: 29.4m
+  Progress: 58/140 | Rate: 0.05/s | ETA: 28.8m
+  Progress: 59/140 | Rate: 0.05/s | ETA: 28.2m
+  Progress: 60/140 | Rate: 0.05/s | ETA: 27.6m
+  Progress: 61/140 | Rate: 0.05/s | ETA: 27.1m
+  Progress: 62/140 | Rate: 0.05/s | ETA: 27.0m
+  Progress: 63/140 | Rate: 0.05/s | ETA: 26.6m
+  Progress: 64/140 | Rate: 0.05/s | ETA: 26.4m
+  Progress: 65/140 | Rate: 0.05/s | ETA: 26.0m
+  Progress: 66/140 | Rate: 0.05/s | ETA: 25.7m
+  Progress: 67/140 | Rate: 0.05/s | ETA: 25.4m
+  Progress: 68/140 | Rate: 0.05/s | ETA: 25.2m
+  Progress: 69/140 | Rate: 0.05/s | ETA: 24.6m
+  Progress: 70/140 | Rate: 0.05/s | ETA: 24.3m
+  Progress: 71/140 | Rate: 0.05/s | ETA: 24.0m
+  Progress: 72/140 | Rate: 0.05/s | ETA: 23.5m
+  Progress: 73/140 | Rate: 0.05/s | ETA: 23.1m
+  Progress: 74/140 | Rate: 0.05/s | ETA: 22.9m
+  Progress: 75/140 | Rate: 0.05/s | ETA: 22.5m
+  Progress: 76/140 | Rate: 0.05/s | ETA: 22.1m
+  Progress: 77/140 | Rate: 0.05/s | ETA: 21.8m
+  Progress: 78/140 | Rate: 0.05/s | ETA: 21.4m
+  Progress: 79/140 | Rate: 0.05/s | ETA: 21.0m
+  Progress: 80/140 | Rate: 0.05/s | ETA: 20.5m
+  Progress: 81/140 | Rate: 0.05/s | ETA: 20.0m
+  Progress: 82/140 | Rate: 0.05/s | ETA: 19.8m
+  Progress: 83/140 | Rate: 0.05/s | ETA: 19.4m
+  Progress: 84/140 | Rate: 0.05/s | ETA: 19.1m
+  Progress: 85/140 | Rate: 0.05/s | ETA: 18.8m
+  Progress: 86/140 | Rate: 0.05/s | ETA: 18.4m
+  Progress: 87/140 | Rate: 0.05/s | ETA: 18.0m
+  Progress: 88/140 | Rate: 0.05/s | ETA: 17.7m
+  Progress: 89/140 | Rate: 0.05/s | ETA: 17.4m
+  Progress: 90/140 | Rate: 0.05/s | ETA: 17.0m
+  Progress: 91/140 | Rate: 0.05/s | ETA: 16.6m
+  Progress: 92/140 | Rate: 0.05/s | ETA: 16.3m
+  Progress: 93/140 | Rate: 0.05/s | ETA: 15.9m
+  Progress: 94/140 | Rate: 0.05/s | ETA: 15.5m
+  Progress: 95/140 | Rate: 0.05/s | ETA: 15.1m
+  Progress: 96/140 | Rate: 0.05/s | ETA: 14.7m
+  Progress: 97/140 | Rate: 0.05/s | ETA: 14.3m
+  Progress: 98/140 | Rate: 0.05/s | ETA: 13.9m
+  Progress: 99/140 | Rate: 0.05/s | ETA: 13.5m
+  Progress: 100/140 | Rate: 0.05/s | ETA: 13.1m
+  Progress: 101/140 | Rate: 0.05/s | ETA: 12.9m
+  Progress: 102/140 | Rate: 0.05/s | ETA: 12.6m
+  Progress: 103/140 | Rate: 0.05/s | ETA: 12.2m
+  Progress: 104/140 | Rate: 0.05/s | ETA: 12.0m
+  Progress: 105/140 | Rate: 0.05/s | ETA: 11.7m
+  Progress: 106/140 | Rate: 0.05/s | ETA: 11.3m
+  Progress: 107/140 | Rate: 0.05/s | ETA: 11.0m
+  Progress: 108/140 | Rate: 0.05/s | ETA: 10.6m
+  Progress: 109/140 | Rate: 0.05/s | ETA: 10.4m
+  [cat4_real_005/v0] [Attempt 1] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  [cat4_real_005/v0] [Attempt 2] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  [cat4_real_005/v0] [Attempt 3] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  Progress: 110/140 | Rate: 0.05/s | ETA: 10.5m
+  [cat5_adapted_001/v0] [Attempt 1] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  [cat5_adapted_001/v0] [Attempt 2] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  Progress: 111/140 | Rate: 0.04/s | ETA: 10.7m
+  Progress: 112/140 | Rate: 0.04/s | ETA: 10.4m
+  Progress: 113/140 | Rate: 0.04/s | ETA: 10.1m
+  Progress: 114/140 | Rate: 0.04/s | ETA: 9.7m
+  Progress: 115/140 | Rate: 0.04/s | ETA: 9.4m
+  Progress: 116/140 | Rate: 0.04/s | ETA: 9.1m
+  Progress: 117/140 | Rate: 0.04/s | ETA: 8.7m
+  [cat5_real_003/v0] [Attempt 1] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  [cat5_real_003/v0] [Attempt 2] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  [cat5_real_003/v0] [Attempt 3] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  Progress: 118/140 | Rate: 0.04/s | ETA: 8.7m
+  [cat5_real_004/v0] [Attempt 1] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  Progress: 119/140 | Rate: 0.04/s | ETA: 8.5m
+  Progress: 120/140 | Rate: 0.04/s | ETA: 8.0m
+  Progress: 121/140 | Rate: 0.04/s | ETA: 7.6m
+  Progress: 122/140 | Rate: 0.04/s | ETA: 7.2m
+  Progress: 123/140 | Rate: 0.04/s | ETA: 6.7m
+  Progress: 124/140 | Rate: 0.04/s | ETA: 6.3m
+  Progress: 125/140 | Rate: 0.04/s | ETA: 5.9m
+  Progress: 126/140 | Rate: 0.04/s | ETA: 5.5m
+  Progress: 127/140 | Rate: 0.04/s | ETA: 5.0m
+  Progress: 128/140 | Rate: 0.04/s | ETA: 4.6m
+  Progress: 129/140 | Rate: 0.04/s | ETA: 4.2m
+  Progress: 130/140 | Rate: 0.04/s | ETA: 3.8m
+  Progress: 131/140 | Rate: 0.04/s | ETA: 3.4m
+  Progress: 132/140 | Rate: 0.04/s | ETA: 3.0m
+  Progress: 133/140 | Rate: 0.04/s | ETA: 2.7m
+  Progress: 134/140 | Rate: 0.04/s | ETA: 2.3m
+  Progress: 135/140 | Rate: 0.04/s | ETA: 1.9m
+  Progress: 136/140 | Rate: 0.04/s | ETA: 1.5m
+  Progress: 137/140 | Rate: 0.04/s | ETA: 1.1m
+  Progress: 138/140 | Rate: 0.04/s | ETA: 0.8m
+  Progress: 139/140 | Rate: 0.04/s | ETA: 0.4m
+  Progress: 140/140 | Rate: 0.04/s | ETA: 0.0m
+  [v0] ✔ Done. 140 responses in 3154.3s (0.04/s)
+
+  [v1] Output: /home/satvik/Documents/CIKM/runs/run_20260521/responses/grok_4_20_variant_1_sample0_responses.jsonl
+  [v1] Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.14/s | ETA: 16.1m
+  Progress: 2/140 | Rate: 0.18/s | ETA: 13.0m
+  Progress: 3/140 | Rate: 0.14/s | ETA: 16.9m
+  Progress: 4/140 | Rate: 0.11/s | ETA: 20.2m
+  Progress: 5/140 | Rate: 0.11/s | ETA: 19.8m
+  Progress: 6/140 | Rate: 0.11/s | ETA: 20.5m
+  Progress: 7/140 | Rate: 0.11/s | ETA: 19.9m
+  Progress: 8/140 | Rate: 0.10/s | ETA: 21.4m
+  Progress: 9/140 | Rate: 0.10/s | ETA: 21.9m
+  Progress: 10/140 | Rate: 0.10/s | ETA: 22.3m
+  Progress: 11/140 | Rate: 0.10/s | ETA: 22.4m
+  Progress: 12/140 | Rate: 0.09/s | ETA: 23.6m
+  Progress: 13/140 | Rate: 0.08/s | ETA: 25.3m
+  Progress: 14/140 | Rate: 0.08/s | ETA: 25.3m
+  Progress: 15/140 | Rate: 0.08/s | ETA: 26.0m
+  Progress: 16/140 | Rate: 0.08/s | ETA: 26.8m
+  Progress: 17/140 | Rate: 0.07/s | ETA: 27.5m
+  Progress: 18/140 | Rate: 0.07/s | ETA: 28.0m
+  Progress: 19/140 | Rate: 0.07/s | ETA: 29.1m
+  Progress: 20/140 | Rate: 0.07/s | ETA: 29.3m
+  Progress: 21/140 | Rate: 0.07/s | ETA: 29.1m
+  Progress: 22/140 | Rate: 0.07/s | ETA: 28.9m
+  Progress: 23/140 | Rate: 0.07/s | ETA: 28.3m
+  Progress: 24/140 | Rate: 0.07/s | ETA: 27.5m
+  Progress: 25/140 | Rate: 0.07/s | ETA: 27.1m
+  Progress: 26/140 | Rate: 0.07/s | ETA: 26.6m
+  Progress: 27/140 | Rate: 0.07/s | ETA: 25.8m
+  Progress: 28/140 | Rate: 0.07/s | ETA: 25.4m
+  Progress: 29/140 | Rate: 0.07/s | ETA: 25.1m
+  Progress: 30/140 | Rate: 0.07/s | ETA: 24.6m
+  Progress: 31/140 | Rate: 0.07/s | ETA: 25.4m
+  Progress: 32/140 | Rate: 0.07/s | ETA: 25.2m
+  [cat4_orig_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  Progress: 33/140 | Rate: 0.07/s | ETA: 26.0m
+  [cat4_orig_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_orig_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_orig_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 34/140 | Rate: 0.07/s | ETA: 25.3m
+  [cat4_orig_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_orig_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_orig_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 35/140 | Rate: 0.07/s | ETA: 24.7m
+  [cat4_orig_006/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_orig_006/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_orig_006/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 36/140 | Rate: 0.07/s | ETA: 24.1m
+  [cat4_orig_007/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_orig_007/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_orig_007/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 37/140 | Rate: 0.07/s | ETA: 23.6m
+  [cat4_orig_008/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_orig_008/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_orig_008/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 38/140 | Rate: 0.07/s | ETA: 23.0m
+  [cat4_orig_009/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_orig_009/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_orig_009/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 39/140 | Rate: 0.07/s | ETA: 22.5m
+  [cat4_orig_010/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_orig_010/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_orig_010/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 40/140 | Rate: 0.08/s | ETA: 22.0m
+  [cat5_orig_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 41/140 | Rate: 0.08/s | ETA: 21.5m
+  [cat5_orig_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 42/140 | Rate: 0.08/s | ETA: 21.1m
+  [cat5_orig_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 43/140 | Rate: 0.08/s | ETA: 20.6m
+  [cat5_orig_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 44/140 | Rate: 0.08/s | ETA: 20.2m
+  [cat5_orig_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 45/140 | Rate: 0.08/s | ETA: 19.8m
+  [cat5_orig_006/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_006/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_006/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 46/140 | Rate: 0.08/s | ETA: 19.4m
+  [cat5_orig_007/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_007/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_007/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 47/140 | Rate: 0.08/s | ETA: 19.0m
+  [cat5_orig_008/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_008/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_008/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 48/140 | Rate: 0.08/s | ETA: 18.6m
+  [cat5_orig_009/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_009/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_009/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 49/140 | Rate: 0.08/s | ETA: 18.2m
+  [cat5_orig_010/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_010/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_010/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 50/140 | Rate: 0.08/s | ETA: 17.9m
+  [cat6_orig_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 51/140 | Rate: 0.08/s | ETA: 17.5m
+  [cat6_orig_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 52/140 | Rate: 0.09/s | ETA: 17.2m
+  [cat6_orig_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 53/140 | Rate: 0.09/s | ETA: 16.8m
+  [cat6_orig_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 54/140 | Rate: 0.09/s | ETA: 16.5m
+  [cat6_orig_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 55/140 | Rate: 0.09/s | ETA: 16.2m
+  [cat6_orig_006/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_006/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_006/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 56/140 | Rate: 0.09/s | ETA: 15.9m
+  [cat6_orig_007/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_007/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_007/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 57/140 | Rate: 0.09/s | ETA: 15.6m
+  [cat6_orig_008/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_008/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_008/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 58/140 | Rate: 0.09/s | ETA: 15.3m
+  [cat6_orig_009/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_009/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_009/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 59/140 | Rate: 0.09/s | ETA: 15.0m
+  [cat6_orig_010/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_010/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_010/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 60/140 | Rate: 0.09/s | ETA: 14.7m
+  [cat7_orig_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 61/140 | Rate: 0.09/s | ETA: 14.4m
+  [cat7_orig_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 62/140 | Rate: 0.09/s | ETA: 14.2m
+  [cat7_orig_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 63/140 | Rate: 0.09/s | ETA: 13.9m
+  [cat7_orig_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 64/140 | Rate: 0.09/s | ETA: 13.6m
+  [cat7_orig_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 65/140 | Rate: 0.09/s | ETA: 13.4m
+  [cat7_orig_006/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_006/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_006/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 66/140 | Rate: 0.09/s | ETA: 13.1m
+  [cat7_orig_007/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_007/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_007/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 67/140 | Rate: 0.09/s | ETA: 12.9m
+  [cat7_orig_008/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_008/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_008/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 68/140 | Rate: 0.10/s | ETA: 12.6m
+  [cat7_orig_009/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_009/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_009/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 69/140 | Rate: 0.10/s | ETA: 12.4m
+  [cat7_orig_010/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_010/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_010/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 70/140 | Rate: 0.10/s | ETA: 12.2m
+  [cat1_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 71/140 | Rate: 0.10/s | ETA: 11.9m
+  [cat1_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 72/140 | Rate: 0.10/s | ETA: 11.7m
+  [cat1_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 73/140 | Rate: 0.10/s | ETA: 11.5m
+  [cat1_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 74/140 | Rate: 0.10/s | ETA: 11.2m
+  [cat1_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 75/140 | Rate: 0.10/s | ETA: 11.0m
+  [cat1_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 76/140 | Rate: 0.10/s | ETA: 10.8m
+  [cat1_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 77/140 | Rate: 0.10/s | ETA: 10.6m
+  [cat1_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 78/140 | Rate: 0.10/s | ETA: 10.4m
+  [cat1_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 79/140 | Rate: 0.10/s | ETA: 10.2m
+  [cat1_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 80/140 | Rate: 0.10/s | ETA: 9.9m
+  [cat2_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 81/140 | Rate: 0.10/s | ETA: 9.7m
+  [cat2_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 82/140 | Rate: 0.10/s | ETA: 9.5m
+  [cat2_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 83/140 | Rate: 0.10/s | ETA: 9.3m
+  [cat2_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 84/140 | Rate: 0.10/s | ETA: 9.1m
+  [cat2_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 85/140 | Rate: 0.10/s | ETA: 8.9m
+  [cat2_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 86/140 | Rate: 0.10/s | ETA: 8.7m
+  [cat2_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 87/140 | Rate: 0.10/s | ETA: 8.6m
+  [cat2_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 88/140 | Rate: 0.10/s | ETA: 8.4m
+  [cat2_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 89/140 | Rate: 0.10/s | ETA: 8.2m
+  [cat2_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 90/140 | Rate: 0.10/s | ETA: 8.0m
+  [cat3_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 91/140 | Rate: 0.10/s | ETA: 7.8m
+  [cat3_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 92/140 | Rate: 0.11/s | ETA: 7.6m
+  [cat3_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 93/140 | Rate: 0.11/s | ETA: 7.4m
+  [cat3_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 94/140 | Rate: 0.11/s | ETA: 7.2m
+  [cat3_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 95/140 | Rate: 0.11/s | ETA: 7.1m
+  [cat3_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 96/140 | Rate: 0.11/s | ETA: 6.9m
+  [cat3_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 97/140 | Rate: 0.11/s | ETA: 6.7m
+  [cat3_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 98/140 | Rate: 0.11/s | ETA: 6.5m
+  [cat3_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 99/140 | Rate: 0.11/s | ETA: 6.4m
+  [cat3_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 100/140 | Rate: 0.11/s | ETA: 6.2m
+  [cat4_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 101/140 | Rate: 0.11/s | ETA: 6.0m
+  [cat4_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 102/140 | Rate: 0.11/s | ETA: 5.8m
+  [cat4_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 103/140 | Rate: 0.11/s | ETA: 5.7m
+  [cat4_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 104/140 | Rate: 0.11/s | ETA: 5.5m
+  [cat4_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 105/140 | Rate: 0.11/s | ETA: 5.3m
+  [cat4_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 106/140 | Rate: 0.11/s | ETA: 5.2m
+  [cat4_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 107/140 | Rate: 0.11/s | ETA: 5.0m
+  [cat4_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 108/140 | Rate: 0.11/s | ETA: 4.8m
+  [cat4_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 109/140 | Rate: 0.11/s | ETA: 4.7m
+  [cat4_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 110/140 | Rate: 0.11/s | ETA: 4.5m
+  [cat5_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 111/140 | Rate: 0.11/s | ETA: 4.4m
+  [cat5_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 112/140 | Rate: 0.11/s | ETA: 4.2m
+  [cat5_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 113/140 | Rate: 0.11/s | ETA: 4.0m
+  [cat5_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 114/140 | Rate: 0.11/s | ETA: 3.9m
+  [cat5_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 115/140 | Rate: 0.11/s | ETA: 3.7m
+  [cat5_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 116/140 | Rate: 0.11/s | ETA: 3.6m
+  [cat5_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 117/140 | Rate: 0.11/s | ETA: 3.4m
+  [cat5_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 118/140 | Rate: 0.11/s | ETA: 3.3m
+  [cat5_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 119/140 | Rate: 0.11/s | ETA: 3.1m
+  [cat5_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 120/140 | Rate: 0.11/s | ETA: 2.9m
+  [cat6_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 121/140 | Rate: 0.11/s | ETA: 2.8m
+  [cat6_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 122/140 | Rate: 0.11/s | ETA: 2.6m
+  [cat6_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 123/140 | Rate: 0.11/s | ETA: 2.5m
+  [cat6_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 124/140 | Rate: 0.11/s | ETA: 2.3m
+  [cat6_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 125/140 | Rate: 0.11/s | ETA: 2.2m
+  [cat6_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 126/140 | Rate: 0.11/s | ETA: 2.0m
+  [cat6_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 127/140 | Rate: 0.11/s | ETA: 1.9m
+  [cat6_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 128/140 | Rate: 0.11/s | ETA: 1.7m
+  [cat6_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 129/140 | Rate: 0.12/s | ETA: 1.6m
+  [cat6_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 130/140 | Rate: 0.12/s | ETA: 1.4m
+  [cat7_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 131/140 | Rate: 0.12/s | ETA: 1.3m
+  [cat7_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 132/140 | Rate: 0.12/s | ETA: 1.2m
+  [cat7_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 133/140 | Rate: 0.12/s | ETA: 1.0m
+  [cat7_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 134/140 | Rate: 0.12/s | ETA: 0.9m
+  [cat7_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 135/140 | Rate: 0.12/s | ETA: 0.7m
+  [cat7_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 136/140 | Rate: 0.12/s | ETA: 0.6m
+  [cat7_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 137/140 | Rate: 0.12/s | ETA: 0.4m
+  [cat7_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 138/140 | Rate: 0.12/s | ETA: 0.3m
+  [cat7_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 139/140 | Rate: 0.12/s | ETA: 0.1m
+  [cat7_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 140/140 | Rate: 0.12/s | ETA: 0.0m
+  [v1] ✔ Done. 140 responses in 1194.3s (0.12/s)
+>>> sample=1  11:33:43Z
+
+============================================================
+  Model:    grok_4_20 (xai/grok-4.20-reasoning)
+  Sample:   1  |  Run: run_20260521
+  Variants: [0, 1]
+============================================================
+
+  [v0] Output: /home/satvik/Documents/CIKM/runs/run_20260521/responses/grok_4_20_variant_0_sample1_responses.jsonl
+  [v0] Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.17/s | ETA: 13.9m
+  Progress: 2/140 | Rate: 0.09/s | ETA: 26.3m
+  Progress: 3/140 | Rate: 0.10/s | ETA: 22.9m
+  Progress: 4/140 | Rate: 0.09/s | ETA: 24.9m
+  Progress: 5/140 | Rate: 0.10/s | ETA: 22.7m
+  Progress: 6/140 | Rate: 0.10/s | ETA: 21.6m
+  Progress: 7/140 | Rate: 0.10/s | ETA: 21.5m
+  Progress: 8/140 | Rate: 0.10/s | ETA: 22.2m
+  Progress: 9/140 | Rate: 0.10/s | ETA: 22.7m
+  Progress: 10/140 | Rate: 0.09/s | ETA: 24.1m
+  Progress: 11/140 | Rate: 0.09/s | ETA: 23.3m
+  Progress: 12/140 | Rate: 0.08/s | ETA: 25.8m
+  Progress: 13/140 | Rate: 0.08/s | ETA: 28.0m
+  Progress: 14/140 | Rate: 0.07/s | ETA: 28.5m
+  Progress: 15/140 | Rate: 0.07/s | ETA: 30.5m
+  Progress: 16/140 | Rate: 0.07/s | ETA: 31.3m
+  Progress: 17/140 | Rate: 0.06/s | ETA: 32.0m
+  Progress: 18/140 | Rate: 0.06/s | ETA: 31.6m
+  Progress: 19/140 | Rate: 0.06/s | ETA: 32.9m
+  Progress: 20/140 | Rate: 0.06/s | ETA: 33.6m
+  Progress: 21/140 | Rate: 0.06/s | ETA: 33.8m
+  Progress: 22/140 | Rate: 0.06/s | ETA: 33.4m
+  Progress: 23/140 | Rate: 0.06/s | ETA: 32.7m
+  Progress: 24/140 | Rate: 0.06/s | ETA: 31.9m
+  Progress: 25/140 | Rate: 0.06/s | ETA: 31.4m
+  Progress: 26/140 | Rate: 0.06/s | ETA: 31.3m
+  Progress: 27/140 | Rate: 0.06/s | ETA: 30.2m
+  Progress: 28/140 | Rate: 0.06/s | ETA: 29.7m
+  Progress: 29/140 | Rate: 0.06/s | ETA: 29.2m
+  Progress: 30/140 | Rate: 0.06/s | ETA: 28.9m
+  Progress: 31/140 | Rate: 0.06/s | ETA: 29.1m
+  [cat4_orig_002/v0] [Attempt 1] HTTP 429: [{
+  "error": {
+    "code": 429,
+    "message": "The request is throttled due to too many concurrent requests.",
+    "st — waiting 60s
+  Progress: 32/140 | Rate: 0.06/s | ETA: 32.5m
+  Progress: 33/140 | Rate: 0.06/s | ETA: 32.4m
+  Progress: 34/140 | Rate: 0.05/s | ETA: 32.5m
+  Progress: 35/140 | Rate: 0.05/s | ETA: 32.7m
+  Progress: 36/140 | Rate: 0.05/s | ETA: 32.7m
+  Progress: 37/140 | Rate: 0.05/s | ETA: 32.8m
+  Progress: 38/140 | Rate: 0.05/s | ETA: 33.0m
+  Progress: 39/140 | Rate: 0.05/s | ETA: 32.7m
+  Progress: 40/140 | Rate: 0.05/s | ETA: 32.9m
+  Progress: 41/140 | Rate: 0.05/s | ETA: 33.0m
+  Progress: 42/140 | Rate: 0.05/s | ETA: 32.7m
+  Progress: 43/140 | Rate: 0.05/s | ETA: 32.5m
+  Progress: 44/140 | Rate: 0.05/s | ETA: 32.8m
+  Progress: 45/140 | Rate: 0.05/s | ETA: 32.4m
+  Progress: 46/140 | Rate: 0.05/s | ETA: 32.1m
+  Progress: 47/140 | Rate: 0.05/s | ETA: 32.0m
+  Progress: 48/140 | Rate: 0.05/s | ETA: 31.9m
+  Progress: 49/140 | Rate: 0.05/s | ETA: 31.7m
+  Progress: 50/140 | Rate: 0.05/s | ETA: 31.9m
+  Progress: 51/140 | Rate: 0.05/s | ETA: 31.1m
+  Progress: 52/140 | Rate: 0.05/s | ETA: 30.5m
+  Progress: 53/140 | Rate: 0.05/s | ETA: 29.8m
+  Progress: 54/140 | Rate: 0.05/s | ETA: 29.0m
+  Progress: 55/140 | Rate: 0.05/s | ETA: 28.5m
+  Progress: 56/140 | Rate: 0.05/s | ETA: 27.8m
+  Progress: 57/140 | Rate: 0.05/s | ETA: 27.3m
+  Progress: 58/140 | Rate: 0.05/s | ETA: 26.7m
+  Progress: 59/140 | Rate: 0.05/s | ETA: 26.1m
+  Progress: 60/140 | Rate: 0.05/s | ETA: 25.6m
+  Progress: 61/140 | Rate: 0.05/s | ETA: 25.2m
+  Progress: 62/140 | Rate: 0.05/s | ETA: 24.9m
+  Progress: 63/140 | Rate: 0.05/s | ETA: 24.6m
+  Progress: 64/140 | Rate: 0.05/s | ETA: 24.2m
+  Progress: 65/140 | Rate: 0.05/s | ETA: 23.9m
+  Progress: 66/140 | Rate: 0.05/s | ETA: 23.7m
+  Progress: 67/140 | Rate: 0.05/s | ETA: 23.4m
+  Progress: 68/140 | Rate: 0.05/s | ETA: 23.2m
+  Progress: 69/140 | Rate: 0.05/s | ETA: 22.7m
+  Progress: 70/140 | Rate: 0.05/s | ETA: 22.4m
+  Progress: 71/140 | Rate: 0.05/s | ETA: 22.2m
+  Progress: 72/140 | Rate: 0.05/s | ETA: 21.8m
+  Progress: 73/140 | Rate: 0.05/s | ETA: 21.6m
+  Progress: 74/140 | Rate: 0.05/s | ETA: 21.5m
+  Progress: 75/140 | Rate: 0.05/s | ETA: 21.2m
+  Progress: 76/140 | Rate: 0.05/s | ETA: 20.8m
+  Progress: 77/140 | Rate: 0.05/s | ETA: 20.6m
+  Progress: 78/140 | Rate: 0.05/s | ETA: 20.2m
+  Progress: 79/140 | Rate: 0.05/s | ETA: 19.8m
+  Progress: 80/140 | Rate: 0.05/s | ETA: 19.4m
+  Progress: 81/140 | Rate: 0.05/s | ETA: 19.0m
+  Progress: 82/140 | Rate: 0.05/s | ETA: 18.8m
+  Progress: 83/140 | Rate: 0.05/s | ETA: 18.4m
+  Progress: 84/140 | Rate: 0.05/s | ETA: 18.1m
+  Progress: 85/140 | Rate: 0.05/s | ETA: 17.9m
+  Progress: 86/140 | Rate: 0.05/s | ETA: 17.5m
+  Progress: 87/140 | Rate: 0.05/s | ETA: 17.1m
+  Progress: 88/140 | Rate: 0.05/s | ETA: 16.8m
+  Progress: 89/140 | Rate: 0.05/s | ETA: 16.4m
+  Progress: 90/140 | Rate: 0.05/s | ETA: 16.1m
+  Progress: 91/140 | Rate: 0.05/s | ETA: 15.7m
+  Progress: 92/140 | Rate: 0.05/s | ETA: 15.4m
+  Progress: 93/140 | Rate: 0.05/s | ETA: 15.0m
+  Progress: 94/140 | Rate: 0.05/s | ETA: 14.6m
+  Progress: 95/140 | Rate: 0.05/s | ETA: 14.2m
+  Progress: 96/140 | Rate: 0.05/s | ETA: 13.9m
+  Progress: 97/140 | Rate: 0.05/s | ETA: 13.5m
+  Progress: 98/140 | Rate: 0.05/s | ETA: 13.2m
+  Progress: 99/140 | Rate: 0.05/s | ETA: 12.8m
+  Progress: 100/140 | Rate: 0.05/s | ETA: 12.4m
+  Progress: 101/140 | Rate: 0.05/s | ETA: 12.2m
+  Progress: 102/140 | Rate: 0.05/s | ETA: 12.0m
+  Progress: 103/140 | Rate: 0.05/s | ETA: 11.7m
+  Progress: 104/140 | Rate: 0.05/s | ETA: 11.4m
+  Progress: 105/140 | Rate: 0.05/s | ETA: 11.1m
+  Progress: 106/140 | Rate: 0.05/s | ETA: 10.8m
+  Progress: 107/140 | Rate: 0.05/s | ETA: 10.4m
+  Progress: 108/140 | Rate: 0.05/s | ETA: 10.1m
+  Progress: 109/140 | Rate: 0.05/s | ETA: 9.9m
+  Progress: 110/140 | Rate: 0.05/s | ETA: 9.6m
+  Progress: 111/140 | Rate: 0.05/s | ETA: 9.3m
+  Progress: 112/140 | Rate: 0.05/s | ETA: 9.1m
+  Progress: 113/140 | Rate: 0.05/s | ETA: 8.8m
+  Progress: 114/140 | Rate: 0.05/s | ETA: 8.5m
+  Progress: 115/140 | Rate: 0.05/s | ETA: 8.2m
+  Progress: 116/140 | Rate: 0.05/s | ETA: 8.0m
+  Progress: 117/140 | Rate: 0.05/s | ETA: 7.7m
+  Progress: 118/140 | Rate: 0.05/s | ETA: 7.3m
+  Progress: 119/140 | Rate: 0.05/s | ETA: 7.1m
+  Progress: 120/140 | Rate: 0.05/s | ETA: 6.7m
+  Progress: 121/140 | Rate: 0.05/s | ETA: 6.3m
+  Progress: 122/140 | Rate: 0.05/s | ETA: 6.0m
+  Progress: 123/140 | Rate: 0.05/s | ETA: 5.6m
+  Progress: 124/140 | Rate: 0.05/s | ETA: 5.3m
+  Progress: 125/140 | Rate: 0.05/s | ETA: 4.9m
+  Progress: 126/140 | Rate: 0.05/s | ETA: 4.6m
+  Progress: 127/140 | Rate: 0.05/s | ETA: 4.2m
+  Progress: 128/140 | Rate: 0.05/s | ETA: 3.9m
+  Progress: 129/140 | Rate: 0.05/s | ETA: 3.6m
+  Progress: 130/140 | Rate: 0.05/s | ETA: 3.2m
+  Progress: 131/140 | Rate: 0.05/s | ETA: 2.9m
+  Progress: 132/140 | Rate: 0.05/s | ETA: 2.6m
+  Progress: 133/140 | Rate: 0.05/s | ETA: 2.3m
+  Progress: 134/140 | Rate: 0.05/s | ETA: 1.9m
+  Progress: 135/140 | Rate: 0.05/s | ETA: 1.6m
+  Progress: 136/140 | Rate: 0.05/s | ETA: 1.3m
+  Progress: 137/140 | Rate: 0.05/s | ETA: 1.0m
+  Progress: 138/140 | Rate: 0.05/s | ETA: 0.7m
+  Progress: 139/140 | Rate: 0.05/s | ETA: 0.3m
+  Progress: 140/140 | Rate: 0.05/s | ETA: 0.0m
+  [v0] ✔ Done. 140 responses in 2737.6s (0.05/s)
+
+  [v1] Output: /home/satvik/Documents/CIKM/runs/run_20260521/responses/grok_4_20_variant_1_sample1_responses.jsonl
+  [v1] Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.19/s | ETA: 12.0m
+  Progress: 2/140 | Rate: 0.21/s | ETA: 11.1m
+  Progress: 3/140 | Rate: 0.14/s | ETA: 16.1m
+  Progress: 4/140 | Rate: 0.11/s | ETA: 20.1m
+  Progress: 5/140 | Rate: 0.11/s | ETA: 19.9m
+  Progress: 6/140 | Rate: 0.11/s | ETA: 20.9m
+  Progress: 7/140 | Rate: 0.11/s | ETA: 19.9m
+  Progress: 8/140 | Rate: 0.10/s | ETA: 21.9m
+  Progress: 9/140 | Rate: 0.10/s | ETA: 21.9m
+  Progress: 10/140 | Rate: 0.09/s | ETA: 23.7m
+  Progress: 11/140 | Rate: 0.09/s | ETA: 24.3m
+  Progress: 12/140 | Rate: 0.09/s | ETA: 24.6m
+  Progress: 13/140 | Rate: 0.08/s | ETA: 27.6m
+  Progress: 14/140 | Rate: 0.08/s | ETA: 27.6m
+  Progress: 15/140 | Rate: 0.07/s | ETA: 28.2m
+  Progress: 16/140 | Rate: 0.07/s | ETA: 29.3m
+  Progress: 17/140 | Rate: 0.07/s | ETA: 30.1m
+  Progress: 18/140 | Rate: 0.07/s | ETA: 30.4m
+  Progress: 19/140 | Rate: 0.06/s | ETA: 31.8m
+  Progress: 20/140 | Rate: 0.06/s | ETA: 32.3m
+  Progress: 21/140 | Rate: 0.06/s | ETA: 32.4m
+  Progress: 22/140 | Rate: 0.06/s | ETA: 32.1m
+  Progress: 23/140 | Rate: 0.06/s | ETA: 31.2m
+  Progress: 24/140 | Rate: 0.06/s | ETA: 30.6m
+  Progress: 25/140 | Rate: 0.06/s | ETA: 30.4m
+  Progress: 26/140 | Rate: 0.06/s | ETA: 30.0m
+  Progress: 27/140 | Rate: 0.06/s | ETA: 29.0m
+  Progress: 28/140 | Rate: 0.07/s | ETA: 28.6m
+  Progress: 29/140 | Rate: 0.06/s | ETA: 28.5m
+  Progress: 30/140 | Rate: 0.07/s | ETA: 28.0m
+  Progress: 31/140 | Rate: 0.06/s | ETA: 28.3m
+  Progress: 32/140 | Rate: 0.06/s | ETA: 28.4m
+  Progress: 33/140 | Rate: 0.06/s | ETA: 28.5m
+  Progress: 34/140 | Rate: 0.06/s | ETA: 29.0m
+  Progress: 35/140 | Rate: 0.06/s | ETA: 28.6m
+  Progress: 36/140 | Rate: 0.06/s | ETA: 28.6m
+  Progress: 37/140 | Rate: 0.06/s | ETA: 28.5m
+  Progress: 38/140 | Rate: 0.06/s | ETA: 28.4m
+  Progress: 39/140 | Rate: 0.06/s | ETA: 28.1m
+  Progress: 40/140 | Rate: 0.06/s | ETA: 28.0m
+  Progress: 41/140 | Rate: 0.06/s | ETA: 27.8m
+  Progress: 42/140 | Rate: 0.06/s | ETA: 28.0m
+  Progress: 43/140 | Rate: 0.06/s | ETA: 28.1m
+  Progress: 44/140 | Rate: 0.06/s | ETA: 27.9m
+  Progress: 45/140 | Rate: 0.06/s | ETA: 27.9m
+  Progress: 46/140 | Rate: 0.06/s | ETA: 28.1m
+  Progress: 47/140 | Rate: 0.06/s | ETA: 28.0m
+  Progress: 48/140 | Rate: 0.05/s | ETA: 27.9m
+  [cat5_orig_009/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_orig_009/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_orig_009/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 49/140 | Rate: 0.06/s | ETA: 27.3m
+  [cat5_orig_010/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  Progress: 50/140 | Rate: 0.05/s | ETA: 27.7m
+  [cat6_orig_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 51/140 | Rate: 0.05/s | ETA: 27.0m
+  [cat6_orig_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 52/140 | Rate: 0.06/s | ETA: 26.4m
+  [cat6_orig_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 53/140 | Rate: 0.06/s | ETA: 25.8m
+  [cat6_orig_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 54/140 | Rate: 0.06/s | ETA: 25.2m
+  [cat6_orig_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 55/140 | Rate: 0.06/s | ETA: 24.6m
+  [cat6_orig_006/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_006/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_006/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 56/140 | Rate: 0.06/s | ETA: 24.1m
+  [cat6_orig_007/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_007/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_007/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 57/140 | Rate: 0.06/s | ETA: 23.5m
+  [cat6_orig_008/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_008/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_008/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 58/140 | Rate: 0.06/s | ETA: 23.0m
+  [cat6_orig_009/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_009/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_009/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 59/140 | Rate: 0.06/s | ETA: 22.5m
+  [cat6_orig_010/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_orig_010/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_orig_010/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 60/140 | Rate: 0.06/s | ETA: 22.0m
+  [cat7_orig_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 61/140 | Rate: 0.06/s | ETA: 21.5m
+  [cat7_orig_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 62/140 | Rate: 0.06/s | ETA: 21.0m
+  [cat7_orig_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 63/140 | Rate: 0.06/s | ETA: 20.6m
+  [cat7_orig_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 64/140 | Rate: 0.06/s | ETA: 20.1m
+  [cat7_orig_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 65/140 | Rate: 0.06/s | ETA: 19.7m
+  [cat7_orig_006/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_006/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_006/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 66/140 | Rate: 0.06/s | ETA: 19.2m
+  [cat7_orig_007/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_007/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_007/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 67/140 | Rate: 0.06/s | ETA: 18.8m
+  [cat7_orig_008/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_008/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_008/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 68/140 | Rate: 0.07/s | ETA: 18.4m
+  [cat7_orig_009/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_009/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_009/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 69/140 | Rate: 0.07/s | ETA: 18.0m
+  [cat7_orig_010/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_orig_010/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_orig_010/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 70/140 | Rate: 0.07/s | ETA: 17.6m
+  [cat1_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 71/140 | Rate: 0.07/s | ETA: 17.2m
+  [cat1_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 72/140 | Rate: 0.07/s | ETA: 16.8m
+  [cat1_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 73/140 | Rate: 0.07/s | ETA: 16.5m
+  [cat1_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 74/140 | Rate: 0.07/s | ETA: 16.1m
+  [cat1_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 75/140 | Rate: 0.07/s | ETA: 15.7m
+  [cat1_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 76/140 | Rate: 0.07/s | ETA: 15.4m
+  [cat1_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 77/140 | Rate: 0.07/s | ETA: 15.0m
+  [cat1_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 78/140 | Rate: 0.07/s | ETA: 14.7m
+  [cat1_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 79/140 | Rate: 0.07/s | ETA: 14.4m
+  [cat1_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 80/140 | Rate: 0.07/s | ETA: 14.0m
+  [cat2_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 81/140 | Rate: 0.07/s | ETA: 13.7m
+  [cat2_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 82/140 | Rate: 0.07/s | ETA: 13.4m
+  [cat2_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 83/140 | Rate: 0.07/s | ETA: 13.1m
+  [cat2_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 84/140 | Rate: 0.07/s | ETA: 12.8m
+  [cat2_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 85/140 | Rate: 0.07/s | ETA: 12.5m
+  [cat2_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 86/140 | Rate: 0.07/s | ETA: 12.2m
+  [cat2_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 87/140 | Rate: 0.07/s | ETA: 11.9m
+  [cat2_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 88/140 | Rate: 0.07/s | ETA: 11.6m
+  [cat2_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 89/140 | Rate: 0.08/s | ETA: 11.3m
+  [cat2_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 90/140 | Rate: 0.08/s | ETA: 11.0m
+  [cat3_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 91/140 | Rate: 0.08/s | ETA: 10.7m
+  [cat3_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 92/140 | Rate: 0.08/s | ETA: 10.4m
+  [cat3_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 93/140 | Rate: 0.08/s | ETA: 10.2m
+  [cat3_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 94/140 | Rate: 0.08/s | ETA: 9.9m
+  [cat3_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 95/140 | Rate: 0.08/s | ETA: 9.6m
+  [cat3_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 96/140 | Rate: 0.08/s | ETA: 9.4m
+  [cat3_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 97/140 | Rate: 0.08/s | ETA: 9.1m
+  [cat3_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 98/140 | Rate: 0.08/s | ETA: 8.9m
+  [cat3_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 99/140 | Rate: 0.08/s | ETA: 8.6m
+  [cat3_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 100/140 | Rate: 0.08/s | ETA: 8.4m
+  [cat4_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 101/140 | Rate: 0.08/s | ETA: 8.1m
+  [cat4_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 102/140 | Rate: 0.08/s | ETA: 7.9m
+  [cat4_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 103/140 | Rate: 0.08/s | ETA: 7.6m
+  [cat4_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 104/140 | Rate: 0.08/s | ETA: 7.4m
+  [cat4_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 105/140 | Rate: 0.08/s | ETA: 7.2m
+  [cat4_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 106/140 | Rate: 0.08/s | ETA: 6.9m
+  [cat4_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 107/140 | Rate: 0.08/s | ETA: 6.7m
+  [cat4_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 108/140 | Rate: 0.08/s | ETA: 6.5m
+  [cat4_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 109/140 | Rate: 0.08/s | ETA: 6.2m
+  [cat4_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 110/140 | Rate: 0.08/s | ETA: 6.0m
+  [cat5_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 111/140 | Rate: 0.08/s | ETA: 5.8m
+  [cat5_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 112/140 | Rate: 0.08/s | ETA: 5.6m
+  [cat5_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 113/140 | Rate: 0.08/s | ETA: 5.3m
+  [cat5_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 114/140 | Rate: 0.08/s | ETA: 5.1m
+  [cat5_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 115/140 | Rate: 0.08/s | ETA: 4.9m
+  [cat5_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 116/140 | Rate: 0.09/s | ETA: 4.7m
+  [cat5_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 117/140 | Rate: 0.09/s | ETA: 4.5m
+  [cat5_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 118/140 | Rate: 0.09/s | ETA: 4.3m
+  [cat5_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 119/140 | Rate: 0.09/s | ETA: 4.1m
+  [cat5_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 120/140 | Rate: 0.09/s | ETA: 3.9m
+  [cat6_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 121/140 | Rate: 0.09/s | ETA: 3.7m
+  [cat6_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 122/140 | Rate: 0.09/s | ETA: 3.5m
+  [cat6_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 123/140 | Rate: 0.09/s | ETA: 3.3m
+  [cat6_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 124/140 | Rate: 0.09/s | ETA: 3.1m
+  [cat6_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 125/140 | Rate: 0.09/s | ETA: 2.9m
+  [cat6_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 126/140 | Rate: 0.09/s | ETA: 2.7m
+  [cat6_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 127/140 | Rate: 0.09/s | ETA: 2.5m
+  [cat6_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 128/140 | Rate: 0.09/s | ETA: 2.3m
+  [cat6_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 129/140 | Rate: 0.09/s | ETA: 2.1m
+  [cat6_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 130/140 | Rate: 0.09/s | ETA: 1.9m
+  [cat7_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 131/140 | Rate: 0.09/s | ETA: 1.7m
+  [cat7_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 132/140 | Rate: 0.09/s | ETA: 1.5m
+  [cat7_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 133/140 | Rate: 0.09/s | ETA: 1.3m
+  [cat7_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 134/140 | Rate: 0.09/s | ETA: 1.1m
+  [cat7_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 135/140 | Rate: 0.09/s | ETA: 0.9m
+  [cat7_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 136/140 | Rate: 0.09/s | ETA: 0.7m
+  [cat7_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 137/140 | Rate: 0.09/s | ETA: 0.5m
+  [cat7_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 138/140 | Rate: 0.09/s | ETA: 0.4m
+  [cat7_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 139/140 | Rate: 0.09/s | ETA: 0.2m
+  [cat7_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 140/140 | Rate: 0.09/s | ETA: 0.0m
+  [v1] ✔ Done. 140 responses in 1526.8s (0.09/s)
+>>> sample=2  12:44:48Z
+
+============================================================
+  Model:    grok_4_20 (xai/grok-4.20-reasoning)
+  Sample:   2  |  Run: run_20260521
+  Variants: [0, 1]
+============================================================
+
+  [v0] Output: /home/satvik/Documents/CIKM/runs/run_20260521/responses/grok_4_20_variant_0_sample2_responses.jsonl
+  [v0] Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.17/s | ETA: 13.5m
+  Progress: 2/140 | Rate: 0.10/s | ETA: 22.2m
+  Progress: 3/140 | Rate: 0.11/s | ETA: 20.7m
+  Progress: 4/140 | Rate: 0.09/s | ETA: 26.0m
+  Progress: 5/140 | Rate: 0.09/s | ETA: 23.8m
+  Progress: 6/140 | Rate: 0.10/s | ETA: 22.3m
+  Progress: 7/140 | Rate: 0.10/s | ETA: 21.9m
+  Progress: 8/140 | Rate: 0.10/s | ETA: 22.6m
+  Progress: 9/140 | Rate: 0.09/s | ETA: 23.4m
+  Progress: 10/140 | Rate: 0.09/s | ETA: 24.6m
+  Progress: 11/140 | Rate: 0.09/s | ETA: 24.3m
+  Progress: 12/140 | Rate: 0.08/s | ETA: 26.0m
+  Progress: 13/140 | Rate: 0.07/s | ETA: 28.4m
+  Progress: 14/140 | Rate: 0.07/s | ETA: 29.1m
+  Progress: 15/140 | Rate: 0.07/s | ETA: 30.9m
+  Progress: 16/140 | Rate: 0.06/s | ETA: 31.9m
+  Progress: 17/140 | Rate: 0.07/s | ETA: 31.5m
+  Progress: 18/140 | Rate: 0.07/s | ETA: 30.7m
+  Progress: 19/140 | Rate: 0.06/s | ETA: 32.5m
+  Progress: 20/140 | Rate: 0.06/s | ETA: 33.3m
+  Progress: 21/140 | Rate: 0.06/s | ETA: 32.9m
+  Progress: 22/140 | Rate: 0.06/s | ETA: 32.8m
+  Progress: 23/140 | Rate: 0.06/s | ETA: 32.6m
+  Progress: 24/140 | Rate: 0.06/s | ETA: 31.7m
+  Progress: 25/140 | Rate: 0.06/s | ETA: 31.2m
+  Progress: 26/140 | Rate: 0.06/s | ETA: 30.9m
+  Progress: 27/140 | Rate: 0.06/s | ETA: 29.9m
+  Progress: 28/140 | Rate: 0.06/s | ETA: 29.4m
+  Progress: 29/140 | Rate: 0.06/s | ETA: 29.2m
+  Progress: 30/140 | Rate: 0.06/s | ETA: 28.7m
+  Progress: 31/140 | Rate: 0.06/s | ETA: 28.3m
+  Progress: 32/140 | Rate: 0.06/s | ETA: 28.0m
+  Progress: 33/140 | Rate: 0.06/s | ETA: 28.1m
+  Progress: 34/140 | Rate: 0.06/s | ETA: 28.4m
+  Progress: 35/140 | Rate: 0.06/s | ETA: 28.3m
+  Progress: 36/140 | Rate: 0.06/s | ETA: 28.4m
+  Progress: 37/140 | Rate: 0.06/s | ETA: 28.7m
+  Progress: 38/140 | Rate: 0.06/s | ETA: 28.5m
+  Progress: 39/140 | Rate: 0.06/s | ETA: 28.0m
+  Progress: 40/140 | Rate: 0.06/s | ETA: 28.3m
+  Progress: 41/140 | Rate: 0.06/s | ETA: 29.0m
+  Progress: 42/140 | Rate: 0.06/s | ETA: 28.7m
+  Progress: 43/140 | Rate: 0.06/s | ETA: 28.7m
+  Progress: 44/140 | Rate: 0.05/s | ETA: 29.1m
+  Progress: 45/140 | Rate: 0.06/s | ETA: 28.8m
+  Progress: 46/140 | Rate: 0.05/s | ETA: 28.5m
+  Progress: 47/140 | Rate: 0.05/s | ETA: 28.5m
+  Progress: 48/140 | Rate: 0.05/s | ETA: 28.4m
+  Progress: 49/140 | Rate: 0.05/s | ETA: 28.3m
+  Progress: 50/140 | Rate: 0.05/s | ETA: 28.3m
+  Progress: 51/140 | Rate: 0.05/s | ETA: 27.7m
+  Progress: 52/140 | Rate: 0.05/s | ETA: 27.2m
+  Progress: 53/140 | Rate: 0.05/s | ETA: 26.6m
+  Progress: 54/140 | Rate: 0.06/s | ETA: 25.9m
+  Progress: 55/140 | Rate: 0.06/s | ETA: 25.4m
+  Progress: 56/140 | Rate: 0.06/s | ETA: 24.8m
+  Progress: 57/140 | Rate: 0.06/s | ETA: 24.3m
+  Progress: 58/140 | Rate: 0.06/s | ETA: 23.8m
+  Progress: 59/140 | Rate: 0.06/s | ETA: 23.3m
+  Progress: 60/140 | Rate: 0.06/s | ETA: 22.9m
+  Progress: 61/140 | Rate: 0.06/s | ETA: 22.6m
+  Progress: 62/140 | Rate: 0.06/s | ETA: 22.3m
+  Progress: 63/140 | Rate: 0.06/s | ETA: 22.0m
+  Progress: 64/140 | Rate: 0.06/s | ETA: 21.8m
+  Progress: 65/140 | Rate: 0.06/s | ETA: 21.5m
+  Progress: 66/140 | Rate: 0.06/s | ETA: 21.3m
+  Progress: 67/140 | Rate: 0.06/s | ETA: 21.0m
+  Progress: 68/140 | Rate: 0.06/s | ETA: 20.7m
+  Progress: 69/140 | Rate: 0.06/s | ETA: 20.3m
+  Progress: 70/140 | Rate: 0.06/s | ETA: 19.9m
+  Progress: 71/140 | Rate: 0.06/s | ETA: 19.7m
+  Progress: 72/140 | Rate: 0.06/s | ETA: 19.4m
+  Progress: 73/140 | Rate: 0.06/s | ETA: 19.2m
+  Progress: 74/140 | Rate: 0.06/s | ETA: 19.1m
+  Progress: 75/140 | Rate: 0.06/s | ETA: 18.8m
+  Progress: 76/140 | Rate: 0.06/s | ETA: 18.4m
+  Progress: 77/140 | Rate: 0.06/s | ETA: 18.2m
+  Progress: 78/140 | Rate: 0.06/s | ETA: 17.9m
+  Progress: 79/140 | Rate: 0.06/s | ETA: 17.6m
+  Progress: 80/140 | Rate: 0.06/s | ETA: 17.3m
+  Progress: 81/140 | Rate: 0.06/s | ETA: 16.9m
+  Progress: 82/140 | Rate: 0.06/s | ETA: 16.7m
+  Progress: 83/140 | Rate: 0.06/s | ETA: 16.4m
+  Progress: 84/140 | Rate: 0.06/s | ETA: 16.2m
+  Progress: 85/140 | Rate: 0.06/s | ETA: 16.0m
+  Progress: 86/140 | Rate: 0.06/s | ETA: 15.6m
+  Progress: 87/140 | Rate: 0.06/s | ETA: 15.3m
+  Progress: 88/140 | Rate: 0.06/s | ETA: 15.0m
+  Progress: 89/140 | Rate: 0.06/s | ETA: 14.7m
+  Progress: 90/140 | Rate: 0.06/s | ETA: 14.4m
+  Progress: 91/140 | Rate: 0.06/s | ETA: 14.0m
+  Progress: 92/140 | Rate: 0.06/s | ETA: 13.7m
+  Progress: 93/140 | Rate: 0.06/s | ETA: 13.4m
+  Progress: 94/140 | Rate: 0.06/s | ETA: 13.1m
+  Progress: 95/140 | Rate: 0.06/s | ETA: 12.7m
+  Progress: 96/140 | Rate: 0.06/s | ETA: 12.4m
+  Progress: 97/140 | Rate: 0.06/s | ETA: 12.1m
+  Progress: 98/140 | Rate: 0.06/s | ETA: 11.8m
+  Progress: 99/140 | Rate: 0.06/s | ETA: 11.5m
+  Progress: 100/140 | Rate: 0.06/s | ETA: 11.1m
+  Progress: 101/140 | Rate: 0.06/s | ETA: 10.9m
+  Progress: 102/140 | Rate: 0.06/s | ETA: 10.7m
+  Progress: 103/140 | Rate: 0.06/s | ETA: 10.4m
+  Progress: 104/140 | Rate: 0.06/s | ETA: 10.2m
+  Progress: 105/140 | Rate: 0.06/s | ETA: 10.0m
+  Progress: 106/140 | Rate: 0.06/s | ETA: 9.7m
+  Progress: 107/140 | Rate: 0.06/s | ETA: 9.4m
+  Progress: 108/140 | Rate: 0.06/s | ETA: 9.0m
+  Progress: 109/140 | Rate: 0.06/s | ETA: 8.8m
+  Progress: 110/140 | Rate: 0.06/s | ETA: 8.6m
+  Progress: 111/140 | Rate: 0.06/s | ETA: 8.3m
+  Progress: 112/140 | Rate: 0.06/s | ETA: 8.1m
+  Progress: 113/140 | Rate: 0.06/s | ETA: 7.9m
+  Progress: 114/140 | Rate: 0.06/s | ETA: 7.7m
+  Progress: 115/140 | Rate: 0.06/s | ETA: 7.4m
+  Progress: 116/140 | Rate: 0.06/s | ETA: 7.2m
+  Progress: 117/140 | Rate: 0.06/s | ETA: 6.9m
+  Progress: 118/140 | Rate: 0.06/s | ETA: 6.6m
+  Progress: 119/140 | Rate: 0.06/s | ETA: 6.3m
+  Progress: 120/140 | Rate: 0.06/s | ETA: 6.0m
+  Progress: 121/140 | Rate: 0.06/s | ETA: 5.7m
+  Progress: 122/140 | Rate: 0.06/s | ETA: 5.3m
+  Progress: 123/140 | Rate: 0.06/s | ETA: 5.0m
+  Progress: 124/140 | Rate: 0.06/s | ETA: 4.7m
+  Progress: 125/140 | Rate: 0.06/s | ETA: 4.4m
+  Progress: 126/140 | Rate: 0.06/s | ETA: 4.1m
+  Progress: 127/140 | Rate: 0.06/s | ETA: 3.8m
+  Progress: 128/140 | Rate: 0.06/s | ETA: 3.5m
+  Progress: 129/140 | Rate: 0.06/s | ETA: 3.2m
+  Progress: 130/140 | Rate: 0.06/s | ETA: 2.9m
+  Progress: 131/140 | Rate: 0.06/s | ETA: 2.6m
+  Progress: 132/140 | Rate: 0.06/s | ETA: 2.3m
+  Progress: 133/140 | Rate: 0.06/s | ETA: 2.0m
+  Progress: 134/140 | Rate: 0.06/s | ETA: 1.7m
+  Progress: 135/140 | Rate: 0.06/s | ETA: 1.4m
+  Progress: 136/140 | Rate: 0.06/s | ETA: 1.2m
+  Progress: 137/140 | Rate: 0.06/s | ETA: 0.9m
+  Progress: 138/140 | Rate: 0.06/s | ETA: 0.6m
+  Progress: 139/140 | Rate: 0.06/s | ETA: 0.3m
+  Progress: 140/140 | Rate: 0.06/s | ETA: 0.0m
+  [v0] ✔ Done. 140 responses in 2445.1s (0.06/s)
+
+  [v1] Output: /home/satvik/Documents/CIKM/runs/run_20260521/responses/grok_4_20_variant_1_sample2_responses.jsonl
+  [v1] Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.20/s | ETA: 11.5m
+  Progress: 2/140 | Rate: 0.22/s | ETA: 10.6m
+  Progress: 3/140 | Rate: 0.16/s | ETA: 14.6m
+  Progress: 4/140 | Rate: 0.12/s | ETA: 19.5m
+  Progress: 5/140 | Rate: 0.12/s | ETA: 18.6m
+  Progress: 6/140 | Rate: 0.11/s | ETA: 20.7m
+  Progress: 7/140 | Rate: 0.11/s | ETA: 19.8m
+  Progress: 8/140 | Rate: 0.09/s | ETA: 23.5m
+  Progress: 9/140 | Rate: 0.09/s | ETA: 23.5m
+  Progress: 10/140 | Rate: 0.09/s | ETA: 23.7m
+  Progress: 11/140 | Rate: 0.09/s | ETA: 23.7m
+  Progress: 12/140 | Rate: 0.09/s | ETA: 24.7m
+  Progress: 13/140 | Rate: 0.08/s | ETA: 26.4m
+  Progress: 14/140 | Rate: 0.08/s | ETA: 26.3m
+  Progress: 15/140 | Rate: 0.08/s | ETA: 26.4m
+  Progress: 16/140 | Rate: 0.08/s | ETA: 27.3m
+  Progress: 17/140 | Rate: 0.07/s | ETA: 28.4m
+  Progress: 18/140 | Rate: 0.07/s | ETA: 28.5m
+  Progress: 19/140 | Rate: 0.07/s | ETA: 29.7m
+  Progress: 20/140 | Rate: 0.07/s | ETA: 30.3m
+  Progress: 21/140 | Rate: 0.07/s | ETA: 30.1m
+  Progress: 22/140 | Rate: 0.07/s | ETA: 29.8m
+  Progress: 23/140 | Rate: 0.07/s | ETA: 29.2m
+  Progress: 24/140 | Rate: 0.07/s | ETA: 28.5m
+  Progress: 25/140 | Rate: 0.07/s | ETA: 28.9m
+  Progress: 26/140 | Rate: 0.07/s | ETA: 28.6m
+  Progress: 27/140 | Rate: 0.07/s | ETA: 27.8m
+  Progress: 28/140 | Rate: 0.07/s | ETA: 27.4m
+  Progress: 29/140 | Rate: 0.07/s | ETA: 27.1m
+  Progress: 30/140 | Rate: 0.07/s | ETA: 26.7m
+  Progress: 31/140 | Rate: 0.07/s | ETA: 26.9m
+  Progress: 32/140 | Rate: 0.07/s | ETA: 26.9m
+  Progress: 33/140 | Rate: 0.07/s | ETA: 27.2m
+  Progress: 34/140 | Rate: 0.06/s | ETA: 27.8m
+  Progress: 35/140 | Rate: 0.06/s | ETA: 27.5m
+  Progress: 36/140 | Rate: 0.06/s | ETA: 27.4m
+  Progress: 37/140 | Rate: 0.06/s | ETA: 27.2m
+  Progress: 38/140 | Rate: 0.06/s | ETA: 27.1m
+  Progress: 39/140 | Rate: 0.06/s | ETA: 26.8m
+  Progress: 40/140 | Rate: 0.06/s | ETA: 26.9m
+  Progress: 41/140 | Rate: 0.06/s | ETA: 26.8m
+  Progress: 42/140 | Rate: 0.06/s | ETA: 27.1m
+  Progress: 43/140 | Rate: 0.06/s | ETA: 27.2m
+  Progress: 44/140 | Rate: 0.06/s | ETA: 27.0m
+  Progress: 45/140 | Rate: 0.06/s | ETA: 26.9m
+  Progress: 46/140 | Rate: 0.06/s | ETA: 27.2m
+  Progress: 47/140 | Rate: 0.06/s | ETA: 27.1m
+  Progress: 48/140 | Rate: 0.06/s | ETA: 26.8m
+  Progress: 49/140 | Rate: 0.06/s | ETA: 26.5m
+  Progress: 50/140 | Rate: 0.06/s | ETA: 26.9m
+  Progress: 51/140 | Rate: 0.06/s | ETA: 26.3m
+  Progress: 52/140 | Rate: 0.06/s | ETA: 25.9m
+  Progress: 53/140 | Rate: 0.06/s | ETA: 25.3m
+  Progress: 54/140 | Rate: 0.06/s | ETA: 24.7m
+  Progress: 55/140 | Rate: 0.06/s | ETA: 24.3m
+  Progress: 56/140 | Rate: 0.06/s | ETA: 23.8m
+  Progress: 57/140 | Rate: 0.06/s | ETA: 23.3m
+  Progress: 58/140 | Rate: 0.06/s | ETA: 23.0m
+  Progress: 59/140 | Rate: 0.06/s | ETA: 22.7m
+  Progress: 60/140 | Rate: 0.06/s | ETA: 22.4m
+  Progress: 61/140 | Rate: 0.06/s | ETA: 22.0m
+  Progress: 62/140 | Rate: 0.06/s | ETA: 21.8m
+  Progress: 63/140 | Rate: 0.06/s | ETA: 21.5m
+  Progress: 64/140 | Rate: 0.06/s | ETA: 21.4m
+  Progress: 65/140 | Rate: 0.06/s | ETA: 21.0m
+  Progress: 66/140 | Rate: 0.06/s | ETA: 20.8m
+  Progress: 67/140 | Rate: 0.06/s | ETA: 20.5m
+  Progress: 68/140 | Rate: 0.06/s | ETA: 20.1m
+  Progress: 69/140 | Rate: 0.06/s | ETA: 19.7m
+  Progress: 70/140 | Rate: 0.06/s | ETA: 19.4m
+  [cat1_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 71/140 | Rate: 0.06/s | ETA: 19.0m
+  [cat1_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  Progress: 72/140 | Rate: 0.06/s | ETA: 18.9m
+  [cat1_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 73/140 | Rate: 0.06/s | ETA: 18.5m
+  [cat1_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 74/140 | Rate: 0.06/s | ETA: 18.1m
+  [cat1_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 75/140 | Rate: 0.06/s | ETA: 17.7m
+  [cat1_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 76/140 | Rate: 0.06/s | ETA: 17.3m
+  [cat1_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 77/140 | Rate: 0.06/s | ETA: 16.9m
+  [cat1_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 78/140 | Rate: 0.06/s | ETA: 16.5m
+  [cat1_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 79/140 | Rate: 0.06/s | ETA: 16.1m
+  [cat1_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat1_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat1_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 80/140 | Rate: 0.06/s | ETA: 15.7m
+  [cat2_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 81/140 | Rate: 0.06/s | ETA: 15.3m
+  [cat2_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 82/140 | Rate: 0.06/s | ETA: 15.0m
+  [cat2_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 83/140 | Rate: 0.06/s | ETA: 14.6m
+  [cat2_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 84/140 | Rate: 0.07/s | ETA: 14.3m
+  [cat2_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 85/140 | Rate: 0.07/s | ETA: 13.9m
+  [cat2_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 86/140 | Rate: 0.07/s | ETA: 13.6m
+  [cat2_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 87/140 | Rate: 0.07/s | ETA: 13.2m
+  [cat2_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 88/140 | Rate: 0.07/s | ETA: 12.9m
+  [cat2_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 89/140 | Rate: 0.07/s | ETA: 12.6m
+  [cat2_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat2_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat2_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 90/140 | Rate: 0.07/s | ETA: 12.3m
+  [cat3_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 91/140 | Rate: 0.07/s | ETA: 11.9m
+  [cat3_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 92/140 | Rate: 0.07/s | ETA: 11.6m
+  [cat3_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 93/140 | Rate: 0.07/s | ETA: 11.3m
+  [cat3_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 94/140 | Rate: 0.07/s | ETA: 11.0m
+  [cat3_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 95/140 | Rate: 0.07/s | ETA: 10.7m
+  [cat3_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 96/140 | Rate: 0.07/s | ETA: 10.4m
+  [cat3_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 97/140 | Rate: 0.07/s | ETA: 10.1m
+  [cat3_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 98/140 | Rate: 0.07/s | ETA: 9.8m
+  [cat3_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 99/140 | Rate: 0.07/s | ETA: 9.6m
+  [cat3_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat3_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat3_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 100/140 | Rate: 0.07/s | ETA: 9.3m
+  [cat4_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 101/140 | Rate: 0.07/s | ETA: 9.0m
+  [cat4_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 102/140 | Rate: 0.07/s | ETA: 8.7m
+  [cat4_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 103/140 | Rate: 0.07/s | ETA: 8.5m
+  [cat4_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 104/140 | Rate: 0.07/s | ETA: 8.2m
+  [cat4_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 105/140 | Rate: 0.07/s | ETA: 7.9m
+  [cat4_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 106/140 | Rate: 0.07/s | ETA: 7.7m
+  [cat4_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 107/140 | Rate: 0.07/s | ETA: 7.4m
+  [cat4_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 108/140 | Rate: 0.07/s | ETA: 7.1m
+  [cat4_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 109/140 | Rate: 0.08/s | ETA: 6.9m
+  [cat4_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat4_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat4_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 110/140 | Rate: 0.08/s | ETA: 6.6m
+  [cat5_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 111/140 | Rate: 0.08/s | ETA: 6.4m
+  [cat5_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 112/140 | Rate: 0.08/s | ETA: 6.1m
+  [cat5_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 113/140 | Rate: 0.08/s | ETA: 5.9m
+  [cat5_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 114/140 | Rate: 0.08/s | ETA: 5.7m
+  [cat5_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 115/140 | Rate: 0.08/s | ETA: 5.4m
+  [cat5_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 116/140 | Rate: 0.08/s | ETA: 5.2m
+  [cat5_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 117/140 | Rate: 0.08/s | ETA: 4.9m
+  [cat5_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 118/140 | Rate: 0.08/s | ETA: 4.7m
+  [cat5_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 119/140 | Rate: 0.08/s | ETA: 4.5m
+  [cat5_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat5_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat5_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 120/140 | Rate: 0.08/s | ETA: 4.2m
+  [cat6_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 121/140 | Rate: 0.08/s | ETA: 4.0m
+  [cat6_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 122/140 | Rate: 0.08/s | ETA: 3.8m
+  [cat6_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 123/140 | Rate: 0.08/s | ETA: 3.6m
+  [cat6_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 124/140 | Rate: 0.08/s | ETA: 3.3m
+  [cat6_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 125/140 | Rate: 0.08/s | ETA: 3.1m
+  [cat6_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 126/140 | Rate: 0.08/s | ETA: 2.9m
+  [cat6_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 127/140 | Rate: 0.08/s | ETA: 2.7m
+  [cat6_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 128/140 | Rate: 0.08/s | ETA: 2.5m
+  [cat6_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 129/140 | Rate: 0.08/s | ETA: 2.3m
+  [cat6_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat6_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat6_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 130/140 | Rate: 0.08/s | ETA: 2.0m
+  [cat7_adapted_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 131/140 | Rate: 0.08/s | ETA: 1.8m
+  [cat7_adapted_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 132/140 | Rate: 0.08/s | ETA: 1.6m
+  [cat7_adapted_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 133/140 | Rate: 0.08/s | ETA: 1.4m
+  [cat7_adapted_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 134/140 | Rate: 0.08/s | ETA: 1.2m
+  [cat7_adapted_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_adapted_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_adapted_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 135/140 | Rate: 0.08/s | ETA: 1.0m
+  [cat7_real_001/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_001/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_001/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 136/140 | Rate: 0.08/s | ETA: 0.8m
+  [cat7_real_002/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_002/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_002/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 137/140 | Rate: 0.08/s | ETA: 0.6m
+  [cat7_real_003/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_003/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_003/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 138/140 | Rate: 0.08/s | ETA: 0.4m
+  [cat7_real_004/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_004/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_004/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 139/140 | Rate: 0.08/s | ETA: 0.2m
+  [cat7_real_005/v1] [Attempt 1] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 2s
+  [cat7_real_005/v1] [Attempt 2] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 4s
+  [cat7_real_005/v1] [Attempt 3] HTTP 401: [{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access — waiting 8s
+  Progress: 140/140 | Rate: 0.08/s | ETA: 0.0m
+  [v1] ✔ Done. 140 responses in 1661.1s (0.08/s)
+=== grok_4_20 CSS COMPLETE at 2026-05-23T13:53:30Z ===

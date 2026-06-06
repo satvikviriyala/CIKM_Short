@@ -1,0 +1,87 @@
+{
+  "generation": {
+    "gemma4_e4b": {
+      "provider_id": "google/gemma-4-e4b",
+      "location": "local",
+      "role": "small open baseline (Google)",
+      "is_reasoning": false,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_tokens": 1024,
+      "reasoning_capture": false
+    },
+    "qwen3_local": {
+      "provider_id": "qwen/qwen3.5-9b",
+      "location": "local",
+      "role": "small/mid open baseline (Qwen)",
+      "is_reasoning": true,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 8192,
+      "reasoning_capture": true
+    },
+    "llama3_70b": {
+      "provider_id": "llama-3.3-70b-instruct",
+      "location": "local",
+      "role": "large open baseline (Meta, Llama 3.3 70B via LM Studio at 172.16.144.45)",
+      "is_reasoning": false,
+      "temperature": 0.6,
+      "top_p": 0.9,
+      "max_tokens": 1024,
+      "reasoning_capture": false
+    },
+    "qwen3_235b": {
+      "provider_id": "qwen/qwen3-235b-a22b-instruct-2507-maas",
+      "location": "us-south1",
+      "role": "large open baseline (Qwen)",
+      "is_reasoning": false,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 1536,
+      "reasoning_capture": false
+    },
+    "gpt_oss_120b": {
+      "provider_id": "openai/gpt-oss-120b-maas",
+      "location": "global",
+      "role": "frontier open baseline",
+      "is_reasoning": false,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_tokens": 1536,
+      "reasoning_capture": false
+    },
+    "grok_4_20": {
+      "provider_id": "xai/grok-4.20-reasoning",
+      "location": "global",
+      "role": "frontier proprietary reasoning baseline",
+      "is_reasoning": true,
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "max_tokens": 8192,
+      "reasoning_capture": true
+    }
+  },
+  "judges": {
+    "gemini_flash": {
+      "provider_id": "google/gemini-2.5-flash",
+      "location": "global",
+      "temperature": 0.0,
+      "top_p": 0.95,
+      "max_tokens": 2048
+    },
+    "deepseek": {
+      "provider_id": "deepseek-ai/deepseek-v3.2-maas",
+      "location": "global",
+      "temperature": 0.0,
+      "top_p": 0.95,
+      "max_tokens": 2048
+    },
+    "kimi": {
+      "provider_id": "moonshotai/kimi-k2-thinking-maas",
+      "location": "global",
+      "temperature": 0.0,
+      "top_p": 0.95,
+      "max_tokens": 4096
+    }
+  }
+}

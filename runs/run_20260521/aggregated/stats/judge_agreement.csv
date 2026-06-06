@@ -1,0 +1,4 @@
+metric,method,value,n_judges,n_items,note
+utility_ordinal,krippendorff_alpha,0.2117,3,10080,
+satisfaction_ordinal,krippendorff_alpha,0.2127,3,10080,
+response_type_nominal,fleiss_kappa,0.8064,3,10077,

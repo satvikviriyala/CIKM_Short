@@ -1,0 +1,122 @@
+{
+  "gemma4_e4b/vanilla": {
+    "mean": 0.0378,
+    "std": 0.0331,
+    "n": 420
+  },
+  "gemma4_e4b/utility_first": {
+    "mean": 0.0403,
+    "std": 0.0325,
+    "n": 420
+  },
+  "gemma4_e4b/neutrality_oriented": {
+    "mean": 0.0336,
+    "std": 0.0317,
+    "n": 420
+  },
+  "gemma4_e4b/clarification_first": {
+    "mean": 0.0305,
+    "std": 0.0244,
+    "n": 420
+  },
+  "gpt_oss_120b/vanilla": {
+    "mean": 0.0393,
+    "std": 0.0522,
+    "n": 420
+  },
+  "gpt_oss_120b/utility_first": {
+    "mean": 0.0395,
+    "std": 0.0495,
+    "n": 420
+  },
+  "gpt_oss_120b/neutrality_oriented": {
+    "mean": 0.0375,
+    "std": 0.0527,
+    "n": 420
+  },
+  "gpt_oss_120b/clarification_first": {
+    "mean": 0.0325,
+    "std": 0.0418,
+    "n": 420
+  },
+  "grok_4_20/vanilla": {
+    "mean": 0.0349,
+    "std": 0.032,
+    "n": 420
+  },
+  "grok_4_20/utility_first": {
+    "mean": 0.0358,
+    "std": 0.0305,
+    "n": 420
+  },
+  "grok_4_20/neutrality_oriented": {
+    "mean": 0.0338,
+    "std": 0.0295,
+    "n": 420
+  },
+  "grok_4_20/clarification_first": {
+    "mean": 0.0309,
+    "std": 0.0239,
+    "n": 420
+  },
+  "llama3_70b/vanilla": {
+    "mean": 0.0308,
+    "std": 0.0319,
+    "n": 420
+  },
+  "llama3_70b/utility_first": {
+    "mean": 0.0342,
+    "std": 0.0332,
+    "n": 420
+  },
+  "llama3_70b/neutrality_oriented": {
+    "mean": 0.0301,
+    "std": 0.0333,
+    "n": 420
+  },
+  "llama3_70b/clarification_first": {
+    "mean": 0.0275,
+    "std": 0.024,
+    "n": 420
+  },
+  "qwen3_235b/vanilla": {
+    "mean": 0.0293,
+    "std": 0.0281,
+    "n": 420
+  },
+  "qwen3_235b/utility_first": {
+    "mean": 0.0314,
+    "std": 0.0281,
+    "n": 420
+  },
+  "qwen3_235b/neutrality_oriented": {
+    "mean": 0.0283,
+    "std": 0.0275,
+    "n": 420
+  },
+  "qwen3_235b/clarification_first": {
+    "mean": 0.0272,
+    "std": 0.0263,
+    "n": 420
+  },
+  "qwen3_local/vanilla": {
+    "mean": 0.0315,
+    "std": 0.0292,
+    "n": 419
+  },
+  "qwen3_local/utility_first": {
+    "mean": 0.0347,
+    "std": 0.0319,
+    "n": 419
+  },
+  "qwen3_local/neutrality_oriented": {
+    "mean": 0.0285,
+    "std": 0.0291,
+    "n": 419
+  },
+  "qwen3_local/clarification_first": {
+    "mean": 0.0303,
+    "std": 0.0243,
+    "n": 419
+  }
+}

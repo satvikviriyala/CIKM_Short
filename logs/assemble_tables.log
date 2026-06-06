@@ -1,0 +1,28 @@
+
+Run ID: run_20260521
+
+Loading inputs…
+  per_response rows : 10080
+  CSS prompt rows   : 2518
+  wide summary rows : 24
+  significant pairs : 63
+
+── 1. Main table ────────────────────────────────────────
+  Wrote    24 rows → paper/tables/main_table.csv
+  Wrote LaTeX     → paper/tables/main_table.tex
+
+── 2. Utility vs CSS scatter ────────────────────────────
+  Wrote  3360 rows → paper/figures/data/utility_vs_css.csv
+
+── 3. Response-type distribution ────────────────────────
+  Wrote    24 rows → paper/figures/data/response_type_distribution.csv
+
+── 4. Summary for abstract ──────────────────────────────
+  Wrote text      → paper/tables/summary_for_abstract.txt
+
+── 5. Per-model appendix ────────────────────────────────
+  Wrote   168 rows → paper/tables/per_model_appendix.csv
+
+── summary_for_abstract.txt ─────────────────────────────
+Across 6 model(s) and 140 prompt(s) (3 sample(s) per condition), vanilla prompting yielded mean utility 4.06 (95\% CI [4.01, 4.12]) and mean CSS 0.0339 (95\% CI [0.0308, 0.0374]). Response types under vanilla: 31.9\% decisive, 5.0\% clarifying, 62.0\% hedging, 0.7\% refusal, 0.5\% disputed. Utility-first prompting yielded mean utility 3.53 (-0.53 vs vanilla), satisfaction 3.57 (-0.56), CSS 0.0339 (+0.00). Neutrality-oriented prompting yielded mean utility 4.26 (+0.20 vs vanilla), satisfaction 4.26 (+0.13), CSS 0.0339 (+0.00). Clarification-first prompting yielded mean utility 4.53 (+0.46 vs vanilla), satisfaction 4.48 (+0.35), CSS 0.0339 (+0.00).
+

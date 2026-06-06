@@ -1,0 +1,9 @@
+model,regime,metric,mean,ci_low,ci_high,n
+gemma4_e4b,vanilla,utility,1.4,1.0,1.8,5
+gemma4_e4b,vanilla,satisfaction,1.4,1.0,1.8,5
+gemma4_e4b,vanilla,css_primary,0.0235,0.0095,0.0375,5
+gemma4_e4b,vanilla,pct_decisive,0.0,,,5
+gemma4_e4b,vanilla,pct_clarifying,0.0,,,5
+gemma4_e4b,vanilla,pct_hedging,0.0,,,5
+gemma4_e4b,vanilla,pct_refusal,0.0,,,5
+gemma4_e4b,vanilla,pct_disputed,100.0,,,5

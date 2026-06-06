@@ -1,0 +1,5 @@
+{"prompt_id": "cat1_orig_001", "category": 1, "model": "gemma4_e4b", "regime": "vanilla", "sample_idx": 0, "alignscore_raw": 0.010752, "c_strong": 0, "checker_model": "nli-deberta-v3-large", "computed_at": "2026-05-20T19:56:47Z"}
+{"prompt_id": "cat1_orig_002", "category": 1, "model": "gemma4_e4b", "regime": "vanilla", "sample_idx": 0, "alignscore_raw": 0.957526, "c_strong": 1, "checker_model": "nli-deberta-v3-large", "computed_at": "2026-05-20T19:56:47Z"}
+{"prompt_id": "cat1_orig_003", "category": 1, "model": "gemma4_e4b", "regime": "vanilla", "sample_idx": 0, "alignscore_raw": 0.025395, "c_strong": 0, "checker_model": "nli-deberta-v3-large", "computed_at": "2026-05-20T19:56:47Z"}
+{"prompt_id": "cat1_orig_004", "category": 1, "model": "gemma4_e4b", "regime": "vanilla", "sample_idx": 0, "alignscore_raw": 0.001914, "c_strong": 0, "checker_model": "nli-deberta-v3-large", "computed_at": "2026-05-20T19:56:47Z"}
+{"prompt_id": "cat1_orig_005", "category": 1, "model": "gemma4_e4b", "regime": "vanilla", "sample_idx": 0, "alignscore_raw": 0.004167, "c_strong": 0, "checker_model": "nli-deberta-v3-large", "computed_at": "2026-05-20T19:56:47Z"}

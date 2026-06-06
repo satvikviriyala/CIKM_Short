@@ -1,0 +1,322 @@
+=== CSS variants: grok_4_20 | run_id=run_20260521 ===
+>>> sample=0  15:38:57Z
+
+============================================================
+  Model:    grok_4_20 (xai/grok-4.20-reasoning)
+  Sample:   0  |  Run: run_20260521
+  Variants: [0, 1]
+============================================================
+
+  [v0] Resuming: 138 pairs already written.
+
+  [v0] Output: /home/satvik/Documents/CIKM/runs/run_20260521/responses/grok_4_20_variant_0_sample0_responses.jsonl
+  [v0] Remaining: 2 prompts
+  Progress: 1/2 | Rate: 0.03/s | ETA: 0.5m
+  Progress: 2/2 | Rate: 0.04/s | ETA: 0.0m
+  [v0] ✔ Done. 2 responses in 52.4s (0.04/s)
+
+  [v1] Resuming: 33 pairs already written.
+
+  [v1] Output: /home/satvik/Documents/CIKM/runs/run_20260521/responses/grok_4_20_variant_1_sample0_responses.jsonl
+  [v1] Remaining: 107 prompts
+  Progress: 1/107 | Rate: 0.04/s | ETA: 44.4m
+  Progress: 2/107 | Rate: 0.05/s | ETA: 38.2m
+  Progress: 3/107 | Rate: 0.04/s | ETA: 39.3m
+  Progress: 4/107 | Rate: 0.05/s | ETA: 37.8m
+  Progress: 5/107 | Rate: 0.04/s | ETA: 40.8m
+  Progress: 6/107 | Rate: 0.04/s | ETA: 38.7m
+  Progress: 7/107 | Rate: 0.04/s | ETA: 42.4m
+  Progress: 8/107 | Rate: 0.04/s | ETA: 41.1m
+  Progress: 9/107 | Rate: 0.04/s | ETA: 44.1m
+  Progress: 10/107 | Rate: 0.04/s | ETA: 44.0m
+  Progress: 11/107 | Rate: 0.04/s | ETA: 44.0m
+  Progress: 12/107 | Rate: 0.04/s | ETA: 43.1m
+  Progress: 13/107 | Rate: 0.04/s | ETA: 43.4m
+  Progress: 14/107 | Rate: 0.04/s | ETA: 42.5m
+  Progress: 15/107 | Rate: 0.04/s | ETA: 41.6m
+  Progress: 16/107 | Rate: 0.04/s | ETA: 40.1m
+  Progress: 17/107 | Rate: 0.04/s | ETA: 41.5m
+  Progress: 18/107 | Rate: 0.04/s | ETA: 40.0m
+  Progress: 19/107 | Rate: 0.04/s | ETA: 38.6m
+  Progress: 20/107 | Rate: 0.04/s | ETA: 36.7m
+  Progress: 21/107 | Rate: 0.04/s | ETA: 35.0m
+  Progress: 22/107 | Rate: 0.04/s | ETA: 33.6m
+  Progress: 23/107 | Rate: 0.04/s | ETA: 32.7m
+  Progress: 24/107 | Rate: 0.04/s | ETA: 31.4m
+  Progress: 25/107 | Rate: 0.05/s | ETA: 30.3m
+  Progress: 26/107 | Rate: 0.05/s | ETA: 29.1m
+  Progress: 27/107 | Rate: 0.05/s | ETA: 28.2m
+  Progress: 28/107 | Rate: 0.05/s | ETA: 27.5m
+  Progress: 29/107 | Rate: 0.05/s | ETA: 27.1m
+  Progress: 30/107 | Rate: 0.05/s | ETA: 26.8m
+  Progress: 31/107 | Rate: 0.05/s | ETA: 26.9m
+  Progress: 32/107 | Rate: 0.05/s | ETA: 26.2m
+  Progress: 33/107 | Rate: 0.05/s | ETA: 26.2m
+  Progress: 34/107 | Rate: 0.05/s | ETA: 25.8m
+  Progress: 35/107 | Rate: 0.05/s | ETA: 25.2m
+  Progress: 36/107 | Rate: 0.05/s | ETA: 24.6m
+  Progress: 37/107 | Rate: 0.05/s | ETA: 24.2m
+  Progress: 38/107 | Rate: 0.05/s | ETA: 23.9m
+  Progress: 39/107 | Rate: 0.05/s | ETA: 23.8m
+  Progress: 40/107 | Rate: 0.05/s | ETA: 23.5m
+  Progress: 41/107 | Rate: 0.05/s | ETA: 23.2m
+  Progress: 42/107 | Rate: 0.05/s | ETA: 23.2m
+  Progress: 43/107 | Rate: 0.05/s | ETA: 23.1m
+  Progress: 44/107 | Rate: 0.05/s | ETA: 22.6m
+  Progress: 45/107 | Rate: 0.05/s | ETA: 22.2m
+  Progress: 46/107 | Rate: 0.05/s | ETA: 21.7m
+  Progress: 47/107 | Rate: 0.05/s | ETA: 21.2m
+  Progress: 48/107 | Rate: 0.05/s | ETA: 21.0m
+  Progress: 49/107 | Rate: 0.05/s | ETA: 20.6m
+  Progress: 50/107 | Rate: 0.05/s | ETA: 20.0m
+  Progress: 51/107 | Rate: 0.05/s | ETA: 19.7m
+  Progress: 52/107 | Rate: 0.05/s | ETA: 19.4m
+  Progress: 53/107 | Rate: 0.05/s | ETA: 19.0m
+  Progress: 54/107 | Rate: 0.05/s | ETA: 18.5m
+  Progress: 55/107 | Rate: 0.05/s | ETA: 18.1m
+  Progress: 56/107 | Rate: 0.05/s | ETA: 17.8m
+  Progress: 57/107 | Rate: 0.05/s | ETA: 17.3m
+  Progress: 58/107 | Rate: 0.05/s | ETA: 16.8m
+  Progress: 59/107 | Rate: 0.05/s | ETA: 16.4m
+  Progress: 60/107 | Rate: 0.05/s | ETA: 16.0m
+  Progress: 61/107 | Rate: 0.05/s | ETA: 15.5m
+  Progress: 62/107 | Rate: 0.05/s | ETA: 15.1m
+  Progress: 63/107 | Rate: 0.05/s | ETA: 14.7m
+  Progress: 64/107 | Rate: 0.05/s | ETA: 14.2m
+  Progress: 65/107 | Rate: 0.05/s | ETA: 13.9m
+  Progress: 66/107 | Rate: 0.05/s | ETA: 13.5m
+  Progress: 67/107 | Rate: 0.05/s | ETA: 13.0m
+  Progress: 68/107 | Rate: 0.05/s | ETA: 12.7m
+  Progress: 69/107 | Rate: 0.05/s | ETA: 12.4m
+  Progress: 70/107 | Rate: 0.05/s | ETA: 11.9m
+  Progress: 71/107 | Rate: 0.05/s | ETA: 11.5m
+  Progress: 72/107 | Rate: 0.05/s | ETA: 11.2m
+  Progress: 73/107 | Rate: 0.05/s | ETA: 10.8m
+  Progress: 74/107 | Rate: 0.05/s | ETA: 10.5m
+  Progress: 75/107 | Rate: 0.05/s | ETA: 10.1m
+  Progress: 76/107 | Rate: 0.05/s | ETA: 9.8m
+  Progress: 77/107 | Rate: 0.05/s | ETA: 9.4m
+  Progress: 78/107 | Rate: 0.05/s | ETA: 9.2m
+  Progress: 79/107 | Rate: 0.05/s | ETA: 8.9m
+  Progress: 80/107 | Rate: 0.05/s | ETA: 8.7m
+  Progress: 81/107 | Rate: 0.05/s | ETA: 8.4m
+  Progress: 82/107 | Rate: 0.05/s | ETA: 8.1m
+  Progress: 83/107 | Rate: 0.05/s | ETA: 7.8m
+  Progress: 84/107 | Rate: 0.05/s | ETA: 7.5m
+  Progress: 85/107 | Rate: 0.05/s | ETA: 7.1m
+  Progress: 86/107 | Rate: 0.05/s | ETA: 6.9m
+  Progress: 87/107 | Rate: 0.05/s | ETA: 6.6m
+  Progress: 88/107 | Rate: 0.05/s | ETA: 6.2m
+  Progress: 89/107 | Rate: 0.05/s | ETA: 5.8m
+  Progress: 90/107 | Rate: 0.05/s | ETA: 5.5m
+  Progress: 91/107 | Rate: 0.05/s | ETA: 5.1m
+  Progress: 92/107 | Rate: 0.05/s | ETA: 4.8m
+  Progress: 93/107 | Rate: 0.05/s | ETA: 4.5m
+  Progress: 94/107 | Rate: 0.05/s | ETA: 4.1m
+  Progress: 95/107 | Rate: 0.05/s | ETA: 3.8m
+  Progress: 96/107 | Rate: 0.05/s | ETA: 3.5m
+  Progress: 97/107 | Rate: 0.05/s | ETA: 3.1m
+  Progress: 98/107 | Rate: 0.05/s | ETA: 2.8m
+  Progress: 99/107 | Rate: 0.05/s | ETA: 2.5m
+  Progress: 100/107 | Rate: 0.05/s | ETA: 2.2m
+  Progress: 101/107 | Rate: 0.05/s | ETA: 1.8m
+  Progress: 102/107 | Rate: 0.05/s | ETA: 1.5m
+  Progress: 103/107 | Rate: 0.05/s | ETA: 1.2m
+  Progress: 104/107 | Rate: 0.05/s | ETA: 0.9m
+  Progress: 105/107 | Rate: 0.05/s | ETA: 0.6m
+  Progress: 106/107 | Rate: 0.05/s | ETA: 0.3m
+  Progress: 107/107 | Rate: 0.05/s | ETA: 0.0m
+  [v1] ✔ Done. 107 responses in 1954.7s (0.05/s)
+>>> sample=1  16:12:25Z
+
+============================================================
+  Model:    grok_4_20 (xai/grok-4.20-reasoning)
+  Sample:   1  |  Run: run_20260521
+  Variants: [0, 1]
+============================================================
+
+  [v0] Resuming: 140 pairs already written.
+  [v0] ✔ Nothing to generate.
+
+  [v1] Resuming: 49 pairs already written.
+
+  [v1] Output: /home/satvik/Documents/CIKM/runs/run_20260521/responses/grok_4_20_variant_1_sample1_responses.jsonl
+  [v1] Remaining: 91 prompts
+  Progress: 1/91 | Rate: 0.05/s | ETA: 29.3m
+  Progress: 2/91 | Rate: 0.06/s | ETA: 25.3m
+  Progress: 3/91 | Rate: 0.07/s | ETA: 20.6m
+  Progress: 4/91 | Rate: 0.08/s | ETA: 18.3m
+  Progress: 5/91 | Rate: 0.09/s | ETA: 16.4m
+  Progress: 6/91 | Rate: 0.09/s | ETA: 15.4m
+  Progress: 7/91 | Rate: 0.09/s | ETA: 16.4m
+  Progress: 8/91 | Rate: 0.09/s | ETA: 15.3m
+  Progress: 9/91 | Rate: 0.09/s | ETA: 14.8m
+  Progress: 10/91 | Rate: 0.09/s | ETA: 14.3m
+  Progress: 11/91 | Rate: 0.10/s | ETA: 13.8m
+  Progress: 12/91 | Rate: 0.09/s | ETA: 14.0m
+  Progress: 13/91 | Rate: 0.09/s | ETA: 15.1m
+  Progress: 14/91 | Rate: 0.09/s | ETA: 15.0m
+  Progress: 15/91 | Rate: 0.08/s | ETA: 16.0m
+  Progress: 16/91 | Rate: 0.08/s | ETA: 16.0m
+  Progress: 17/91 | Rate: 0.07/s | ETA: 16.8m
+  Progress: 18/91 | Rate: 0.07/s | ETA: 16.8m
+  Progress: 19/91 | Rate: 0.07/s | ETA: 16.2m
+  Progress: 20/91 | Rate: 0.07/s | ETA: 15.9m
+  Progress: 21/91 | Rate: 0.07/s | ETA: 15.8m
+  Progress: 22/91 | Rate: 0.07/s | ETA: 16.0m
+  Progress: 23/91 | Rate: 0.07/s | ETA: 16.4m
+  Progress: 24/91 | Rate: 0.07/s | ETA: 16.5m
+  Progress: 25/91 | Rate: 0.07/s | ETA: 16.5m
+  Progress: 26/91 | Rate: 0.06/s | ETA: 17.0m
+  Progress: 27/91 | Rate: 0.06/s | ETA: 17.2m
+  Progress: 28/91 | Rate: 0.06/s | ETA: 17.0m
+  Progress: 29/91 | Rate: 0.06/s | ETA: 17.6m
+  Progress: 30/91 | Rate: 0.06/s | ETA: 17.3m
+  Progress: 31/91 | Rate: 0.06/s | ETA: 17.1m
+  Progress: 32/91 | Rate: 0.06/s | ETA: 16.8m
+  Progress: 33/91 | Rate: 0.06/s | ETA: 16.6m
+  Progress: 34/91 | Rate: 0.06/s | ETA: 16.1m
+  Progress: 35/91 | Rate: 0.06/s | ETA: 16.2m
+  Progress: 36/91 | Rate: 0.06/s | ETA: 16.0m
+  Progress: 37/91 | Rate: 0.06/s | ETA: 15.5m
+  Progress: 38/91 | Rate: 0.06/s | ETA: 15.3m
+  Progress: 39/91 | Rate: 0.06/s | ETA: 15.0m
+  Progress: 40/91 | Rate: 0.06/s | ETA: 14.7m
+  Progress: 41/91 | Rate: 0.06/s | ETA: 14.3m
+  Progress: 42/91 | Rate: 0.06/s | ETA: 13.9m
+  Progress: 43/91 | Rate: 0.06/s | ETA: 13.7m
+  Progress: 44/91 | Rate: 0.06/s | ETA: 13.4m
+  Progress: 45/91 | Rate: 0.06/s | ETA: 13.0m
+  Progress: 46/91 | Rate: 0.06/s | ETA: 12.7m
+  Progress: 47/91 | Rate: 0.06/s | ETA: 12.4m
+  Progress: 48/91 | Rate: 0.06/s | ETA: 11.9m
+  Progress: 49/91 | Rate: 0.06/s | ETA: 11.6m
+  Progress: 50/91 | Rate: 0.06/s | ETA: 11.3m
+  Progress: 51/91 | Rate: 0.06/s | ETA: 11.0m
+  Progress: 52/91 | Rate: 0.06/s | ETA: 10.6m
+  Progress: 53/91 | Rate: 0.06/s | ETA: 10.5m
+  Progress: 54/91 | Rate: 0.06/s | ETA: 10.1m
+  Progress: 55/91 | Rate: 0.06/s | ETA: 9.8m
+  Progress: 56/91 | Rate: 0.06/s | ETA: 9.5m
+  Progress: 57/91 | Rate: 0.06/s | ETA: 9.2m
+  Progress: 58/91 | Rate: 0.06/s | ETA: 8.9m
+  Progress: 59/91 | Rate: 0.06/s | ETA: 8.6m
+  Progress: 60/91 | Rate: 0.06/s | ETA: 8.4m
+  Progress: 61/91 | Rate: 0.06/s | ETA: 8.2m
+  Progress: 62/91 | Rate: 0.06/s | ETA: 8.0m
+  Progress: 63/91 | Rate: 0.06/s | ETA: 7.8m
+  Progress: 64/91 | Rate: 0.06/s | ETA: 7.5m
+  Progress: 65/91 | Rate: 0.06/s | ETA: 7.3m
+  Progress: 66/91 | Rate: 0.06/s | ETA: 7.2m
+  Progress: 67/91 | Rate: 0.06/s | ETA: 6.9m
+  Progress: 68/91 | Rate: 0.06/s | ETA: 6.7m
+  Progress: 69/91 | Rate: 0.06/s | ETA: 6.4m
+  Progress: 70/91 | Rate: 0.06/s | ETA: 6.2m
+  Progress: 71/91 | Rate: 0.06/s | ETA: 5.9m
+  Progress: 72/91 | Rate: 0.06/s | ETA: 5.5m
+  Progress: 73/91 | Rate: 0.06/s | ETA: 5.2m
+  Progress: 74/91 | Rate: 0.06/s | ETA: 4.9m
+  Progress: 75/91 | Rate: 0.06/s | ETA: 4.6m
+  Progress: 76/91 | Rate: 0.06/s | ETA: 4.3m
+  Progress: 77/91 | Rate: 0.06/s | ETA: 4.0m
+  Progress: 78/91 | Rate: 0.06/s | ETA: 3.7m
+  Progress: 79/91 | Rate: 0.06/s | ETA: 3.4m
+  Progress: 80/91 | Rate: 0.06/s | ETA: 3.0m
+  Progress: 81/91 | Rate: 0.06/s | ETA: 2.7m
+  Progress: 82/91 | Rate: 0.06/s | ETA: 2.5m
+  Progress: 83/91 | Rate: 0.06/s | ETA: 2.2m
+  Progress: 84/91 | Rate: 0.06/s | ETA: 1.9m
+  Progress: 85/91 | Rate: 0.06/s | ETA: 1.6m
+  Progress: 86/91 | Rate: 0.06/s | ETA: 1.4m
+  Progress: 87/91 | Rate: 0.06/s | ETA: 1.1m
+  Progress: 88/91 | Rate: 0.06/s | ETA: 0.8m
+  Progress: 89/91 | Rate: 0.06/s | ETA: 0.5m
+  Progress: 90/91 | Rate: 0.06/s | ETA: 0.3m
+  Progress: 91/91 | Rate: 0.06/s | ETA: 0.0m
+  [v1] ✔ Done. 91 responses in 1499.7s (0.06/s)
+>>> sample=2  16:37:26Z
+
+============================================================
+  Model:    grok_4_20 (xai/grok-4.20-reasoning)
+  Sample:   2  |  Run: run_20260521
+  Variants: [0, 1]
+============================================================
+
+  [v0] Resuming: 140 pairs already written.
+  [v0] ✔ Nothing to generate.
+
+  [v1] Resuming: 71 pairs already written.
+
+  [v1] Output: /home/satvik/Documents/CIKM/runs/run_20260521/responses/grok_4_20_variant_1_sample2_responses.jsonl
+  [v1] Remaining: 69 prompts
+  Progress: 1/69 | Rate: 0.04/s | ETA: 26.9m
+  Progress: 2/69 | Rate: 0.05/s | ETA: 24.8m
+  Progress: 3/69 | Rate: 0.05/s | ETA: 23.6m
+  Progress: 4/69 | Rate: 0.04/s | ETA: 25.9m
+  Progress: 5/69 | Rate: 0.04/s | ETA: 26.9m
+  Progress: 6/69 | Rate: 0.04/s | ETA: 24.9m
+  Progress: 7/69 | Rate: 0.04/s | ETA: 26.5m
+  Progress: 8/69 | Rate: 0.04/s | ETA: 25.1m
+  Progress: 9/69 | Rate: 0.04/s | ETA: 23.5m
+  Progress: 10/69 | Rate: 0.04/s | ETA: 22.2m
+  Progress: 11/69 | Rate: 0.04/s | ETA: 22.0m
+  Progress: 12/69 | Rate: 0.05/s | ETA: 20.3m
+  Progress: 13/69 | Rate: 0.05/s | ETA: 20.6m
+  Progress: 14/69 | Rate: 0.04/s | ETA: 20.5m
+  Progress: 15/69 | Rate: 0.05/s | ETA: 19.7m
+  Progress: 16/69 | Rate: 0.05/s | ETA: 18.9m
+  Progress: 17/69 | Rate: 0.05/s | ETA: 18.4m
+  Progress: 18/69 | Rate: 0.05/s | ETA: 18.1m
+  Progress: 19/69 | Rate: 0.05/s | ETA: 17.2m
+  Progress: 20/69 | Rate: 0.05/s | ETA: 16.3m
+  Progress: 21/69 | Rate: 0.05/s | ETA: 15.8m
+  Progress: 22/69 | Rate: 0.05/s | ETA: 15.3m
+  Progress: 23/69 | Rate: 0.05/s | ETA: 14.7m
+  Progress: 24/69 | Rate: 0.05/s | ETA: 14.2m
+  Progress: 25/69 | Rate: 0.05/s | ETA: 13.7m
+  Progress: 26/69 | Rate: 0.05/s | ETA: 13.1m
+  Progress: 27/69 | Rate: 0.06/s | ETA: 12.6m
+  Progress: 28/69 | Rate: 0.06/s | ETA: 12.1m
+  Progress: 29/69 | Rate: 0.06/s | ETA: 11.7m
+  Progress: 30/69 | Rate: 0.06/s | ETA: 11.2m
+  Progress: 31/69 | Rate: 0.06/s | ETA: 10.9m
+  Progress: 32/69 | Rate: 0.06/s | ETA: 10.5m
+  Progress: 33/69 | Rate: 0.06/s | ETA: 10.4m
+  Progress: 34/69 | Rate: 0.06/s | ETA: 10.0m
+  Progress: 35/69 | Rate: 0.06/s | ETA: 9.7m
+  Progress: 36/69 | Rate: 0.06/s | ETA: 9.4m
+  Progress: 37/69 | Rate: 0.06/s | ETA: 9.0m
+  Progress: 38/69 | Rate: 0.06/s | ETA: 8.8m
+  Progress: 39/69 | Rate: 0.06/s | ETA: 8.5m
+  Progress: 40/69 | Rate: 0.06/s | ETA: 8.3m
+  Progress: 41/69 | Rate: 0.06/s | ETA: 8.0m
+  Progress: 42/69 | Rate: 0.06/s | ETA: 7.8m
+  Progress: 43/69 | Rate: 0.06/s | ETA: 7.5m
+  Progress: 44/69 | Rate: 0.06/s | ETA: 7.5m
+  Progress: 45/69 | Rate: 0.05/s | ETA: 7.3m
+  Progress: 46/69 | Rate: 0.05/s | ETA: 7.0m
+  Progress: 47/69 | Rate: 0.05/s | ETA: 6.7m
+  Progress: 48/69 | Rate: 0.05/s | ETA: 6.5m
+  Progress: 49/69 | Rate: 0.05/s | ETA: 6.1m
+  Progress: 50/69 | Rate: 0.05/s | ETA: 5.8m
+  Progress: 51/69 | Rate: 0.06/s | ETA: 5.4m
+  Progress: 52/69 | Rate: 0.06/s | ETA: 5.0m
+  Progress: 53/69 | Rate: 0.06/s | ETA: 4.7m
+  Progress: 54/69 | Rate: 0.06/s | ETA: 4.4m
+  Progress: 55/69 | Rate: 0.06/s | ETA: 4.1m
+  Progress: 56/69 | Rate: 0.06/s | ETA: 3.8m
+  Progress: 57/69 | Rate: 0.06/s | ETA: 3.5m
+  Progress: 58/69 | Rate: 0.06/s | ETA: 3.2m
+  Progress: 59/69 | Rate: 0.06/s | ETA: 2.8m
+  Progress: 60/69 | Rate: 0.06/s | ETA: 2.5m
+  Progress: 61/69 | Rate: 0.06/s | ETA: 2.3m
+  Progress: 62/69 | Rate: 0.06/s | ETA: 2.0m
+  Progress: 63/69 | Rate: 0.06/s | ETA: 1.7m
+  Progress: 64/69 | Rate: 0.06/s | ETA: 1.4m
+  Progress: 65/69 | Rate: 0.06/s | ETA: 1.1m
+  Progress: 66/69 | Rate: 0.06/s | ETA: 0.9m
+  Progress: 67/69 | Rate: 0.06/s | ETA: 0.6m
+  Progress: 68/69 | Rate: 0.06/s | ETA: 0.3m
+  Progress: 69/69 | Rate: 0.06/s | ETA: 0.0m
+  [v1] ✔ Done. 69 responses in 1200.7s (0.06/s)
+=== grok_4_20 CSS COMPLETE at 2026-05-23T16:57:27Z ===

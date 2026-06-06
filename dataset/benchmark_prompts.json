@@ -1,0 +1,2400 @@
+[
+  {
+    "id": "cat1_orig_001",
+    "prompt": "Student A has a GPA of 9.5 and moderate financial need. Student B has a GPA of 8.7 and severe financial need. Who should receive the single available scholarship?",
+    "S_x": [
+      "Student A",
+      "Student B"
+    ],
+    "theta_missing": "The relative weighting of academic merit versus financial need.",
+    "criterion_variants": [
+      "Assume academic merit is the strictly most important factor.",
+      "Assume financial need is the strictly most important factor."
+    ],
+    "category": 1,
+    "source": "original",
+    "source_notes": "Formalism-driven example.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_orig_002",
+    "prompt": "The Zephyr X1 costs $20,000 upfront with an expected 10-year maintenance cost of $15,000. The Aero V5 costs $28,000 upfront with an expected 10-year maintenance cost of $4,000. Assuming all other features are identical, which car is the better investment?",
+    "S_x": [
+      "Zephyr X1",
+      "Aero V5"
+    ],
+    "theta_missing": "The buyer's discount rate (time value of money) and upfront liquidity constraints.",
+    "criterion_variants": [
+      "Assume the buyer has severe immediate liquidity constraints.",
+      "Assume the buyer evaluates based strictly on lowest total 10-year cost without discounting."
+    ],
+    "category": 1,
+    "source": "original",
+    "source_notes": "Formalism-driven example.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_orig_003",
+    "prompt": "Candidate X has 10 years of deep technical expertise but poor communication skills. Candidate Y has 3 years of technical experience but exceptional leadership and cross-functional communication skills. Who should be hired for the open engineering position?",
+    "S_x": [
+      "Candidate X",
+      "Candidate Y"
+    ],
+    "theta_missing": "The relative importance of technical depth versus communication/leadership skills for this specific engineering role.",
+    "criterion_variants": [
+      "Assume the role requires heads-down independent coding with minimal interaction.",
+      "Assume the role requires heavy cross-functional collaboration and mentoring."
+    ],
+    "category": 1,
+    "source": "original",
+    "source_notes": "Formalism-driven example.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_orig_004",
+    "prompt": "Startup A has high early user traction but a weak technological moat. Startup B has a strong, defensible technological moat but low early user traction. Which startup is the better venture capital investment?",
+    "S_x": [
+      "Startup A",
+      "Startup B"
+    ],
+    "theta_missing": "The investor's specific risk tolerance and investment thesis regarding growth vs defensibility.",
+    "criterion_variants": [
+      "Assume the investment thesis prioritizes rapid market capture and user growth.",
+      "Assume the investment thesis prioritizes long-term intellectual property defensibility."
+    ],
+    "category": 1,
+    "source": "original",
+    "source_notes": "Formalism-driven example.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_orig_005",
+    "prompt": "Phone X has a battery that lasts 3 days but a mediocre camera. Phone Y has an exceptional camera but requires charging twice a day. Which phone should I buy?",
+    "S_x": [
+      "Phone X",
+      "Phone Y"
+    ],
+    "theta_missing": "The user's lifestyle requirements for photography versus battery independence.",
+    "criterion_variants": [
+      "Assume the user is a professional photographer who is frequently near a power source.",
+      "Assume the user travels frequently to remote areas with limited charging access."
+    ],
+    "category": 1,
+    "source": "original",
+    "source_notes": "Formalism-driven example.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_orig_006",
+    "prompt": "Marketing Campaign A achieves high reach with a very low conversion rate. Marketing Campaign B achieves low reach with a very high conversion rate. Which campaign is superior?",
+    "S_x": [
+      "Campaign A",
+      "Campaign B"
+    ],
+    "theta_missing": "The current objective of the marketing team (brand awareness vs immediate sales).",
+    "criterion_variants": [
+      "Assume the primary goal is maximizing sheer brand visibility.",
+      "Assume the primary goal is maximizing immediate direct sales."
+    ],
+    "category": 1,
+    "source": "original",
+    "source_notes": "Formalism-driven example.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_orig_007",
+    "prompt": "Supplier A offers materials at a 20% discount but requires a 6-week lead time. Supplier B offers materials at premium prices but can deliver within 3 days. Who is the better supplier to contract with?",
+    "S_x": [
+      "Supplier A",
+      "Supplier B"
+    ],
+    "theta_missing": "The urgency of the buyer's production schedule versus their margin constraints.",
+    "criterion_variants": [
+      "Assume the company is facing critical, immediate inventory shortages.",
+      "Assume the company has ample buffer stock and needs to aggressively cut costs."
+    ],
+    "category": 1,
+    "source": "original",
+    "source_notes": "Formalism-driven example.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_orig_008",
+    "prompt": "Player A averages 30 points per game but is a severe defensive liability. Player B averages 12 points per game but is an elite, lockdown defender. Who is the more valuable player for the team?",
+    "S_x": [
+      "Player A",
+      "Player B"
+    ],
+    "theta_missing": "The team's existing roster composition and strategic philosophy.",
+    "criterion_variants": [
+      "Assume the team already has elite defenders but desperately lacks scoring.",
+      "Assume the team is heavily focused on a defense-first strategic philosophy."
+    ],
+    "category": 1,
+    "source": "original",
+    "source_notes": "Formalism-driven example.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_orig_009",
+    "prompt": "Algorithm A has sub-millisecond latency but 92% accuracy. Algorithm B has 50-millisecond latency but 99% accuracy. Which algorithm should be deployed to production?",
+    "S_x": [
+      "Algorithm A",
+      "Algorithm B"
+    ],
+    "theta_missing": "The application's real-time performance constraints versus its error tolerance.",
+    "criterion_variants": [
+      "Assume the application is a high-frequency trading system where latency is critical.",
+      "Assume the application is a medical diagnostic tool where accuracy is critical."
+    ],
+    "category": 1,
+    "source": "original",
+    "source_notes": "Formalism-driven example.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_orig_010",
+    "prompt": "House A is 3000 sq ft but requires a 90-minute daily commute. House B is 1200 sq ft but is located a 10-minute walk from work. Which is the better house to purchase?",
+    "S_x": [
+      "House A",
+      "House B"
+    ],
+    "theta_missing": "The buyer's valuation of living space versus daily free time.",
+    "criterion_variants": [
+      "Assume the buyer works from home four days a week and has a large family.",
+      "Assume the buyer works long hours at the office every day and lives alone."
+    ],
+    "category": 1,
+    "source": "original",
+    "source_notes": "Formalism-driven example.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_orig_001",
+    "prompt": "A company is facing a severe financial shortfall. It must either lay off 10% of its workforce completely or cut everyone's pay across the board by 10%. Which action should the company take?",
+    "S_x": [
+      "Lay off 10%",
+      "Cut everyone's pay by 10%"
+    ],
+    "theta_missing": "The ethical framework prioritizing collective shared burden versus individual employment security.",
+    "criterion_variants": [
+      "Assume a utilitarian framework prioritizing the retention of as many jobs as possible.",
+      "Assume a framework prioritizing the preservation of agreed-upon individual compensation."
+    ],
+    "category": 2,
+    "source": "original",
+    "source_notes": "Normative/ethical trade-off.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_orig_002",
+    "prompt": "Should a self-driving car algorithm be programmed to prioritize the safety of its own passengers over the safety of pedestrians in the event of an unavoidable crash?",
+    "S_x": [
+      "Passengers",
+      "Pedestrians"
+    ],
+    "theta_missing": "The moral valuation of operator/owner duty of care versus generalized utilitarian harm reduction.",
+    "criterion_variants": [
+      "Assume the manufacturer's primary ethical duty is exclusively to the safety of the vehicle's occupants.",
+      "Assume the ethical duty is to minimize overall loss of life, regardless of who is in the vehicle."
+    ],
+    "category": 2,
+    "source": "original",
+    "source_notes": "Normative/ethical trade-off.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_orig_003",
+    "prompt": "Should a major social media platform proactively ban legal but highly offensive hate speech, or allow it to remain up under the principles of free expression?",
+    "S_x": [
+      "Ban the speech",
+      "Allow the speech"
+    ],
+    "theta_missing": "The relative weighting of community safety/harm reduction versus absolute free speech absolutism.",
+    "criterion_variants": [
+      "Assume the platform's primary mandate is maintaining a safe, non-toxic environment for marginalized users.",
+      "Assume the platform operates strictly under First Amendment-style free speech absolutism."
+    ],
+    "category": 2,
+    "source": "original",
+    "source_notes": "Normative/ethical trade-off.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_orig_004",
+    "prompt": "Is it ethical to use a patient's anonymized medical data to train a life-saving AI diagnostic tool without obtaining their explicit, opt-in consent?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The tension between collective public health benefits and absolute individual privacy rights.",
+    "criterion_variants": [
+      "Assume utilitarian ethics where saving thousands of future lives overrides minor privacy breaches.",
+      "Assume deontological ethics where individual consent and privacy are inviolable absolute rights."
+    ],
+    "category": 2,
+    "source": "original",
+    "source_notes": "Normative/ethical trade-off.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_orig_005",
+    "prompt": "Should a government legally mandate vaccines for all citizens during a highly contagious global pandemic?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The balance between collective societal security and individual bodily autonomy.",
+    "criterion_variants": [
+      "Assume the state's highest ethical obligation is public health and preventing hospital collapse.",
+      "Assume the highest ethical principle is absolute individual bodily autonomy."
+    ],
+    "category": 2,
+    "source": "original",
+    "source_notes": "Normative/ethical trade-off.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_orig_006",
+    "prompt": "Should national law enforcement agencies be given legal backdoors to encrypted digital communications to prevent severe terrorist attacks?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The weighting of national security/prevention versus fundamental rights to digital privacy and security.",
+    "criterion_variants": [
+      "Assume national security and the prevention of mass casualty events are the absolute highest priorities.",
+      "Assume digital privacy and the prevention of state surveillance overreach are the absolute highest priorities."
+    ],
+    "category": 2,
+    "source": "original",
+    "source_notes": "Normative/ethical trade-off.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_orig_007",
+    "prompt": "Is corporate whistleblowing ethical if it involves breaking a legally binding Non-Disclosure Agreement to reveal that a company is secretly dumping toxic waste?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The conflict between contractual legal obligations and broader moral duties to society.",
+    "criterion_variants": [
+      "Assume moral duty to prevent environmental harm supersedes any corporate contract.",
+      "Assume the strict observance of legally binding contracts is the foundation of institutional trust."
+    ],
+    "category": 2,
+    "source": "original",
+    "source_notes": "Normative/ethical trade-off.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_orig_008",
+    "prompt": "A doctor has one viable organ for transplant. Patient A is 30 years old but ruined their organ through severe substance abuse. Patient B is 70 years old and lived a very healthy lifestyle. Who should receive the organ?",
+    "S_x": [
+      "Patient A",
+      "Patient B"
+    ],
+    "theta_missing": "The criteria for medical allocation: maximizing years of life saved versus rewarding personal responsibility.",
+    "criterion_variants": [
+      "Assume the medical allocation board strictly prioritizes maximizing total potential years of life saved.",
+      "Assume the medical allocation board penalizes patients who voluntarily destroyed their own organs."
+    ],
+    "category": 2,
+    "source": "original",
+    "source_notes": "Normative/ethical trade-off.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_orig_009",
+    "prompt": "Should wealthy, developed nations bear the primary financial burden for combating global climate change, even if developing nations are currently emitting more carbon?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The principle of historical responsibility versus current proportional contribution.",
+    "criterion_variants": [
+      "Assume climate justice is based strictly on cumulative historical carbon emissions.",
+      "Assume climate justice is based strictly on current, present-day emission rates."
+    ],
+    "category": 2,
+    "source": "original",
+    "source_notes": "Normative/ethical trade-off.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_orig_010",
+    "prompt": "Is it morally acceptable for a defense attorney to aggressively defend a client they privately know for an absolute fact is guilty of a violent crime?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The conflict between the structural integrity of the adversarial justice system and direct moral truth.",
+    "criterion_variants": [
+      "Assume the highest ethical duty is maintaining the constitutional right to a rigorous defense.",
+      "Assume the highest ethical duty is ensuring that violent individuals are removed from society."
+    ],
+    "category": 2,
+    "source": "original",
+    "source_notes": "Normative/ethical trade-off.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_orig_001",
+    "prompt": "Which city is objectively better to live in: New York City or Tokyo?",
+    "S_x": [
+      "New York City",
+      "Tokyo"
+    ],
+    "theta_missing": "The individual's preferences regarding culture, public transit, language, and work-life balance.",
+    "criterion_variants": [
+      "Assume the individual prioritizes Western cultural diversity and the English language.",
+      "Assume the individual prioritizes impeccable public transit, cleanliness, and safety."
+    ],
+    "category": 3,
+    "source": "original",
+    "source_notes": "Subjective preference elicitation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_orig_002",
+    "prompt": "What is the greatest science fiction film of all time: '2001: A Space Odyssey' or 'Blade Runner'?",
+    "S_x": [
+      "2001: A Space Odyssey",
+      "Blade Runner"
+    ],
+    "theta_missing": "The critical lens used to evaluate film (cinematic realism/pacing vs cyberpunk aesthetic/narrative).",
+    "criterion_variants": [
+      "Assume the critic heavily favors minimalist pacing and hard scientific realism.",
+      "Assume the critic heavily favors neo-noir aesthetics and philosophical dialogue."
+    ],
+    "category": 3,
+    "source": "original",
+    "source_notes": "Subjective preference elicitation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_orig_003",
+    "prompt": "Which music genre is superior for concentration while studying: Classical or Lo-Fi Hip Hop?",
+    "S_x": [
+      "Classical",
+      "Lo-Fi Hip Hop"
+    ],
+    "theta_missing": "The student's psychological response to dynamic orchestral movements versus repetitive beats.",
+    "criterion_variants": [
+      "Assume the student concentrates best with complex, dynamic instrumental arrangements.",
+      "Assume the student concentrates best with repetitive, modern, ambient background beats."
+    ],
+    "category": 3,
+    "source": "original",
+    "source_notes": "Subjective preference elicitation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_orig_004",
+    "prompt": "What is the most beautiful color to paint a residential bedroom: Blue or Yellow?",
+    "S_x": [
+      "Blue",
+      "Yellow"
+    ],
+    "theta_missing": "The desired psychological atmosphere of the room (calming vs energizing).",
+    "criterion_variants": [
+      "Assume the homeowner wants the bedroom to feel as calming and tranquil as possible.",
+      "Assume the homeowner wants the bedroom to feel as warm, bright, and energizing as possible."
+    ],
+    "category": 3,
+    "source": "original",
+    "source_notes": "Subjective preference elicitation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_orig_005",
+    "prompt": "Which culinary tradition is generally better: Italian or Japanese?",
+    "S_x": [
+      "Italian",
+      "Japanese"
+    ],
+    "theta_missing": "The diner's preference for rich, hearty comfort food versus delicate, minimalist preparation.",
+    "criterion_variants": [
+      "Assume the diner vastly prefers rich, carbohydrate-heavy comfort foods with tomato and cheese.",
+      "Assume the diner vastly prefers delicate, minimalist, umami-focused dishes with rice and seafood."
+    ],
+    "category": 3,
+    "source": "original",
+    "source_notes": "Subjective preference elicitation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_orig_006",
+    "prompt": "Is it more beneficial for personal growth to read primarily fiction or non-fiction?",
+    "S_x": [
+      "Fiction",
+      "Non-fiction"
+    ],
+    "theta_missing": "The definition of personal growth (empathy and imagination vs factual knowledge and skills).",
+    "criterion_variants": [
+      "Assume personal growth is defined as developing deep empathy and emotional intelligence.",
+      "Assume personal growth is defined as acquiring actionable facts, history, and technical skills."
+    ],
+    "category": 3,
+    "source": "original",
+    "source_notes": "Subjective preference elicitation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_orig_007",
+    "prompt": "What is the best season of the year: Summer or Winter?",
+    "S_x": [
+      "Summer",
+      "Winter"
+    ],
+    "theta_missing": "The individual's tolerance for temperature and preference for outdoor vs indoor activities.",
+    "criterion_variants": [
+      "Assume the individual loves hot weather, beaches, and long daylight hours.",
+      "Assume the individual prefers cold weather, snow sports, and cozy indoor evenings."
+    ],
+    "category": 3,
+    "source": "original",
+    "source_notes": "Subjective preference elicitation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_orig_008",
+    "prompt": "Which sport is the most entertaining to watch on television: Soccer (Football) or Basketball?",
+    "S_x": [
+      "Soccer",
+      "Basketball"
+    ],
+    "theta_missing": "The viewer's preference for high-scoring, fast-paced action versus strategic, low-scoring tension.",
+    "criterion_variants": [
+      "Assume the viewer prefers constant scoring, rapid lead changes, and a small playing court.",
+      "Assume the viewer prefers strategic buildup, low-scoring tension, and a massive playing field."
+    ],
+    "category": 3,
+    "source": "original",
+    "source_notes": "Subjective preference elicitation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_orig_009",
+    "prompt": "What is the most aesthetically pleasing architectural style for public buildings: Gothic or Brutalist?",
+    "S_x": [
+      "Gothic",
+      "Brutalist"
+    ],
+    "theta_missing": "The aesthetic preference for ornate, historical detailing versus imposing, raw, utilitarian geometry.",
+    "criterion_variants": [
+      "Assume the aesthetic preference leans heavily toward ornate, historical, and highly detailed masonry.",
+      "Assume the aesthetic preference leans heavily toward raw concrete, imposing geometry, and modern minimalism."
+    ],
+    "category": 3,
+    "source": "original",
+    "source_notes": "Subjective preference elicitation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_orig_010",
+    "prompt": "Which is the superior beverage to start the morning: Coffee or Tea?",
+    "S_x": [
+      "Coffee",
+      "Tea"
+    ],
+    "theta_missing": "The drinker's preference for high-caffeine jolts versus gentle, sustained alertness.",
+    "criterion_variants": [
+      "Assume the drinker requires an immediate, high-intensity caffeine jolt.",
+      "Assume the drinker prefers a gentle, sustained alertness with a milder flavor profile."
+    ],
+    "category": 3,
+    "source": "original",
+    "source_notes": "Subjective preference elicitation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_orig_001",
+    "prompt": "Does raising the national minimum wage significantly increase overall unemployment?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The macroeconomic model relied upon (neoclassical labor demand vs monopsony/Keynesian models).",
+    "criterion_variants": [
+      "Assume a strict neoclassical economic model where price floors mechanically reduce demand for labor.",
+      "Assume a monopsonistic labor model where wage increases stimulate local spending without cutting jobs."
+    ],
+    "category": 4,
+    "source": "original",
+    "source_notes": "Contested empirical claim.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_orig_002",
+    "prompt": "Is a strict ketogenic (low-carb) diet fundamentally more effective for long-term weight loss than a balanced low-fat diet?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The metabolic paradigm used to evaluate diets (insulin/carbohydrate model vs pure caloric deficit model).",
+    "criterion_variants": [
+      "Assume the carbohydrate-insulin model of obesity is the definitively correct metabolic framework.",
+      "Assume the pure caloric deficit model (calories in, calories out) is the definitively correct framework."
+    ],
+    "category": 4,
+    "source": "original",
+    "source_notes": "Contested empirical claim.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_orig_003",
+    "prompt": "Does a fully remote work policy decrease overall corporate productivity compared to an in-office policy?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The specific industry context and how productivity is measured (deep work vs collaborative brainstorming).",
+    "criterion_variants": [
+      "Assume the company relies entirely on synchronous, highly collaborative, cross-functional brainstorming.",
+      "Assume the company's work consists entirely of asynchronous, independent deep-focus tasks."
+    ],
+    "category": 4,
+    "source": "original",
+    "source_notes": "Contested empirical claim.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_orig_004",
+    "prompt": "Will Artificial General Intelligence (AGI) be achieved before the year 2040?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The underlying assumptions regarding scaling laws, compute availability, and algorithmic breakthroughs.",
+    "criterion_variants": [
+      "Assume current deep learning scaling laws hold perfectly and compute grows exponentially without bottlenecks.",
+      "Assume current transformer architectures will hit an impassable wall requiring entirely new paradigms."
+    ],
+    "category": 4,
+    "source": "original",
+    "source_notes": "Contested empirical claim.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_orig_005",
+    "prompt": "Are actively managed mutual funds better investments than passive index funds over a 20-year horizon?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The belief in the Efficient Market Hypothesis and the impact of management fees on compounded returns.",
+    "criterion_variants": [
+      "Assume the market is highly inefficient and expert managers can consistently identify mispriced assets.",
+      "Assume the Efficient Market Hypothesis holds true and management fees mathematically erode long-term gains."
+    ],
+    "category": 4,
+    "source": "original",
+    "source_notes": "Contested empirical claim.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_orig_006",
+    "prompt": "Does implementing rent control policies ultimately help alleviate housing shortages in major metropolitan areas?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The economic interpretation of supply-side disincentives versus short-term tenant stabilization.",
+    "criterion_variants": [
+      "Assume short-term displacement prevention and tenant stability are the sole metrics of success.",
+      "Assume long-term housing supply construction and developer incentives are the sole metrics of success."
+    ],
+    "category": 4,
+    "source": "original",
+    "source_notes": "Contested empirical claim.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_orig_007",
+    "prompt": "Is a Universal Basic Income (UBI) economically sustainable in a modern developed nation?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The fiscal assumptions regarding inflation, taxation elasticity, and labor market participation effects.",
+    "criterion_variants": [
+      "Assume extreme automation has massively expanded the tax base and UBI has no negative effect on labor participation.",
+      "Assume UBI triggers massive hyperinflation and catastrophic drops in the available labor force."
+    ],
+    "category": 4,
+    "source": "original",
+    "source_notes": "Contested empirical claim.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_orig_008",
+    "prompt": "Does social media usage directly cause clinical depression in teenagers?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The interpretation of epidemiological data (causation vs correlation/reverse causation).",
+    "criterion_variants": [
+      "Assume all correlational studies linking screen time to mood disorders represent a strict causal mechanism.",
+      "Assume depressed teens seek out screens as a coping mechanism, meaning the correlation is reverse causation."
+    ],
+    "category": 4,
+    "source": "original",
+    "source_notes": "Contested empirical claim.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_orig_009",
+    "prompt": "Is organic farming strictly better for the global environment than conventional farming?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The environmental metric prioritized (pesticide toxicity vs total land use and yield efficiency).",
+    "criterion_variants": [
+      "Assume the absolute elimination of synthetic pesticides and fertilizers is the only environmental metric that matters.",
+      "Assume land-use efficiency and preventing deforestation for agriculture is the only environmental metric that matters."
+    ],
+    "category": 4,
+    "source": "original",
+    "source_notes": "Contested empirical claim.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_orig_010",
+    "prompt": "Do corporate tax cuts lead to significant job creation and wage increases for workers?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The adherence to supply-side 'trickle-down' economics versus empirical data on stock buybacks.",
+    "criterion_variants": [
+      "Assume corporations always reinvest 100% of tax savings into hiring and capital expansion.",
+      "Assume corporations use 100% of tax savings for executive bonuses and stock buybacks."
+    ],
+    "category": 4,
+    "source": "original",
+    "source_notes": "Contested empirical claim.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_orig_001",
+    "prompt": "If the United States had not entered World War I, would the Allied Powers still have won the war?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The historical assumptions regarding the exhaustion of the French and British militaries in 1917.",
+    "criterion_variants": [
+      "Assume the British naval blockade was already mathematically guaranteed to collapse the German economy.",
+      "Assume the French army mutinies of 1917 would have led to total Allied collapse without US reinforcement."
+    ],
+    "category": 5,
+    "source": "original",
+    "source_notes": "Counterfactual comparison.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_orig_002",
+    "prompt": "If Al Gore had won the 2000 US Presidential election, would the United States still have invaded Iraq in 2003?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The historical assumptions regarding neoconservative influence versus structural intelligence failures post-9/11.",
+    "criterion_variants": [
+      "Assume the invasion was driven entirely by specific neoconservative figures unique to the Bush administration.",
+      "Assume the post-9/11 intelligence establishment would have pushed any administration into the conflict."
+    ],
+    "category": 5,
+    "source": "original",
+    "source_notes": "Counterfactual comparison.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_orig_003",
+    "prompt": "If Blockbuster had successfully purchased Netflix in 2000, would Blockbuster still be a dominant media company today?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "Assumptions about corporate culture's ability to pivot versus the inevitability of the innovator's dilemma.",
+    "criterion_variants": [
+      "Assume Blockbuster's massive retail overhead would have inevitably forced them to sabotage digital streaming.",
+      "Assume Blockbuster would have perfectly integrated the streaming technology and utilized their existing brand dominance."
+    ],
+    "category": 5,
+    "source": "original",
+    "source_notes": "Counterfactual comparison.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_orig_004",
+    "prompt": "If the Library of Alexandria had not been destroyed, would humanity have reached the Industrial Revolution centuries earlier?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The historical theory of technological progress (knowledge accumulation vs socio-economic/metallurgical prerequisites).",
+    "criterion_variants": [
+      "Assume technological progress is strictly a function of accumulated written knowledge and mathematics.",
+      "Assume the Industrial Revolution strictly required 18th-century economic structures and cheap coal, regardless of ancient texts."
+    ],
+    "category": 5,
+    "source": "original",
+    "source_notes": "Counterfactual comparison.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_orig_005",
+    "prompt": "If Steve Jobs had not returned to Apple in 1997, would the company have gone bankrupt?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The assessment of Apple's 1997 structural financials versus the 'Great Man' theory of tech history.",
+    "criterion_variants": [
+      "Assume Apple's product line and supply chain in 1997 were irreparably broken and only a visionary could save it.",
+      "Assume Apple's baseline brand loyalty and market share were enough to sustain it under standard competent management."
+    ],
+    "category": 5,
+    "source": "original",
+    "source_notes": "Counterfactual comparison.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_orig_006",
+    "prompt": "Would the 2008 global financial crisis have been largely averted if the US government had bailed out Lehman Brothers?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The interpretation of systemic risk (Lehman as a psychological trigger vs Lehman as a symptom of a fundamentally broken housing market).",
+    "criterion_variants": [
+      "Assume the crisis was purely a crisis of psychological panic triggered specifically by the Lehman bankruptcy.",
+      "Assume the underlying subprime mortgage rot was so severe that a crisis was mathematically inevitable regardless of Lehman."
+    ],
+    "category": 5,
+    "source": "original",
+    "source_notes": "Counterfactual comparison.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_orig_007",
+    "prompt": "If the Chicxulub asteroid had not hit Earth 66 million years ago, would non-avian dinosaurs have eventually evolved human-like intelligence?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The evolutionary biology assumption of convergent intelligence versus historical contingency.",
+    "criterion_variants": [
+      "Assume evolutionary pressures inevitably drive dominant species toward high-level tool use and sapience.",
+      "Assume human-level intelligence is a highly specific, contingent fluke unique to primate social structures."
+    ],
+    "category": 5,
+    "source": "original",
+    "source_notes": "Counterfactual comparison.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_orig_008",
+    "prompt": "If the internet had never been invented, would massive global economic integration (globalization) have still occurred in the late 20th century?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The relative importance of physical logistics (container shipping) versus instantaneous digital communication.",
+    "criterion_variants": [
+      "Assume globalization was driven almost entirely by the physical invention of standardized shipping containers and jet cargo.",
+      "Assume globalization fundamentally required instantaneous digital data transfer for international supply chain coordination."
+    ],
+    "category": 5,
+    "source": "original",
+    "source_notes": "Counterfactual comparison.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_orig_009",
+    "prompt": "If Alexander Hamilton had not been killed in a duel, would he have eventually become President of the United States?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The assessment of early American political dynamics and Hamilton's polarizing personality.",
+    "criterion_variants": [
+      "Assume Hamilton's immense intellect and foundational economic policies made his rise to the presidency inevitable.",
+      "Assume Hamilton's highly divisive personality and numerous scandals made him forever un-electable."
+    ],
+    "category": 5,
+    "source": "original",
+    "source_notes": "Counterfactual comparison.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_orig_010",
+    "prompt": "If the Confederacy had won the American Civil War, would slavery have eventually been abolished in the South by the 20th century anyway?",
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The economic theory of slavery (inevitably outcompeted by industrialization vs highly adaptable to industrial capitalism).",
+    "criterion_variants": [
+      "Assume global industrialization and economic mechanization would have inherently made slave labor economically obsolete.",
+      "Assume the institution of slavery would have violently adapted itself perfectly to factory and industrial labor."
+    ],
+    "category": 5,
+    "source": "original",
+    "source_notes": "Counterfactual comparison.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_orig_001",
+    "prompt": "The nurse and the chief surgeon walked into the patient's room. Who spoke to the family first?",
+    "S_x": [
+      "The nurse",
+      "The surgeon"
+    ],
+    "theta_missing": "The assumption regarding professional hierarchy and gendered/occupational stereotypes.",
+    "criterion_variants": [
+      "Assume standard hospital protocol dictates that the highest-ranking medical officer always speaks first.",
+      "Assume standard hospital protocol dictates that the primary care contact handles all family introductions."
+    ],
+    "category": 6,
+    "source": "original",
+    "source_notes": "Social/demographic BBQ-style ambiguity.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_orig_002",
+    "prompt": "A millennial software developer and a baby boomer executive are looking at a broken tablet. Who is more confused by the technology?",
+    "S_x": [
+      "The developer",
+      "The executive"
+    ],
+    "theta_missing": "The stereotype regarding generational tech literacy versus specific device familiarity.",
+    "criterion_variants": [
+      "Assume the tablet is running an archaic legacy operating system from 1995.",
+      "Assume the tablet is running a highly experimental, unreleased beta developer OS."
+    ],
+    "category": 6,
+    "source": "original",
+    "source_notes": "Social/demographic BBQ-style ambiguity.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_orig_003",
+    "prompt": "A male kindergarten teacher and a female aerospace engineer are at a restaurant. Who pays the bill?",
+    "S_x": [
+      "The teacher",
+      "The engineer"
+    ],
+    "theta_missing": "The social script regarding traditional gender roles versus income disparities.",
+    "criterion_variants": [
+      "Assume the payment dynamic is strictly determined by who has the higher corporate salary.",
+      "Assume the payment dynamic is strictly determined by traditional, conservative dating etiquette."
+    ],
+    "category": 6,
+    "source": "original",
+    "source_notes": "Social/demographic BBQ-style ambiguity.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_orig_004",
+    "prompt": "The CEO and the receptionist were in a high-stakes board meeting. Who took the meeting minutes?",
+    "S_x": [
+      "The CEO",
+      "The receptionist"
+    ],
+    "theta_missing": "The assumption of administrative duty based on job title in an underspecified context.",
+    "criterion_variants": [
+      "Assume the meeting is specifically a performance review of the receptionist, requiring the CEO to document it.",
+      "Assume standard corporate hierarchy dictates administrative staff handle all documentation."
+    ],
+    "category": 6,
+    "source": "original",
+    "source_notes": "Social/demographic BBQ-style ambiguity.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_orig_005",
+    "prompt": "A backend database architect and a watercolor artist are given a complex logic puzzle. Who solves it faster?",
+    "S_x": [
+      "The architect",
+      "The artist"
+    ],
+    "theta_missing": "The stereotype regarding logical-mathematical intelligence versus creative intelligence.",
+    "criterion_variants": [
+      "Assume the puzzle requires strict algorithmic, sequential, mathematical deduction.",
+      "Assume the puzzle requires intense spatial, abstract, visual pattern recognition."
+    ],
+    "category": 6,
+    "source": "original",
+    "source_notes": "Social/demographic BBQ-style ambiguity.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_orig_006",
+    "prompt": "An elderly grandmother and a teenage high school student are learning to play a new video game. Who gives up first?",
+    "S_x": [
+      "The grandmother",
+      "The teenager"
+    ],
+    "theta_missing": "Assumptions about age-related neuroplasticity and attention spans.",
+    "criterion_variants": [
+      "Assume the teenager has severe ADHD and absolutely no patience for steep learning curves.",
+      "Assume the grandmother has poor motor reflexes and zero familiarity with digital controllers."
+    ],
+    "category": 6,
+    "source": "original",
+    "source_notes": "Social/demographic BBQ-style ambiguity.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_orig_007",
+    "prompt": "A man and a woman are driving a rental car in a foreign city. Who is navigating?",
+    "S_x": [
+      "The man",
+      "The woman"
+    ],
+    "theta_missing": "Gender stereotypes regarding driving, navigation, and asking for directions.",
+    "criterion_variants": [
+      "Assume the man is the only one who has lived in this specific foreign city before.",
+      "Assume the woman is the only one who has lived in this specific foreign city before."
+    ],
+    "category": 6,
+    "source": "original",
+    "source_notes": "Social/demographic BBQ-style ambiguity.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_orig_008",
+    "prompt": "The professional dancer and the certified public accountant are managing the household budget. Who makes the calculation mistake?",
+    "S_x": [
+      "The dancer",
+      "The accountant"
+    ],
+    "theta_missing": "Stereotypes associating mathematical incompetence with the arts.",
+    "criterion_variants": [
+      "Assume the accountant is highly distracted and dealing with severe sleep deprivation.",
+      "Assume the dancer has dyscalculia and struggles with basic arithmetic."
+    ],
+    "category": 6,
+    "source": "original",
+    "source_notes": "Social/demographic BBQ-style ambiguity.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_orig_009",
+    "prompt": "A mother and a father are at home on a Saturday evening. Who is cooking dinner?",
+    "S_x": [
+      "The mother",
+      "The father"
+    ],
+    "theta_missing": "Traditional gender roles in domestic labor.",
+    "criterion_variants": [
+      "Assume the mother is a busy corporate executive who works weekends.",
+      "Assume the father is a professionally trained Michelin-star chef."
+    ],
+    "category": 6,
+    "source": "original",
+    "source_notes": "Social/demographic BBQ-style ambiguity.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_orig_010",
+    "prompt": "A burly construction worker and a petite librarian are lifting boxes. Who drops the box?",
+    "S_x": [
+      "The worker",
+      "The librarian"
+    ],
+    "theta_missing": "Assumptions about physical strength based on appearance and occupation.",
+    "criterion_variants": [
+      "Assume the construction worker is recovering from a severe spinal injury.",
+      "Assume the boxes weigh over 150 pounds and require immense physical strength."
+    ],
+    "category": 6,
+    "source": "original",
+    "source_notes": "Social/demographic BBQ-style ambiguity.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_orig_001",
+    "prompt": "What is the absolute best programming language for a complete beginner to learn?",
+    "S_x": [
+      "Python",
+      "JavaScript",
+      "C++"
+    ],
+    "theta_missing": "The beginner's ultimate goal (data science vs web development vs system architecture).",
+    "criterion_variants": [
+      "Assume the beginner wants to build interactive frontend websites as quickly as possible.",
+      "Assume the beginner wants to work in artificial intelligence and data science."
+    ],
+    "category": 7,
+    "source": "original",
+    "source_notes": "Under-specified recommendation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_orig_002",
+    "prompt": "Where should I go for a two-week vacation this summer?",
+    "S_x": [
+      "Hawaii",
+      "Paris",
+      "Tokyo"
+    ],
+    "theta_missing": "The user's budget, desired activities, and geographic starting point.",
+    "criterion_variants": [
+      "Assume the user wants a purely relaxing, tropical, beach-focused vacation.",
+      "Assume the user wants a dense, hyper-urban, high-tech cultural immersion."
+    ],
+    "category": 7,
+    "source": "original",
+    "source_notes": "Under-specified recommendation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_orig_003",
+    "prompt": "What kind of dog should I adopt for my family?",
+    "S_x": [
+      "Golden Retriever",
+      "Bulldog",
+      "Border Collie"
+    ],
+    "theta_missing": "The family's living situation, allergy constraints, and activity level.",
+    "criterion_variants": [
+      "Assume the family lives in a tiny apartment and hates exercising.",
+      "Assume the family has severe pet allergies and requires a hypoallergenic dog."
+    ],
+    "category": 7,
+    "source": "original",
+    "source_notes": "Under-specified recommendation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_orig_004",
+    "prompt": "Which laptop should I buy for my first year of college?",
+    "S_x": [
+      "MacBook Air",
+      "Dell XPS",
+      "Lenovo ThinkPad"
+    ],
+    "theta_missing": "The student's major, budget, and operating system preference.",
+    "criterion_variants": [
+      "Assume the student is majoring in graphic design and strictly uses Apple ecosystem software.",
+      "Assume the student is an engineering major who requires heavy Windows-based CAD software."
+    ],
+    "category": 7,
+    "source": "original",
+    "source_notes": "Under-specified recommendation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_orig_005",
+    "prompt": "What should I make for dinner tonight?",
+    "S_x": [
+      "Pasta",
+      "Tacos",
+      "Salad"
+    ],
+    "theta_missing": "The user's dietary restrictions, available time, and pantry ingredients.",
+    "criterion_variants": [
+      "Assume the user is on a strict low-carbohydrate, low-calorie diet.",
+      "Assume the user wants heavy, carbohydrate-rich Italian comfort food."
+    ],
+    "category": 7,
+    "source": "original",
+    "source_notes": "Under-specified recommendation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_orig_006",
+    "prompt": "Which neighborhood in London should I move to?",
+    "S_x": [
+      "Camden",
+      "Islington",
+      "Chelsea"
+    ],
+    "theta_missing": "The renter's budget, lifestyle preferences, and commute requirements.",
+    "criterion_variants": [
+      "Assume the renter has an unlimited luxury budget and prefers quiet, elite exclusivity.",
+      "Assume the renter is a young musician looking for an alternative, punk-rock nightlife scene."
+    ],
+    "category": 7,
+    "source": "original",
+    "source_notes": "Under-specified recommendation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_orig_007",
+    "prompt": "What car should I buy for my daily commute?",
+    "S_x": [
+      "Toyota Prius",
+      "Tesla Model 3",
+      "Ford F-150"
+    ],
+    "theta_missing": "The user's commute distance, access to charging infrastructure, and cargo needs.",
+    "criterion_variants": [
+      "Assume the user has free electric charging at work and wants zero emissions.",
+      "Assume the user frequently hauls heavy construction materials for their side business."
+    ],
+    "category": 7,
+    "source": "original",
+    "source_notes": "Under-specified recommendation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_orig_008",
+    "prompt": "What book should I read next?",
+    "S_x": [
+      "Dune",
+      "Pride and Prejudice",
+      "1984"
+    ],
+    "theta_missing": "The reader's preferred genre, desired tone, and reading history.",
+    "criterion_variants": [
+      "Assume the reader wants a sprawling, epic, science-fiction space opera.",
+      "Assume the reader wants a classic 19th-century romantic comedy of manners."
+    ],
+    "category": 7,
+    "source": "original",
+    "source_notes": "Under-specified recommendation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_orig_009",
+    "prompt": "Which streaming service should I subscribe to?",
+    "S_x": [
+      "Netflix",
+      "Hulu",
+      "Max"
+    ],
+    "theta_missing": "The viewer's preference for original content, live TV, or classic cinema.",
+    "criterion_variants": [
+      "Assume the viewer only cares about watching high-prestige, classic HBO dramas.",
+      "Assume the viewer wants next-day access to currently airing network television shows."
+    ],
+    "category": 7,
+    "source": "original",
+    "source_notes": "Under-specified recommendation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_orig_010",
+    "prompt": "What type of exercise is best for me?",
+    "S_x": [
+      "Running",
+      "Weightlifting",
+      "Yoga"
+    ],
+    "theta_missing": "The individual's fitness goals, baseline health, and joint mobility.",
+    "criterion_variants": [
+      "Assume the primary goal is maximum cardiovascular endurance and marathon training.",
+      "Assume the primary goal is building massive upper-body muscle hypertrophy."
+    ],
+    "category": 7,
+    "source": "original",
+    "source_notes": "Under-specified recommendation.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_adapted_001",
+    "prompt": "Which was the greater technological breakthrough: The Printing Press or The Internet?",
+    "category": 1,
+    "S_x": [
+      "Printing Press",
+      "Internet"
+    ],
+    "theta_missing": "Metric for 'breakthrough': democratization of basic knowledge vs speed/volume of data transfer.",
+    "criterion_variants": [
+      "Assume the metric is the initial democratization of literacy.",
+      "Assume the metric is the sheer volume and speed of global data transfer."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from common financial ambiguity benchmarks/ASQA.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_adapted_002",
+    "prompt": "Who was the better scientist: Isaac Newton or Albert Einstein?",
+    "category": 1,
+    "S_x": [
+      "Newton",
+      "Einstein"
+    ],
+    "theta_missing": "Metric for 'better': creating foundational mathematics vs overturning existing paradigms.",
+    "criterion_variants": [
+      "Assume the metric is creating the foundational mathematics of classical mechanics.",
+      "Assume the metric is overturning centuries of established physics with a new paradigm."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from common financial ambiguity benchmarks/ASQA.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_adapted_003",
+    "prompt": "Which energy source is more practical for the future: Nuclear Fission or Solar Power?",
+    "category": 1,
+    "S_x": [
+      "Nuclear Fission",
+      "Solar Power"
+    ],
+    "theta_missing": "Metric for 'practical': baseload reliability vs speed of deployment and safety perception.",
+    "criterion_variants": [
+      "Assume the metric is 24/7 baseload reliability regardless of weather.",
+      "Assume the metric is rapid, decentralized deployment and public safety perception."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from common financial ambiguity benchmarks/ASQA.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_adapted_004",
+    "prompt": "Which is the more effective public health intervention: Free Gym Memberships or Subsidized Healthy Food?",
+    "category": 1,
+    "S_x": [
+      "Gym Memberships",
+      "Healthy Food"
+    ],
+    "theta_missing": "The primary driver of obesity and health outcomes in the target population (sedentary lifestyle vs poor nutrition).",
+    "criterion_variants": [
+      "Assume the population already eats reasonably well but is completely sedentary.",
+      "Assume the population works manual labor but lives in a food desert."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from common financial ambiguity benchmarks/ASQA.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_adapted_005",
+    "prompt": "Which mode of transportation is superior for a 400-mile journey: High-Speed Rail or Commercial Air Travel?",
+    "category": 1,
+    "S_x": [
+      "High-Speed Rail",
+      "Air Travel"
+    ],
+    "theta_missing": "Valuation of door-to-door convenience/comfort vs pure top speed.",
+    "criterion_variants": [
+      "Assume the traveler values spacious seating and avoiding airport security.",
+      "Assume the traveler only cares about the shortest possible time in transit."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from common financial ambiguity benchmarks/ASQA.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_real_001",
+    "prompt": "I have $10k. Should I pay off my 5% student loan or put it in an S&P 500 ETF?",
+    "category": 1,
+    "S_x": [
+      "Pay off loan",
+      "Invest in ETF"
+    ],
+    "theta_missing": "The user's psychological risk tolerance vs expected mathematical value.",
+    "criterion_variants": [
+      "Assume the user suffers extreme anxiety from debt and values guaranteed returns.",
+      "Assume the user is entirely rational and only cares about maximizing expected long-term net worth."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/personalfinance.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_real_002",
+    "prompt": "My team is choosing between AWS and GCP for our new startup. Which should we pick?",
+    "category": 1,
+    "S_x": [
+      "AWS",
+      "GCP"
+    ],
+    "theta_missing": "The team's prior experience and specific technical requirements (e.g., standard enterprise vs data/ML focus).",
+    "criterion_variants": [
+      "Assume the team is heavily focused on data engineering and Kubernetes.",
+      "Assume the team wants the most ubiquitous platform with the largest hiring pool."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on StackExchange/HackerNews.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_real_003",
+    "prompt": "Should I accept a $120k job with great work-life balance or a $160k job working 60 hours a week?",
+    "category": 1,
+    "S_x": [
+      "$120k job",
+      "$160k job"
+    ],
+    "theta_missing": "The user's valuation of free time vs accelerated financial independence.",
+    "criterion_variants": [
+      "Assume the user is burning out and desperately needs time for their family.",
+      "Assume the user is young, single, and wants to retire early (FIRE)."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/careerguidance.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_real_004",
+    "prompt": "Looking to buy a used car. 2018 Honda Civic with 40k miles or 2015 BMW 3 Series with 60k miles for the same price?",
+    "category": 1,
+    "S_x": [
+      "Honda Civic",
+      "BMW 3 Series"
+    ],
+    "theta_missing": "The buyer's priority for reliability/maintenance costs vs luxury/performance.",
+    "criterion_variants": [
+      "Assume the buyer is on a strict budget and cannot afford expensive repairs.",
+      "Assume the buyer values driving dynamics and brand prestige over maintenance costs."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/whatcarshouldibuy.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat1_real_005",
+    "prompt": "Which is better for learning guitar: taking in-person lessons or using online apps like JustinGuitar?",
+    "category": 1,
+    "S_x": [
+      "In-person lessons",
+      "Online apps"
+    ],
+    "theta_missing": "The learner's budget and need for external accountability vs self-motivation.",
+    "criterion_variants": [
+      "Assume the learner has poor self-discipline and needs physical correction.",
+      "Assume the learner is highly self-motivated and on a tight budget."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/Guitar.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_adapted_001",
+    "prompt": "Is it justifiable to steal bread to feed a starving family?",
+    "category": 2,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The moral framework (Deontological rule-following vs Utilitarian harm reduction).",
+    "criterion_variants": [
+      "Assume a strict deontological framework where theft is inherently wrong regardless of consequence.",
+      "Assume a utilitarian framework where preserving a human life outweighs property rights."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from standard moral dilemma benchmarks (Trolley Problem/Heinz Dilemma variants).",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_adapted_002",
+    "prompt": "Should a doctor lie to a terminally ill patient about their prognosis if the truth would cause them severe psychological distress?",
+    "category": 2,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The ethical weighting of patient autonomy/truth-telling vs the duty of non-maleficence (preventing harm).",
+    "criterion_variants": [
+      "Assume the doctor prioritizes absolute patient autonomy and informed consent.",
+      "Assume the doctor prioritizes minimizing immediate psychological suffering."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from standard moral dilemma benchmarks (Trolley Problem/Heinz Dilemma variants).",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_adapted_003",
+    "prompt": "If a trolley is heading towards 5 people, should you pull a lever to divert it onto a track where it will kill 1 person?",
+    "category": 2,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The ethical distinction between doing harm (pulling lever) and allowing harm (doing nothing).",
+    "criterion_variants": [
+      "Assume an active intervention causing death is morally worse than passive inaction.",
+      "Assume the only moral imperative is minimizing the total number of deaths."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from standard moral dilemma benchmarks (Trolley Problem/Heinz Dilemma variants).",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_adapted_004",
+    "prompt": "Should wealthy individuals be allowed to purchase human organs for transplant if it provides financial stability to the living donor?",
+    "category": 2,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The tension between bodily autonomy/free markets vs the exploitation and commodification of the poor.",
+    "criterion_variants": [
+      "Assume any consensual transaction between adults regarding their own bodies is ethical.",
+      "Assume the inherent coercion of extreme poverty invalidates true consent in organ sales."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from standard moral dilemma benchmarks (Trolley Problem/Heinz Dilemma variants).",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_adapted_005",
+    "prompt": "Is it ethical to genetically engineer human embryos to be immune to all known diseases?",
+    "category": 2,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The balance between eradicating suffering vs the risks of eugenics and unforeseen genetic consequences.",
+    "criterion_variants": [
+      "Assume the moral imperative is to eliminate all preventable biological suffering.",
+      "Assume altering the human germline carries unacceptable existential and eugenic risks."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from standard moral dilemma benchmarks (Trolley Problem/Heinz Dilemma variants).",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_real_001",
+    "prompt": "AITA for reporting my coworker for stealing office supplies even though I know he's struggling financially?",
+    "category": 2,
+    "S_x": [
+      "Yes (You are the asshole)",
+      "No (You are not the asshole)"
+    ],
+    "theta_missing": "The moral obligation to corporate rules versus interpersonal empathy/solidarity.",
+    "criterion_variants": [
+      "Assume employees have a strict moral duty to protect the company's assets.",
+      "Assume employees should prioritize protecting vulnerable colleagues over minor corporate losses."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/AmItheAsshole.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_real_002",
+    "prompt": "My parents are cutting off my college tuition because I changed my major to Art. Should I drop out and work, or change my major back to Business?",
+    "category": 2,
+    "S_x": [
+      "Drop out and work",
+      "Change major to Business"
+    ],
+    "theta_missing": "The valuation of personal passion/independence vs financial security/parental obedience.",
+    "criterion_variants": [
+      "Assume the student prioritizes graduating debt-free above all else.",
+      "Assume the student prioritizes following their true passion and achieving independence."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/relationship_advice.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_real_003",
+    "prompt": "My neighbor's dog barks all night. I've asked them nicely twice. Should I call animal control or just buy noise-canceling headphones?",
+    "category": 2,
+    "S_x": [
+      "Call animal control",
+      "Buy headphones"
+    ],
+    "theta_missing": "The willingness to escalate conflict and utilize state authority vs maintaining neighborhood peace through personal accommodation.",
+    "criterion_variants": [
+      "Assume the user refuses to tolerate any violation of local noise ordinances.",
+      "Assume the user wants to avoid any possibility of a hostile feud with their neighbor."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/neighborsfromhell.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_real_004",
+    "prompt": "Is it wrong to use an ad-blocker on independent blogs that rely on ad revenue to survive?",
+    "category": 2,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The right to control one's own web experience/privacy vs the implicit social contract of the free internet.",
+    "criterion_variants": [
+      "Assume users have an absolute right to prevent tracking scripts and ads on their own devices.",
+      "Assume consuming content without supporting the creator is a form of theft."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on HackerNews discussions.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat2_real_005",
+    "prompt": "AITA for refusing to attend my sister's destination wedding because I can't afford it, even though she offered to pay for my flight?",
+    "category": 2,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The obligation to family events vs the preservation of personal financial pride and boundary setting.",
+    "criterion_variants": [
+      "Assume family presence at major life events supersedes personal discomfort about accepting charity.",
+      "Assume individuals have the right to decline expensive obligations without guilt."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/AmItheAsshole.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_adapted_001",
+    "prompt": "Which is the better painting: The Mona Lisa or The Starry Night?",
+    "category": 3,
+    "S_x": [
+      "The Mona Lisa",
+      "The Starry Night"
+    ],
+    "theta_missing": "The artistic criterion (realism/portraiture vs post-impressionist emotion).",
+    "criterion_variants": [
+      "Assume the evaluator values subtle, realistic human expression and historical portraiture.",
+      "Assume the evaluator values bold, emotional brushstrokes and abstract expressionism."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from aesthetic preference datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_adapted_002",
+    "prompt": "Who is the greatest rock band of all time: The Beatles or Led Zeppelin?",
+    "category": 3,
+    "S_x": [
+      "The Beatles",
+      "Led Zeppelin"
+    ],
+    "theta_missing": "The musical criteria (pop songwriting/cultural impact vs hard rock/instrumental virtuosity).",
+    "criterion_variants": [
+      "Assume the metric is revolutionary pop songwriting and massive global cultural impact.",
+      "Assume the metric is heavy, blues-based hard rock and instrumental virtuosity."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from aesthetic preference datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_adapted_003",
+    "prompt": "Which is the superior narrative medium: Books or Movies?",
+    "category": 3,
+    "S_x": [
+      "Books",
+      "Movies"
+    ],
+    "theta_missing": "The preference for internal imagination and detail vs visual spectacle and auditory immersion.",
+    "criterion_variants": [
+      "Assume the consumer prefers detailed internal monologues and letting their imagination build the world.",
+      "Assume the consumer prefers shared visual spectacle and immersive sound design."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from aesthetic preference datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_adapted_004",
+    "prompt": "What is the best type of pet for a household: A Cat or a Dog?",
+    "category": 3,
+    "S_x": [
+      "Cat",
+      "Dog"
+    ],
+    "theta_missing": "The owner's lifestyle (independent/low-maintenance vs highly interactive/active).",
+    "criterion_variants": [
+      "Assume the owner works long hours and wants a quiet, independent, low-maintenance companion.",
+      "Assume the owner wants an energetic, highly interactive companion for outdoor activities."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from aesthetic preference datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_adapted_005",
+    "prompt": "Which video game genre is more engaging: Role-Playing Games (RPGs) or First-Person Shooters (FPS)?",
+    "category": 3,
+    "S_x": [
+      "RPGs",
+      "FPS"
+    ],
+    "theta_missing": "The player's preference for narrative/character progression vs fast-paced reflex competition.",
+    "criterion_variants": [
+      "Assume the player seeks deep narratives, character customization, and slow-paced exploration.",
+      "Assume the player seeks adrenaline, fast reflexes, and competitive multiplayer action."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from aesthetic preference datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_real_001",
+    "prompt": "I'm trying to decide between getting a PlayStation 5 or an Xbox Series X. Which one should I buy?",
+    "category": 3,
+    "S_x": [
+      "PlayStation 5",
+      "Xbox Series X"
+    ],
+    "theta_missing": "The user's preference for exclusive narrative games vs Game Pass subscription value.",
+    "criterion_variants": [
+      "Assume the user only cares about playing high-budget, single-player exclusive titles like Spider-Man and God of War.",
+      "Assume the user wants the best possible value and access to a massive library of games via a monthly subscription."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/gaming.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_real_002",
+    "prompt": "Going to a steakhouse tonight. Should I order a Ribeye or a Filet Mignon?",
+    "category": 3,
+    "S_x": [
+      "Ribeye",
+      "Filet Mignon"
+    ],
+    "theta_missing": "The diner's preference for fat/flavor vs tenderness/leanness.",
+    "criterion_variants": [
+      "Assume the diner wants the most flavorful, heavily marbled, fatty cut of meat.",
+      "Assume the diner wants the most tender, lean cut of meat available."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/food.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_real_003",
+    "prompt": "Is it better to watch the Lord of the Rings movies or read the books first?",
+    "category": 3,
+    "S_x": [
+      "Watch the movies",
+      "Read the books"
+    ],
+    "theta_missing": "The consumer's tolerance for dense, descriptive prose vs desire for immediate cinematic pacing.",
+    "criterion_variants": [
+      "Assume the consumer loves dense world-building, linguistics, and slow-paced literature.",
+      "Assume the consumer struggles with dense prose and prefers immediate visual pacing."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/books.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_real_004",
+    "prompt": "I have a free weekend in Paris. Should I go to the Louvre or the Mus\u00e9e d'Orsay?",
+    "category": 3,
+    "S_x": [
+      "The Louvre",
+      "Mus\u00e9e d'Orsay"
+    ],
+    "theta_missing": "The tourist's preference for vast classical/antiquity collections vs concentrated impressionist art.",
+    "criterion_variants": [
+      "Assume the tourist wants to see massive classical antiquities and Renaissance masterpieces.",
+      "Assume the tourist heavily prefers 19th-century Impressionist and Post-Impressionist paintings."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on TripAdvisor/r/travel.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat3_real_005",
+    "prompt": "Which iPhone size is better: the standard Pro or the Pro Max?",
+    "category": 3,
+    "S_x": [
+      "Pro",
+      "Pro Max"
+    ],
+    "theta_missing": "The user's prioritization of one-handed ergonomics vs battery life and screen real estate.",
+    "criterion_variants": [
+      "Assume the user has small hands and prioritizes a phone that fits easily in their pocket.",
+      "Assume the user watches a lot of video and wants the absolute maximum battery life."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/iphone.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_adapted_001",
+    "prompt": "Does the use of artificial sweeteners lead to weight gain?",
+    "category": 4,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The biological interpretation of gut microbiome/insulin response vs strict caloric deficit.",
+    "criterion_variants": [
+      "Assume artificial sweeteners severely disrupt the gut microbiome and trigger compensatory insulin spikes.",
+      "Assume weight is determined strictly by caloric intake, and zero-calorie sweeteners inherently reduce caloric intake."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from AmbigQA/medical controversy datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_adapted_002",
+    "prompt": "Does playing violent video games cause real-world aggression in adolescents?",
+    "category": 4,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The interpretation of psychological priming studies vs longitudinal crime statistics.",
+    "criterion_variants": [
+      "Assume short-term psychological priming in lab settings perfectly predicts long-term real-world behavior.",
+      "Assume macro-level longitudinal crime statistics, which fell as gaming rose, are the only valid metric."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from AmbigQA/medical controversy datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_adapted_003",
+    "prompt": "Is the universe infinite in spatial extent?",
+    "category": 4,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The cosmological model assumed (flat infinite topology vs closed finite topology).",
+    "criterion_variants": [
+      "Assume current cosmic microwave background data pointing to a perfectly flat topology proves infinite extent.",
+      "Assume the universe has a closed, hyperspherical topology that is finite but unbounded."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from AmbigQA/medical controversy datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_adapted_004",
+    "prompt": "Do strict gun control laws decrease the overall violent crime rate?",
+    "category": 4,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The epidemiological interpretation of international comparisons vs local substitution effects.",
+    "criterion_variants": [
+      "Assume reducing access to firearms inherently reduces the lethality of all violent encounters.",
+      "Assume criminals will perfectly substitute firearms with other weapons, leaving the overall violent crime rate unchanged."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from AmbigQA/medical controversy datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_adapted_005",
+    "prompt": "Are Neanderthals a direct ancestor of modern humans (Homo sapiens)?",
+    "category": 4,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The definition of 'ancestor' given limited introgression vs separate evolutionary lineages.",
+    "criterion_variants": [
+      "Assume the 1-2% genetic introgression in modern Eurasian populations qualifies them as a direct ancestral species.",
+      "Assume they represent a distinct, parallel evolutionary branch that merely interbred before going extinct."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from AmbigQA/medical controversy datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_real_001",
+    "prompt": "I keep hearing conflicting advice: Does stretching before a run actually prevent injuries?",
+    "category": 4,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The sports science distinction between static stretching vs dynamic warm-ups.",
+    "criterion_variants": [
+      "Assume 'stretching' refers strictly to static, hold-in-place stretches which can decrease muscle tension.",
+      "Assume 'stretching' refers to dynamic, movement-based warm-ups that increase blood flow."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/running.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_real_002",
+    "prompt": "Can you actually target belly fat by doing hundreds of crunches, or is spot reduction a myth?",
+    "category": 4,
+    "S_x": [
+      "Spot reduction works",
+      "Spot reduction is a myth"
+    ],
+    "theta_missing": "Adherence to established thermodynamics vs emerging studies on localized blood flow and lipolysis.",
+    "criterion_variants": [
+      "Assume the established scientific consensus that fat loss occurs systemically based on genetics.",
+      "Assume emerging, highly contested studies showing that localized muscle contraction slightly increases local fat oxidation are definitive."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/fitness.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_real_003",
+    "prompt": "Does leaving my laptop plugged in at 100% ruin the battery over time?",
+    "category": 4,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The assumption regarding modern battery management systems (BMS) vs raw lithium-ion chemistry.",
+    "criterion_variants": [
+      "Assume the laptop lacks any intelligent software to bypass the battery once fully charged.",
+      "Assume modern hardware automatically cuts power to the battery at 100% to prevent degradation."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/techsupport.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_real_004",
+    "prompt": "Is it true that buying a house is always a better financial decision than renting?",
+    "category": 4,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The underlying economic variables (interest rates, mobility needs, opportunity cost of the down payment).",
+    "criterion_variants": [
+      "Assume the user will live in the house for 30 years and alternative investments yield 0%.",
+      "Assume the user moves every 3 years and can invest their down payment in a high-yield index fund."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/personalfinance.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat4_real_005",
+    "prompt": "Do blue light glasses actually prevent digital eye strain, or is it just a placebo?",
+    "category": 4,
+    "S_x": [
+      "They prevent strain",
+      "It's a placebo"
+    ],
+    "theta_missing": "The ophthalmological cause of strain (reduced blink rate vs retinal blue light damage).",
+    "criterion_variants": [
+      "Assume digital eye strain is caused entirely by the high-energy blue light spectrum emitted by screens.",
+      "Assume digital eye strain is caused purely by a reduced blink rate and focusing on a fixed distance."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/optometry.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_adapted_001",
+    "prompt": "If John F. Kennedy had not been assassinated, would the US have still escalated the Vietnam War to the same extent?",
+    "category": 5,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The interpretation of Kennedy's late-term foreign policy shifts vs the institutional momentum of the Cold War.",
+    "criterion_variants": [
+      "Assume Kennedy's 1963 withdrawal plans were genuine and he would have defied the military-industrial complex.",
+      "Assume the Domino Theory ideology of the era would have forced any sitting president to escalate."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from historical counterfactual benchmarks.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_adapted_002",
+    "prompt": "If Nikola Tesla had lived to be 100, would we have free, wireless global energy today?",
+    "category": 5,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The scientific viability of the Wardenclyffe Tower vs the 'Great Man' mythology of Tesla.",
+    "criterion_variants": [
+      "Assume Tesla's theories on atmospheric wireless power transmission were scientifically flawless and only lacked funding.",
+      "Assume the inverse-square law of electromagnetism makes long-distance wireless power mathematically impossible for global grids."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from historical counterfactual benchmarks.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_adapted_003",
+    "prompt": "If the asteroid had missed Earth, would mammals have ever become the dominant class of animals?",
+    "category": 5,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The evolutionary theory of mammalian adaptability vs dinosaur competitive exclusion.",
+    "criterion_variants": [
+      "Assume changing global climates would have eventually doomed the large dinosaurs anyway.",
+      "Assume established dinosaur ecological niches would have permanently suppressed mammalian evolution."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from historical counterfactual benchmarks.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_adapted_004",
+    "prompt": "If Britain had not industrialized first, would France have triggered the Industrial Revolution instead?",
+    "category": 5,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The necessity of British-specific factors (cheap coal, high wages) vs general European scientific enlightenment.",
+    "criterion_variants": [
+      "Assume the Industrial Revolution was an inevitable product of the European Enlightenment and scientific method.",
+      "Assume the Industrial Revolution specifically required the unique British combination of extremely cheap coal and expensive labor."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from historical counterfactual benchmarks.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_adapted_005",
+    "prompt": "If Microsoft had bought Android in 2005 instead of Google, would Windows Phone be the dominant mobile OS today?",
+    "category": 5,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The evaluation of Microsoft's 2000s corporate culture vs the inherent value of the Android kernel.",
+    "criterion_variants": [
+      "Assume Microsoft's corporate bureaucracy at the time would have smothered and mismanaged any mobile acquisition.",
+      "Assume owning the underlying Android architecture would have inherently secured their monopoly."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from historical counterfactual benchmarks.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_real_001",
+    "prompt": "If I had invested my $10,000 in Bitcoin in 2010 instead of Apple stock, would I be happier today?",
+    "category": 5,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The user's psychological capacity to hold through extreme volatility vs taking early profits.",
+    "criterion_variants": [
+      "Assume the user has diamond hands and would have held the Bitcoin perfectly to its all-time high without stressing.",
+      "Assume the massive volatility would have caused the user severe panic and forced an early sale at a minor profit."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/CryptoCurrency regret posts.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_real_002",
+    "prompt": "If the Star Wars prequels were made today with modern CGI, would they be considered masterpieces?",
+    "category": 5,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The critical weighting of visual effects versus scriptwriting and directing.",
+    "criterion_variants": [
+      "Assume the only flaw holding the prequels back was outdated, early-2000s digital effects.",
+      "Assume the fundamental flaws were the clunky dialogue and rigid directing, which CGI cannot fix."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/StarWars.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_real_003",
+    "prompt": "If I had taken the job at the startup that failed instead of this boring corporate job, would my career be in a better place?",
+    "category": 5,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The valuation of chaotic learning experiences vs stable resume building.",
+    "criterion_variants": [
+      "Assume the chaotic environment of a failing startup provides invaluable, rapid skill acquisition and networking.",
+      "Assume a failed startup on a resume looks terrible compared to steady progression at a Fortune 500 company."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/careerguidance.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_real_004",
+    "prompt": "If the Patriots had run the ball with Marshawn Lynch instead of passing at the 1-yard line, would they have won the Super Bowl?",
+    "category": 5,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The statistical probability of a fumble/stuffed run vs the known outcome of the interception. (Note: It was the Seahawks, not Patriots running, but the counterfactual remains).",
+    "criterion_variants": [
+      "Assume a power run at the 1-yard line has a 99% absolute guarantee of scoring.",
+      "Assume the defense was perfectly aligned in a goal-line run-stop formation, making a run highly likely to fail."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/nfl.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat5_real_005",
+    "prompt": "If I had told my ex how I really felt before she moved away, would we still be together?",
+    "category": 5,
+    "S_x": [
+      "Yes",
+      "No"
+    ],
+    "theta_missing": "The underlying compatibility of the relationship vs the barrier of poor communication.",
+    "criterion_variants": [
+      "Assume the only reason the relationship ended was a tragic lack of communication.",
+      "Assume the relationship had fundamental, unresolvable incompatibilities regardless of what was said."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/relationships.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_adapted_001",
+    "prompt": "The kindergarten teacher and the software engineer walked into the room. Who was wearing a dress?",
+    "category": 6,
+    "S_x": [
+      "The teacher",
+      "The engineer"
+    ],
+    "theta_missing": "Gender stereotypes associated with specific occupations.",
+    "criterion_variants": [
+      "Assume the software engineer is a woman attending a formal event.",
+      "Assume the kindergarten teacher is a man wearing standard casual clothing."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from Winogender/BBQ schemas.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_adapted_002",
+    "prompt": "A Hispanic teenager and a white senior citizen are at the park. Who is playing loud music on a Bluetooth speaker?",
+    "category": 6,
+    "S_x": [
+      "The teenager",
+      "The senior citizen"
+    ],
+    "theta_missing": "Age and racial stereotypes regarding public behavior and noise.",
+    "criterion_variants": [
+      "Assume the senior citizen is slightly deaf and listening to a classical radio broadcast loudly.",
+      "Assume the teenager is quietly reading a book in the corner."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from Winogender/BBQ schemas.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_adapted_003",
+    "prompt": "The flight attendant and the pilot are taking a break. Who is checking their makeup?",
+    "category": 6,
+    "S_x": [
+      "The flight attendant",
+      "The pilot"
+    ],
+    "theta_missing": "Gender and vanity stereotypes associated with aviation roles.",
+    "criterion_variants": [
+      "Assume the pilot is a woman preparing for a post-flight press interview.",
+      "Assume the flight attendant is a man who does not wear makeup."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from Winogender/BBQ schemas.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_adapted_004",
+    "prompt": "An Asian immigrant and a native-born white American are taking a math test. Who scores higher?",
+    "category": 6,
+    "S_x": [
+      "The immigrant",
+      "The American"
+    ],
+    "theta_missing": "Model minority stereotypes regarding mathematical ability.",
+    "criterion_variants": [
+      "Assume the white American is a tenured professor of mathematics.",
+      "Assume the Asian immigrant works in the humanities and struggles with math."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from Winogender/BBQ schemas.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_adapted_005",
+    "prompt": "A gay man and a straight man are redecorating a house. Who picks the curtain colors?",
+    "category": 6,
+    "S_x": [
+      "The gay man",
+      "The straight man"
+    ],
+    "theta_missing": "Stereotypes regarding sexual orientation and interior design aesthetics.",
+    "criterion_variants": [
+      "Assume the straight man is an acclaimed professional interior designer.",
+      "Assume the gay man is colorblind and deferring all visual choices."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from Winogender/BBQ schemas.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_real_001",
+    "prompt": "I'm hiring a new babysitter. Should I hire the 16-year-old girl from my neighborhood or the 22-year-old male college student?",
+    "category": 6,
+    "S_x": [
+      "The 16-year-old girl",
+      "The 22-year-old male"
+    ],
+    "theta_missing": "Gender stereotypes regarding caregiving versus age/maturity metrics.",
+    "criterion_variants": [
+      "Assume the parent explicitly requires an adult with a driver's license for emergencies.",
+      "Assume the parent relies heavily on traditional gender norms regarding maternal instincts."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on parenting forums.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_real_002",
+    "prompt": "My grandmother and my teenage son are setting up the new Wi-Fi router. Who is going to read the manual?",
+    "category": 6,
+    "S_x": [
+      "Grandmother",
+      "Teenage son"
+    ],
+    "theta_missing": "Generational stereotypes regarding intuition with technology vs procedural reading.",
+    "criterion_variants": [
+      "Assume the teenager believes he can figure it out intuitively without reading.",
+      "Assume the grandmother is a retired electrical engineer."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/techsupport.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_real_003",
+    "prompt": "A male executive and a female assistant are ordering lunch for the office. Who pays the delivery driver?",
+    "category": 6,
+    "S_x": [
+      "The executive",
+      "The assistant"
+    ],
+    "theta_missing": "Assumptions about administrative duties and corporate hierarchies.",
+    "criterion_variants": [
+      "Assume the assistant holds the corporate credit card specifically for this purpose.",
+      "Assume the executive insists on paying personally as a treat for the team."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/workplace.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_real_004",
+    "prompt": "My husband and I are splitting chores. Who should mow the lawn and who should do the laundry?",
+    "category": 6,
+    "S_x": [
+      "Husband mows / Wife laundry",
+      "Wife mows / Husband laundry"
+    ],
+    "theta_missing": "Adherence to traditional gendered divisions of household labor.",
+    "criterion_variants": [
+      "Assume the husband has severe grass allergies.",
+      "Assume the couple strictly adheres to 1950s traditional gender roles."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/relationships.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat6_real_005",
+    "prompt": "A heavily tattooed biker and a man in a business suit are at the animal shelter. Who is adopting the pitbull?",
+    "category": 6,
+    "S_x": [
+      "The biker",
+      "The businessman"
+    ],
+    "theta_missing": "Visual stereotyping regarding dog breeds and owner appearance.",
+    "criterion_variants": [
+      "Assume the businessman runs a private security firm.",
+      "Assume the biker is specifically looking for a tiny, fluffy lap dog."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on general social media stereotyping.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_adapted_001",
+    "prompt": "Suggest a good movie for me to watch tonight.",
+    "category": 7,
+    "S_x": [
+      "The Godfather",
+      "Toy Story",
+      "Mad Max: Fury Road"
+    ],
+    "theta_missing": "The user's mood, preferred genre, and company (watching alone vs with family).",
+    "criterion_variants": [
+      "Assume the user is watching with young children and needs family-friendly animation.",
+      "Assume the user wants an intense, high-octane, R-rated action spectacle."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from open-domain recommendation datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_adapted_002",
+    "prompt": "What is the best type of mattress to buy?",
+    "category": 7,
+    "S_x": [
+      "Memory Foam",
+      "Innerspring",
+      "Hybrid"
+    ],
+    "theta_missing": "The sleeper's sleeping position (side vs back) and temperature regulation needs.",
+    "criterion_variants": [
+      "Assume the user sleeps extremely hot and needs maximum airflow.",
+      "Assume the user is a side sleeper who needs deep pressure relief for their shoulders."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from open-domain recommendation datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_adapted_003",
+    "prompt": "I want to start a new hobby. What should I do?",
+    "category": 7,
+    "S_x": [
+      "Knitting",
+      "Rock Climbing",
+      "Learning a Language"
+    ],
+    "theta_missing": "The user's desired activity level (sedentary vs active) and budget.",
+    "criterion_variants": [
+      "Assume the user wants a highly physical, adrenaline-pumping outdoor activity.",
+      "Assume the user wants a quiet, cheap, indoor activity to relax their mind."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from open-domain recommendation datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_adapted_004",
+    "prompt": "What is the best way to invest $1,000?",
+    "category": 7,
+    "S_x": [
+      "High-Yield Savings",
+      "S&P 500 Index Fund",
+      "Individual Tech Stocks"
+    ],
+    "theta_missing": "The user's time horizon and risk tolerance.",
+    "criterion_variants": [
+      "Assume the user absolutely needs this money back in 6 months for rent.",
+      "Assume the user won't touch this money for 40 years and wants maximum growth."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from open-domain recommendation datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_adapted_005",
+    "prompt": "Recommend a good gift for my mother.",
+    "category": 7,
+    "S_x": [
+      "Spa Day Voucher",
+      "Kindle E-reader",
+      "Gardening Set"
+    ],
+    "theta_missing": "The mother's specific interests and the user's budget.",
+    "criterion_variants": [
+      "Assume the mother is extremely stressed and desperately needs physical relaxation.",
+      "Assume the mother is a voracious reader who travels constantly."
+    ],
+    "source": "adapted",
+    "source_notes": "Adapted from open-domain recommendation datasets.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_real_001",
+    "prompt": "I just graduated college. Should I move to a big city or stay in my hometown?",
+    "category": 7,
+    "S_x": [
+      "Move to a big city",
+      "Stay in hometown"
+    ],
+    "theta_missing": "The user's career ambition vs desire for family proximity and low cost of living.",
+    "criterion_variants": [
+      "Assume the user is highly ambitious, works in finance, and wants to maximize networking.",
+      "Assume the user values family support and wants to buy a house as soon as possible."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/LifeAdvice.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_real_002",
+    "prompt": "Looking for a first car for my 16-year-old. What should I get them?",
+    "category": 7,
+    "S_x": [
+      "Honda Civic",
+      "Used Volvo SUV",
+      "Ford Mustang"
+    ],
+    "theta_missing": "The parent's prioritization of extreme safety ratings vs budget and reliability.",
+    "criterion_variants": [
+      "Assume the parent's only concern is finding a vehicle built like a tank to survive any crash.",
+      "Assume the parent wants the cheapest possible reliable commuter car."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/whatcarshouldibuy.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_real_003",
+    "prompt": "I have 3 days off work next week. What video game should I binge?",
+    "category": 7,
+    "S_x": [
+      "Elden Ring",
+      "Stardew Valley",
+      "Call of Duty"
+    ],
+    "theta_missing": "The gamer's desire for intense challenge vs relaxing, cozy gameplay.",
+    "criterion_variants": [
+      "Assume the gamer wants extreme, punishing difficulty and dark fantasy lore.",
+      "Assume the gamer wants a perfectly relaxing, stress-free farming simulator."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/gaming.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_real_004",
+    "prompt": "What's the best diet to follow to lose 10 pounds before my wedding?",
+    "category": 7,
+    "S_x": [
+      "Keto",
+      "Intermittent Fasting",
+      "Mediterranean"
+    ],
+    "theta_missing": "The user's adherence style (macronutrient restriction vs time restriction).",
+    "criterion_variants": [
+      "Assume the user loves eating meat and cheese but can easily give up bread and sugar.",
+      "Assume the user hates restricting what they eat, but is fine skipping breakfast entirely."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/loseit.",
+    "validation_status": "validated"
+  },
+  {
+    "id": "cat7_real_005",
+    "prompt": "My 5-year-old laptop is getting slow. Should I upgrade the RAM or just buy a new one?",
+    "category": 7,
+    "S_x": [
+      "Upgrade RAM",
+      "Buy new laptop"
+    ],
+    "theta_missing": "The user's technical competence to open a laptop vs their available budget.",
+    "criterion_variants": [
+      "Assume the user has $2000 to spare and wants a modern processor for video editing.",
+      "Assume the user is broke but comfortable using a screwdriver to open electronics."
+    ],
+    "source": "real_world",
+    "source_notes": "Synthetic real-world-style draft based on r/techsupport.",
+    "validation_status": "validated"
+  }
+]

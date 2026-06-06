@@ -1,0 +1,1858 @@
+=== Gemma 4 E4B | run_id=run_20260521 | host=http://127.0.0.1:1234/v1 ===
+
+>>> regime=vanilla  sample=0  20:37:34Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   54C    P8              4W /   99W |    5461MiB /   8151MiB |      0%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  vanilla  |  Sample: 0  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_vanilla_sample0_responses.jsonl
+============================================================
+  Resuming: 42 (prompt_id, sample_idx) pairs already written.
+  Remaining: 98 prompts
+  Progress: 1/98 | Rate: 0.07/s | ETA: 23.0m
+  Progress: 2/98 | Rate: 0.07/s | ETA: 22.9m
+  Progress: 3/98 | Rate: 0.07/s | ETA: 22.7m
+  Progress: 4/98 | Rate: 0.07/s | ETA: 22.5m
+  Progress: 5/98 | Rate: 0.07/s | ETA: 22.3m
+  Progress: 6/98 | Rate: 0.07/s | ETA: 22.1m
+  Progress: 7/98 | Rate: 0.07/s | ETA: 21.8m
+  Progress: 8/98 | Rate: 0.07/s | ETA: 21.6m
+  Progress: 9/98 | Rate: 0.08/s | ETA: 19.5m
+  Progress: 10/98 | Rate: 0.08/s | ETA: 19.4m
+  Progress: 11/98 | Rate: 0.08/s | ETA: 18.7m
+  Progress: 12/98 | Rate: 0.08/s | ETA: 18.0m
+  Progress: 13/98 | Rate: 0.08/s | ETA: 18.0m
+  Progress: 14/98 | Rate: 0.08/s | ETA: 18.0m
+  Progress: 15/98 | Rate: 0.08/s | ETA: 17.4m
+  Progress: 16/98 | Rate: 0.08/s | ETA: 17.1m
+  Progress: 17/98 | Rate: 0.08/s | ETA: 16.3m
+  Progress: 18/98 | Rate: 0.08/s | ETA: 15.9m
+  Progress: 19/98 | Rate: 0.08/s | ETA: 15.9m
+  Progress: 20/98 | Rate: 0.08/s | ETA: 15.9m
+  Progress: 21/98 | Rate: 0.08/s | ETA: 15.8m
+  Progress: 22/98 | Rate: 0.08/s | ETA: 15.7m
+  Progress: 23/98 | Rate: 0.08/s | ETA: 15.6m
+  Progress: 24/98 | Rate: 0.08/s | ETA: 15.5m
+  Progress: 25/98 | Rate: 0.08/s | ETA: 15.4m
+  Progress: 26/98 | Rate: 0.08/s | ETA: 15.3m
+  Progress: 27/98 | Rate: 0.08/s | ETA: 15.2m
+  Progress: 28/98 | Rate: 0.08/s | ETA: 15.0m
+  Progress: 29/98 | Rate: 0.08/s | ETA: 14.9m
+  Progress: 30/98 | Rate: 0.08/s | ETA: 14.7m
+  Progress: 31/98 | Rate: 0.08/s | ETA: 14.5m
+  Progress: 32/98 | Rate: 0.08/s | ETA: 14.4m
+  Progress: 33/98 | Rate: 0.08/s | ETA: 14.2m
+  Progress: 34/98 | Rate: 0.08/s | ETA: 14.0m
+  Progress: 35/98 | Rate: 0.08/s | ETA: 13.9m
+  Progress: 36/98 | Rate: 0.08/s | ETA: 13.7m
+  Progress: 37/98 | Rate: 0.08/s | ETA: 13.5m
+  Progress: 38/98 | Rate: 0.08/s | ETA: 13.3m
+  Progress: 39/98 | Rate: 0.08/s | ETA: 13.1m
+  Progress: 40/98 | Rate: 0.07/s | ETA: 12.9m
+  Progress: 41/98 | Rate: 0.07/s | ETA: 12.7m
+  Progress: 42/98 | Rate: 0.07/s | ETA: 12.5m
+  Progress: 43/98 | Rate: 0.07/s | ETA: 12.3m
+  Progress: 44/98 | Rate: 0.07/s | ETA: 12.1m
+  Progress: 45/98 | Rate: 0.07/s | ETA: 11.9m
+  Progress: 46/98 | Rate: 0.07/s | ETA: 11.7m
+  Progress: 47/98 | Rate: 0.07/s | ETA: 11.5m
+  Progress: 48/98 | Rate: 0.07/s | ETA: 11.3m
+  Progress: 49/98 | Rate: 0.07/s | ETA: 11.1m
+  Progress: 50/98 | Rate: 0.07/s | ETA: 10.9m
+  Progress: 51/98 | Rate: 0.07/s | ETA: 10.7m
+  Progress: 52/98 | Rate: 0.07/s | ETA: 10.5m
+  Progress: 53/98 | Rate: 0.07/s | ETA: 10.2m
+  Progress: 54/98 | Rate: 0.07/s | ETA: 10.0m
+  Progress: 55/98 | Rate: 0.07/s | ETA: 9.8m
+  Progress: 56/98 | Rate: 0.07/s | ETA: 9.6m
+  Progress: 57/98 | Rate: 0.07/s | ETA: 9.4m
+  Progress: 58/98 | Rate: 0.07/s | ETA: 9.2m
+  Progress: 59/98 | Rate: 0.07/s | ETA: 8.9m
+  Progress: 60/98 | Rate: 0.07/s | ETA: 8.7m
+  Progress: 61/98 | Rate: 0.07/s | ETA: 8.5m
+  Progress: 62/98 | Rate: 0.07/s | ETA: 8.3m
+  Progress: 63/98 | Rate: 0.07/s | ETA: 8.0m
+  Progress: 64/98 | Rate: 0.07/s | ETA: 7.8m
+  Progress: 65/98 | Rate: 0.07/s | ETA: 7.6m
+  Progress: 66/98 | Rate: 0.07/s | ETA: 7.4m
+  Progress: 67/98 | Rate: 0.07/s | ETA: 7.2m
+  Progress: 68/98 | Rate: 0.07/s | ETA: 6.9m
+  Progress: 69/98 | Rate: 0.07/s | ETA: 6.7m
+  Progress: 70/98 | Rate: 0.07/s | ETA: 6.5m
+  Progress: 71/98 | Rate: 0.07/s | ETA: 6.2m
+  Progress: 72/98 | Rate: 0.07/s | ETA: 6.0m
+  Progress: 73/98 | Rate: 0.07/s | ETA: 5.8m
+  Progress: 74/98 | Rate: 0.07/s | ETA: 5.6m
+  Progress: 75/98 | Rate: 0.07/s | ETA: 5.3m
+  Progress: 76/98 | Rate: 0.07/s | ETA: 5.1m
+  Progress: 77/98 | Rate: 0.07/s | ETA: 4.9m
+  Progress: 78/98 | Rate: 0.07/s | ETA: 4.6m
+  Progress: 79/98 | Rate: 0.07/s | ETA: 4.4m
+  Progress: 80/98 | Rate: 0.07/s | ETA: 4.1m
+  Progress: 81/98 | Rate: 0.07/s | ETA: 3.9m
+  Progress: 82/98 | Rate: 0.07/s | ETA: 3.6m
+  Progress: 83/98 | Rate: 0.07/s | ETA: 3.4m
+  Progress: 84/98 | Rate: 0.07/s | ETA: 3.1m
+  Progress: 85/98 | Rate: 0.07/s | ETA: 2.9m
+  Progress: 86/98 | Rate: 0.07/s | ETA: 2.7m
+  Progress: 87/98 | Rate: 0.07/s | ETA: 2.5m
+  Progress: 88/98 | Rate: 0.07/s | ETA: 2.2m
+  Progress: 89/98 | Rate: 0.07/s | ETA: 2.0m
+  Progress: 90/98 | Rate: 0.07/s | ETA: 1.8m
+  Progress: 91/98 | Rate: 0.07/s | ETA: 1.6m
+  Progress: 92/98 | Rate: 0.07/s | ETA: 1.4m
+  Progress: 93/98 | Rate: 0.07/s | ETA: 1.1m
+  Progress: 94/98 | Rate: 0.07/s | ETA: 0.9m
+  Progress: 95/98 | Rate: 0.07/s | ETA: 0.7m
+  Progress: 96/98 | Rate: 0.07/s | ETA: 0.5m
+  Progress: 97/98 | Rate: 0.07/s | ETA: 0.2m
+  Progress: 98/98 | Rate: 0.07/s | ETA: 0.0m
+
+✔ Done. 98 responses in 1329.5s (0.07/s)
+
+>>> regime=vanilla  sample=1  20:59:43Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   86C    P0             86W /  100W |    5461MiB /   8151MiB |     78%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  vanilla  |  Sample: 1  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_vanilla_sample1_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.07/s | ETA: 34.1m
+  Progress: 2/140 | Rate: 0.07/s | ETA: 32.9m
+  Progress: 3/140 | Rate: 0.07/s | ETA: 32.9m
+  Progress: 4/140 | Rate: 0.07/s | ETA: 32.7m
+  Progress: 5/140 | Rate: 0.07/s | ETA: 32.5m
+  Progress: 6/140 | Rate: 0.07/s | ETA: 32.3m
+  Progress: 7/140 | Rate: 0.07/s | ETA: 32.1m
+  Progress: 8/140 | Rate: 0.07/s | ETA: 31.8m
+  Progress: 9/140 | Rate: 0.07/s | ETA: 31.5m
+  Progress: 10/140 | Rate: 0.07/s | ETA: 31.3m
+  Progress: 11/140 | Rate: 0.07/s | ETA: 31.1m
+  Progress: 12/140 | Rate: 0.07/s | ETA: 30.8m
+  Progress: 13/140 | Rate: 0.07/s | ETA: 30.6m
+  Progress: 14/140 | Rate: 0.07/s | ETA: 30.3m
+  Progress: 15/140 | Rate: 0.07/s | ETA: 30.1m
+  Progress: 16/140 | Rate: 0.07/s | ETA: 29.9m
+  Progress: 17/140 | Rate: 0.07/s | ETA: 29.6m
+  Progress: 18/140 | Rate: 0.07/s | ETA: 29.4m
+  Progress: 19/140 | Rate: 0.07/s | ETA: 29.1m
+  Progress: 20/140 | Rate: 0.07/s | ETA: 28.9m
+  Progress: 21/140 | Rate: 0.07/s | ETA: 28.7m
+  Progress: 22/140 | Rate: 0.07/s | ETA: 28.4m
+  Progress: 23/140 | Rate: 0.07/s | ETA: 28.2m
+  Progress: 24/140 | Rate: 0.07/s | ETA: 27.9m
+  Progress: 25/140 | Rate: 0.07/s | ETA: 27.7m
+  Progress: 26/140 | Rate: 0.07/s | ETA: 27.5m
+  Progress: 27/140 | Rate: 0.07/s | ETA: 27.2m
+  Progress: 28/140 | Rate: 0.07/s | ETA: 27.0m
+  Progress: 29/140 | Rate: 0.07/s | ETA: 26.8m
+  Progress: 30/140 | Rate: 0.07/s | ETA: 26.5m
+  Progress: 31/140 | Rate: 0.07/s | ETA: 26.3m
+  Progress: 32/140 | Rate: 0.07/s | ETA: 26.0m
+  Progress: 33/140 | Rate: 0.07/s | ETA: 25.8m
+  Progress: 34/140 | Rate: 0.07/s | ETA: 25.6m
+  Progress: 35/140 | Rate: 0.07/s | ETA: 25.3m
+  Progress: 36/140 | Rate: 0.07/s | ETA: 25.1m
+  Progress: 37/140 | Rate: 0.07/s | ETA: 24.9m
+  Progress: 38/140 | Rate: 0.07/s | ETA: 24.6m
+  Progress: 39/140 | Rate: 0.07/s | ETA: 24.4m
+  Progress: 40/140 | Rate: 0.07/s | ETA: 24.2m
+  Progress: 41/140 | Rate: 0.07/s | ETA: 23.9m
+  Progress: 42/140 | Rate: 0.07/s | ETA: 23.7m
+  Progress: 43/140 | Rate: 0.07/s | ETA: 23.4m
+  Progress: 44/140 | Rate: 0.07/s | ETA: 23.2m
+  Progress: 45/140 | Rate: 0.07/s | ETA: 23.0m
+  Progress: 46/140 | Rate: 0.07/s | ETA: 22.7m
+  Progress: 47/140 | Rate: 0.07/s | ETA: 22.5m
+  Progress: 48/140 | Rate: 0.07/s | ETA: 22.3m
+  Progress: 49/140 | Rate: 0.07/s | ETA: 22.0m
+  Progress: 50/140 | Rate: 0.07/s | ETA: 21.8m
+  Progress: 51/140 | Rate: 0.07/s | ETA: 21.2m
+  Progress: 52/140 | Rate: 0.07/s | ETA: 21.0m
+  Progress: 53/140 | Rate: 0.07/s | ETA: 20.6m
+  Progress: 54/140 | Rate: 0.07/s | ETA: 20.2m
+  Progress: 55/140 | Rate: 0.07/s | ETA: 20.0m
+  Progress: 56/140 | Rate: 0.07/s | ETA: 19.7m
+  Progress: 57/140 | Rate: 0.07/s | ETA: 19.4m
+  Progress: 58/140 | Rate: 0.07/s | ETA: 19.2m
+  Progress: 59/140 | Rate: 0.07/s | ETA: 18.7m
+  Progress: 60/140 | Rate: 0.07/s | ETA: 18.4m
+  Progress: 61/140 | Rate: 0.07/s | ETA: 18.2m
+  Progress: 62/140 | Rate: 0.07/s | ETA: 18.0m
+  Progress: 63/140 | Rate: 0.07/s | ETA: 17.7m
+  Progress: 64/140 | Rate: 0.07/s | ETA: 17.5m
+  Progress: 65/140 | Rate: 0.07/s | ETA: 17.3m
+  Progress: 66/140 | Rate: 0.07/s | ETA: 17.1m
+  Progress: 67/140 | Rate: 0.07/s | ETA: 16.9m
+  Progress: 68/140 | Rate: 0.07/s | ETA: 16.7m
+  Progress: 69/140 | Rate: 0.07/s | ETA: 16.4m
+  Progress: 70/140 | Rate: 0.07/s | ETA: 16.2m
+  Progress: 71/140 | Rate: 0.07/s | ETA: 16.0m
+  Progress: 72/140 | Rate: 0.07/s | ETA: 15.8m
+  Progress: 73/140 | Rate: 0.07/s | ETA: 15.6m
+  Progress: 74/140 | Rate: 0.07/s | ETA: 15.3m
+  Progress: 75/140 | Rate: 0.07/s | ETA: 15.1m
+  Progress: 76/140 | Rate: 0.07/s | ETA: 14.9m
+  Progress: 77/140 | Rate: 0.07/s | ETA: 14.7m
+  Progress: 78/140 | Rate: 0.07/s | ETA: 14.4m
+  Progress: 79/140 | Rate: 0.07/s | ETA: 14.2m
+  Progress: 80/140 | Rate: 0.07/s | ETA: 14.0m
+  Progress: 81/140 | Rate: 0.07/s | ETA: 13.8m
+  Progress: 82/140 | Rate: 0.07/s | ETA: 13.5m
+  Progress: 83/140 | Rate: 0.07/s | ETA: 13.3m
+  Progress: 84/140 | Rate: 0.07/s | ETA: 13.1m
+  Progress: 85/140 | Rate: 0.07/s | ETA: 12.8m
+  Progress: 86/140 | Rate: 0.07/s | ETA: 12.6m
+  Progress: 87/140 | Rate: 0.07/s | ETA: 12.4m
+  Progress: 88/140 | Rate: 0.07/s | ETA: 12.2m
+  Progress: 89/140 | Rate: 0.07/s | ETA: 11.9m
+  Progress: 90/140 | Rate: 0.07/s | ETA: 11.7m
+  Progress: 91/140 | Rate: 0.07/s | ETA: 11.5m
+  Progress: 92/140 | Rate: 0.07/s | ETA: 11.2m
+  Progress: 93/140 | Rate: 0.07/s | ETA: 11.0m
+  Progress: 94/140 | Rate: 0.07/s | ETA: 10.8m
+  Progress: 95/140 | Rate: 0.07/s | ETA: 10.6m
+  Progress: 96/140 | Rate: 0.07/s | ETA: 10.3m
+  Progress: 97/140 | Rate: 0.07/s | ETA: 10.1m
+  Progress: 98/140 | Rate: 0.07/s | ETA: 9.9m
+  Progress: 99/140 | Rate: 0.07/s | ETA: 9.6m
+  Progress: 100/140 | Rate: 0.07/s | ETA: 9.4m
+  Progress: 101/140 | Rate: 0.07/s | ETA: 9.2m
+  Progress: 102/140 | Rate: 0.07/s | ETA: 8.9m
+  Progress: 103/140 | Rate: 0.07/s | ETA: 8.7m
+  Progress: 104/140 | Rate: 0.07/s | ETA: 8.5m
+  Progress: 105/140 | Rate: 0.07/s | ETA: 8.2m
+  Progress: 106/140 | Rate: 0.07/s | ETA: 8.0m
+  Progress: 107/140 | Rate: 0.07/s | ETA: 7.8m
+  Progress: 108/140 | Rate: 0.07/s | ETA: 7.5m
+  Progress: 109/140 | Rate: 0.07/s | ETA: 7.3m
+  Progress: 110/140 | Rate: 0.07/s | ETA: 7.1m
+  Progress: 111/140 | Rate: 0.07/s | ETA: 6.8m
+  Progress: 112/140 | Rate: 0.07/s | ETA: 6.6m
+  Progress: 113/140 | Rate: 0.07/s | ETA: 6.4m
+  Progress: 114/140 | Rate: 0.07/s | ETA: 6.1m
+  Progress: 115/140 | Rate: 0.07/s | ETA: 5.9m
+  Progress: 116/140 | Rate: 0.07/s | ETA: 5.7m
+  Progress: 117/140 | Rate: 0.07/s | ETA: 5.4m
+  Progress: 118/140 | Rate: 0.07/s | ETA: 5.2m
+  Progress: 119/140 | Rate: 0.07/s | ETA: 5.0m
+  Progress: 120/140 | Rate: 0.07/s | ETA: 4.7m
+  Progress: 121/140 | Rate: 0.07/s | ETA: 4.5m
+  Progress: 122/140 | Rate: 0.07/s | ETA: 4.2m
+  Progress: 123/140 | Rate: 0.07/s | ETA: 3.9m
+  Progress: 124/140 | Rate: 0.07/s | ETA: 3.7m
+  Progress: 125/140 | Rate: 0.07/s | ETA: 3.5m
+  Progress: 126/140 | Rate: 0.07/s | ETA: 3.2m
+  Progress: 127/140 | Rate: 0.07/s | ETA: 3.0m
+  Progress: 128/140 | Rate: 0.07/s | ETA: 2.8m
+  Progress: 129/140 | Rate: 0.07/s | ETA: 2.5m
+  Progress: 130/140 | Rate: 0.07/s | ETA: 2.3m
+  Progress: 131/140 | Rate: 0.07/s | ETA: 2.1m
+  Progress: 132/140 | Rate: 0.07/s | ETA: 1.8m
+  Progress: 133/140 | Rate: 0.07/s | ETA: 1.6m
+  Progress: 134/140 | Rate: 0.07/s | ETA: 1.4m
+  Progress: 135/140 | Rate: 0.07/s | ETA: 1.1m
+  Progress: 136/140 | Rate: 0.07/s | ETA: 0.9m
+  Progress: 137/140 | Rate: 0.07/s | ETA: 0.7m
+  Progress: 138/140 | Rate: 0.07/s | ETA: 0.5m
+  Progress: 139/140 | Rate: 0.07/s | ETA: 0.2m
+  Progress: 140/140 | Rate: 0.07/s | ETA: 0.0m
+
+✔ Done. 140 responses in 1934.9s (0.07/s)
+
+>>> regime=vanilla  sample=2  21:31:59Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   87C    P0             87W /   99W |    5461MiB /   8151MiB |     84%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  vanilla  |  Sample: 2  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_vanilla_sample2_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.07/s | ETA: 33.5m
+  Progress: 2/140 | Rate: 0.07/s | ETA: 32.0m
+  Progress: 3/140 | Rate: 0.07/s | ETA: 32.2m
+  Progress: 4/140 | Rate: 0.07/s | ETA: 32.2m
+  Progress: 5/140 | Rate: 0.07/s | ETA: 32.0m
+  Progress: 6/140 | Rate: 0.07/s | ETA: 31.8m
+  Progress: 7/140 | Rate: 0.07/s | ETA: 31.7m
+  Progress: 8/140 | Rate: 0.07/s | ETA: 31.5m
+  Progress: 9/140 | Rate: 0.07/s | ETA: 31.3m
+  Progress: 10/140 | Rate: 0.07/s | ETA: 31.1m
+  Progress: 11/140 | Rate: 0.07/s | ETA: 30.8m
+  Progress: 12/140 | Rate: 0.07/s | ETA: 30.7m
+  Progress: 13/140 | Rate: 0.07/s | ETA: 30.4m
+  Progress: 14/140 | Rate: 0.07/s | ETA: 30.2m
+  Progress: 15/140 | Rate: 0.07/s | ETA: 30.0m
+  Progress: 16/140 | Rate: 0.07/s | ETA: 29.7m
+  Progress: 17/140 | Rate: 0.07/s | ETA: 29.5m
+  Progress: 18/140 | Rate: 0.07/s | ETA: 29.3m
+  Progress: 19/140 | Rate: 0.07/s | ETA: 29.0m
+  Progress: 20/140 | Rate: 0.07/s | ETA: 28.8m
+  Progress: 21/140 | Rate: 0.07/s | ETA: 28.6m
+  Progress: 22/140 | Rate: 0.07/s | ETA: 28.4m
+  Progress: 23/140 | Rate: 0.07/s | ETA: 28.1m
+  Progress: 24/140 | Rate: 0.07/s | ETA: 27.9m
+  Progress: 25/140 | Rate: 0.07/s | ETA: 27.7m
+  Progress: 26/140 | Rate: 0.07/s | ETA: 27.5m
+  Progress: 27/140 | Rate: 0.07/s | ETA: 27.1m
+  Progress: 28/140 | Rate: 0.07/s | ETA: 26.9m
+  Progress: 29/140 | Rate: 0.07/s | ETA: 26.6m
+  Progress: 30/140 | Rate: 0.07/s | ETA: 26.4m
+  Progress: 31/140 | Rate: 0.07/s | ETA: 26.2m
+  Progress: 32/140 | Rate: 0.07/s | ETA: 25.9m
+  Progress: 33/140 | Rate: 0.07/s | ETA: 25.7m
+  Progress: 34/140 | Rate: 0.07/s | ETA: 25.5m
+  Progress: 35/140 | Rate: 0.07/s | ETA: 25.2m
+  Progress: 36/140 | Rate: 0.07/s | ETA: 25.0m
+  Progress: 37/140 | Rate: 0.07/s | ETA: 24.8m
+  Progress: 38/140 | Rate: 0.07/s | ETA: 24.5m
+  Progress: 39/140 | Rate: 0.07/s | ETA: 24.3m
+  Progress: 40/140 | Rate: 0.07/s | ETA: 24.0m
+  Progress: 41/140 | Rate: 0.07/s | ETA: 23.8m
+  Progress: 42/140 | Rate: 0.07/s | ETA: 23.6m
+  Progress: 43/140 | Rate: 0.07/s | ETA: 23.3m
+  Progress: 44/140 | Rate: 0.07/s | ETA: 23.1m
+  Progress: 45/140 | Rate: 0.07/s | ETA: 22.9m
+  Progress: 46/140 | Rate: 0.07/s | ETA: 22.6m
+  Progress: 47/140 | Rate: 0.07/s | ETA: 22.4m
+  Progress: 48/140 | Rate: 0.07/s | ETA: 22.1m
+  Progress: 49/140 | Rate: 0.07/s | ETA: 21.9m
+  Progress: 50/140 | Rate: 0.07/s | ETA: 21.7m
+  Progress: 51/140 | Rate: 0.07/s | ETA: 21.1m
+  Progress: 52/140 | Rate: 0.07/s | ETA: 20.9m
+  Progress: 53/140 | Rate: 0.07/s | ETA: 20.5m
+  Progress: 54/140 | Rate: 0.07/s | ETA: 20.2m
+  Progress: 55/140 | Rate: 0.07/s | ETA: 20.0m
+  Progress: 56/140 | Rate: 0.07/s | ETA: 19.7m
+  Progress: 57/140 | Rate: 0.07/s | ETA: 19.4m
+  Progress: 58/140 | Rate: 0.07/s | ETA: 19.0m
+  Progress: 59/140 | Rate: 0.07/s | ETA: 18.6m
+  Progress: 60/140 | Rate: 0.07/s | ETA: 18.1m
+  Progress: 61/140 | Rate: 0.07/s | ETA: 17.9m
+  Progress: 62/140 | Rate: 0.07/s | ETA: 17.7m
+  Progress: 63/140 | Rate: 0.07/s | ETA: 17.5m
+  Progress: 64/140 | Rate: 0.07/s | ETA: 17.3m
+  Progress: 65/140 | Rate: 0.07/s | ETA: 17.1m
+  Progress: 66/140 | Rate: 0.07/s | ETA: 16.8m
+  Progress: 67/140 | Rate: 0.07/s | ETA: 16.6m
+  Progress: 68/140 | Rate: 0.07/s | ETA: 16.4m
+  Progress: 69/140 | Rate: 0.07/s | ETA: 16.2m
+  Progress: 70/140 | Rate: 0.07/s | ETA: 16.0m
+  Progress: 71/140 | Rate: 0.07/s | ETA: 15.8m
+  Progress: 72/140 | Rate: 0.07/s | ETA: 15.6m
+  Progress: 73/140 | Rate: 0.07/s | ETA: 15.3m
+  Progress: 74/140 | Rate: 0.07/s | ETA: 15.1m
+  Progress: 75/140 | Rate: 0.07/s | ETA: 14.9m
+  Progress: 76/140 | Rate: 0.07/s | ETA: 14.7m
+  Progress: 77/140 | Rate: 0.07/s | ETA: 14.5m
+  Progress: 78/140 | Rate: 0.07/s | ETA: 14.3m
+  Progress: 79/140 | Rate: 0.07/s | ETA: 14.0m
+  Progress: 80/140 | Rate: 0.07/s | ETA: 13.8m
+  Progress: 81/140 | Rate: 0.07/s | ETA: 13.6m
+  Progress: 82/140 | Rate: 0.07/s | ETA: 13.4m
+  Progress: 83/140 | Rate: 0.07/s | ETA: 13.1m
+  Progress: 84/140 | Rate: 0.07/s | ETA: 12.9m
+  Progress: 85/140 | Rate: 0.07/s | ETA: 12.7m
+  Progress: 86/140 | Rate: 0.07/s | ETA: 12.5m
+  Progress: 87/140 | Rate: 0.07/s | ETA: 12.3m
+  Progress: 88/140 | Rate: 0.07/s | ETA: 12.0m
+  Progress: 89/140 | Rate: 0.07/s | ETA: 11.8m
+  Progress: 90/140 | Rate: 0.07/s | ETA: 11.6m
+  Progress: 91/140 | Rate: 0.07/s | ETA: 11.3m
+  Progress: 92/140 | Rate: 0.07/s | ETA: 11.1m
+  Progress: 93/140 | Rate: 0.07/s | ETA: 10.9m
+  Progress: 94/140 | Rate: 0.07/s | ETA: 10.7m
+  Progress: 95/140 | Rate: 0.07/s | ETA: 10.4m
+  Progress: 96/140 | Rate: 0.07/s | ETA: 10.2m
+  Progress: 97/140 | Rate: 0.07/s | ETA: 10.0m
+  Progress: 98/140 | Rate: 0.07/s | ETA: 9.8m
+  Progress: 99/140 | Rate: 0.07/s | ETA: 9.5m
+  Progress: 100/140 | Rate: 0.07/s | ETA: 9.3m
+  Progress: 101/140 | Rate: 0.07/s | ETA: 9.1m
+  Progress: 102/140 | Rate: 0.07/s | ETA: 8.8m
+  Progress: 103/140 | Rate: 0.07/s | ETA: 8.6m
+  Progress: 104/140 | Rate: 0.07/s | ETA: 8.4m
+  Progress: 105/140 | Rate: 0.07/s | ETA: 8.2m
+  Progress: 106/140 | Rate: 0.07/s | ETA: 7.9m
+  Progress: 107/140 | Rate: 0.07/s | ETA: 7.7m
+  Progress: 108/140 | Rate: 0.07/s | ETA: 7.5m
+  Progress: 109/140 | Rate: 0.07/s | ETA: 7.2m
+  Progress: 110/140 | Rate: 0.07/s | ETA: 7.0m
+  Progress: 111/140 | Rate: 0.07/s | ETA: 6.8m
+  Progress: 112/140 | Rate: 0.07/s | ETA: 6.5m
+  Progress: 113/140 | Rate: 0.07/s | ETA: 6.3m
+  Progress: 114/140 | Rate: 0.07/s | ETA: 6.1m
+  Progress: 115/140 | Rate: 0.07/s | ETA: 5.8m
+  Progress: 116/140 | Rate: 0.07/s | ETA: 5.6m
+  Progress: 117/140 | Rate: 0.07/s | ETA: 5.4m
+  Progress: 118/140 | Rate: 0.07/s | ETA: 5.1m
+  Progress: 119/140 | Rate: 0.07/s | ETA: 4.9m
+  Progress: 120/140 | Rate: 0.07/s | ETA: 4.7m
+  Progress: 121/140 | Rate: 0.07/s | ETA: 4.4m
+  Progress: 122/140 | Rate: 0.07/s | ETA: 4.2m
+  Progress: 123/140 | Rate: 0.07/s | ETA: 3.9m
+  Progress: 124/140 | Rate: 0.07/s | ETA: 3.7m
+  Progress: 125/140 | Rate: 0.07/s | ETA: 3.4m
+  Progress: 126/140 | Rate: 0.07/s | ETA: 3.2m
+  Progress: 127/140 | Rate: 0.07/s | ETA: 3.0m
+  Progress: 128/140 | Rate: 0.07/s | ETA: 2.7m
+  Progress: 129/140 | Rate: 0.07/s | ETA: 2.5m
+  Progress: 130/140 | Rate: 0.07/s | ETA: 2.3m
+  Progress: 131/140 | Rate: 0.07/s | ETA: 2.1m
+  Progress: 132/140 | Rate: 0.07/s | ETA: 1.8m
+  Progress: 133/140 | Rate: 0.07/s | ETA: 1.6m
+  Progress: 134/140 | Rate: 0.07/s | ETA: 1.4m
+  Progress: 135/140 | Rate: 0.07/s | ETA: 1.1m
+  Progress: 136/140 | Rate: 0.07/s | ETA: 0.9m
+  Progress: 137/140 | Rate: 0.07/s | ETA: 0.7m
+  Progress: 138/140 | Rate: 0.07/s | ETA: 0.5m
+  Progress: 139/140 | Rate: 0.07/s | ETA: 0.2m
+  Progress: 140/140 | Rate: 0.07/s | ETA: 0.0m
+
+✔ Done. 140 responses in 1922.3s (0.07/s)
+
+>>> regime=utility_first  sample=0  22:04:01Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   87C    P0             87W /  102W |    5461MiB /   8151MiB |     87%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  utility_first  |  Sample: 0  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_utility_first_sample0_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.20/s | ETA: 11.3m
+  Progress: 2/140 | Rate: 0.19/s | ETA: 12.3m
+  Progress: 3/140 | Rate: 0.17/s | ETA: 13.7m
+  Progress: 4/140 | Rate: 0.15/s | ETA: 14.6m
+  Progress: 5/140 | Rate: 0.16/s | ETA: 14.4m
+  Progress: 6/140 | Rate: 0.16/s | ETA: 13.9m
+  Progress: 7/140 | Rate: 0.17/s | ETA: 13.1m
+  Progress: 8/140 | Rate: 0.17/s | ETA: 13.0m
+  Progress: 9/140 | Rate: 0.17/s | ETA: 12.9m
+  Progress: 10/140 | Rate: 0.17/s | ETA: 12.8m
+  Progress: 11/140 | Rate: 0.16/s | ETA: 13.2m
+  Progress: 12/140 | Rate: 0.16/s | ETA: 13.2m
+  Progress: 13/140 | Rate: 0.16/s | ETA: 13.2m
+  Progress: 14/140 | Rate: 0.16/s | ETA: 13.4m
+  Progress: 15/140 | Rate: 0.15/s | ETA: 13.5m
+  Progress: 16/140 | Rate: 0.15/s | ETA: 13.4m
+  Progress: 17/140 | Rate: 0.15/s | ETA: 13.4m
+  Progress: 18/140 | Rate: 0.15/s | ETA: 13.5m
+  Progress: 19/140 | Rate: 0.15/s | ETA: 13.7m
+  Progress: 20/140 | Rate: 0.14/s | ETA: 13.9m
+  Progress: 21/140 | Rate: 0.14/s | ETA: 13.7m
+  Progress: 22/140 | Rate: 0.14/s | ETA: 13.7m
+  Progress: 23/140 | Rate: 0.15/s | ETA: 13.4m
+  Progress: 24/140 | Rate: 0.15/s | ETA: 12.8m
+  Progress: 25/140 | Rate: 0.15/s | ETA: 12.7m
+  Progress: 26/140 | Rate: 0.15/s | ETA: 12.6m
+  Progress: 27/140 | Rate: 0.15/s | ETA: 12.3m
+  Progress: 28/140 | Rate: 0.15/s | ETA: 12.2m
+  Progress: 29/140 | Rate: 0.15/s | ETA: 12.1m
+  Progress: 30/140 | Rate: 0.15/s | ETA: 11.9m
+  Progress: 31/140 | Rate: 0.15/s | ETA: 11.8m
+  Progress: 32/140 | Rate: 0.15/s | ETA: 11.7m
+  Progress: 33/140 | Rate: 0.15/s | ETA: 11.7m
+  Progress: 34/140 | Rate: 0.15/s | ETA: 11.6m
+  Progress: 35/140 | Rate: 0.15/s | ETA: 11.5m
+  Progress: 36/140 | Rate: 0.15/s | ETA: 11.4m
+  Progress: 37/140 | Rate: 0.15/s | ETA: 11.3m
+  Progress: 38/140 | Rate: 0.15/s | ETA: 11.3m
+  Progress: 39/140 | Rate: 0.15/s | ETA: 11.3m
+  Progress: 40/140 | Rate: 0.15/s | ETA: 11.2m
+  Progress: 41/140 | Rate: 0.15/s | ETA: 11.2m
+  Progress: 42/140 | Rate: 0.15/s | ETA: 11.1m
+  Progress: 43/140 | Rate: 0.15/s | ETA: 11.1m
+  Progress: 44/140 | Rate: 0.15/s | ETA: 11.0m
+  Progress: 45/140 | Rate: 0.15/s | ETA: 10.9m
+  Progress: 46/140 | Rate: 0.14/s | ETA: 10.8m
+  Progress: 47/140 | Rate: 0.14/s | ETA: 10.7m
+  Progress: 48/140 | Rate: 0.14/s | ETA: 10.6m
+  Progress: 49/140 | Rate: 0.14/s | ETA: 10.5m
+  Progress: 50/140 | Rate: 0.14/s | ETA: 10.5m
+  Progress: 51/140 | Rate: 0.14/s | ETA: 10.3m
+  Progress: 52/140 | Rate: 0.14/s | ETA: 10.2m
+  Progress: 53/140 | Rate: 0.14/s | ETA: 10.0m
+  Progress: 54/140 | Rate: 0.14/s | ETA: 9.9m
+  Progress: 55/140 | Rate: 0.15/s | ETA: 9.8m
+  Progress: 56/140 | Rate: 0.14/s | ETA: 9.7m
+  Progress: 57/140 | Rate: 0.14/s | ETA: 9.6m
+  Progress: 58/140 | Rate: 0.14/s | ETA: 9.5m
+  Progress: 59/140 | Rate: 0.14/s | ETA: 9.3m
+  Progress: 60/140 | Rate: 0.14/s | ETA: 9.2m
+  Progress: 61/140 | Rate: 0.14/s | ETA: 9.1m
+  Progress: 62/140 | Rate: 0.15/s | ETA: 8.9m
+  Progress: 63/140 | Rate: 0.15/s | ETA: 8.8m
+  Progress: 64/140 | Rate: 0.14/s | ETA: 8.8m
+  Progress: 65/140 | Rate: 0.14/s | ETA: 8.6m
+  Progress: 66/140 | Rate: 0.14/s | ETA: 8.5m
+  Progress: 67/140 | Rate: 0.15/s | ETA: 8.4m
+  Progress: 68/140 | Rate: 0.15/s | ETA: 8.3m
+  Progress: 69/140 | Rate: 0.15/s | ETA: 8.1m
+  Progress: 70/140 | Rate: 0.15/s | ETA: 8.0m
+  Progress: 71/140 | Rate: 0.15/s | ETA: 7.9m
+  Progress: 72/140 | Rate: 0.15/s | ETA: 7.8m
+  Progress: 73/140 | Rate: 0.15/s | ETA: 7.6m
+  Progress: 74/140 | Rate: 0.15/s | ETA: 7.5m
+  Progress: 75/140 | Rate: 0.15/s | ETA: 7.4m
+  Progress: 76/140 | Rate: 0.15/s | ETA: 7.3m
+  Progress: 77/140 | Rate: 0.15/s | ETA: 7.2m
+  Progress: 78/140 | Rate: 0.15/s | ETA: 7.0m
+  Progress: 79/140 | Rate: 0.15/s | ETA: 6.9m
+  Progress: 80/140 | Rate: 0.15/s | ETA: 6.8m
+  Progress: 81/140 | Rate: 0.15/s | ETA: 6.7m
+  Progress: 82/140 | Rate: 0.15/s | ETA: 6.6m
+  Progress: 83/140 | Rate: 0.15/s | ETA: 6.5m
+  Progress: 84/140 | Rate: 0.15/s | ETA: 6.4m
+  Progress: 85/140 | Rate: 0.15/s | ETA: 6.3m
+  Progress: 86/140 | Rate: 0.15/s | ETA: 6.1m
+  Progress: 87/140 | Rate: 0.15/s | ETA: 6.1m
+  Progress: 88/140 | Rate: 0.15/s | ETA: 6.0m
+  Progress: 89/140 | Rate: 0.15/s | ETA: 5.8m
+  Progress: 90/140 | Rate: 0.15/s | ETA: 5.7m
+  Progress: 91/140 | Rate: 0.15/s | ETA: 5.6m
+  Progress: 92/140 | Rate: 0.15/s | ETA: 5.5m
+  Progress: 93/140 | Rate: 0.15/s | ETA: 5.3m
+  Progress: 94/140 | Rate: 0.15/s | ETA: 5.2m
+  Progress: 95/140 | Rate: 0.15/s | ETA: 5.1m
+  Progress: 96/140 | Rate: 0.15/s | ETA: 5.0m
+  Progress: 97/140 | Rate: 0.15/s | ETA: 4.9m
+  Progress: 98/140 | Rate: 0.15/s | ETA: 4.7m
+  Progress: 99/140 | Rate: 0.15/s | ETA: 4.6m
+  Progress: 100/140 | Rate: 0.15/s | ETA: 4.5m
+  Progress: 101/140 | Rate: 0.15/s | ETA: 4.4m
+  Progress: 102/140 | Rate: 0.15/s | ETA: 4.3m
+  Progress: 103/140 | Rate: 0.15/s | ETA: 4.2m
+  Progress: 104/140 | Rate: 0.15/s | ETA: 4.1m
+  Progress: 105/140 | Rate: 0.15/s | ETA: 3.9m
+  Progress: 106/140 | Rate: 0.15/s | ETA: 3.8m
+  Progress: 107/140 | Rate: 0.15/s | ETA: 3.7m
+  Progress: 108/140 | Rate: 0.15/s | ETA: 3.6m
+  Progress: 109/140 | Rate: 0.15/s | ETA: 3.5m
+  Progress: 110/140 | Rate: 0.15/s | ETA: 3.4m
+  Progress: 111/140 | Rate: 0.15/s | ETA: 3.3m
+  Progress: 112/140 | Rate: 0.15/s | ETA: 3.1m
+  Progress: 113/140 | Rate: 0.15/s | ETA: 3.0m
+  Progress: 114/140 | Rate: 0.15/s | ETA: 2.9m
+  Progress: 115/140 | Rate: 0.15/s | ETA: 2.8m
+  Progress: 116/140 | Rate: 0.15/s | ETA: 2.7m
+  Progress: 117/140 | Rate: 0.15/s | ETA: 2.6m
+  Progress: 118/140 | Rate: 0.15/s | ETA: 2.5m
+  Progress: 119/140 | Rate: 0.15/s | ETA: 2.4m
+  Progress: 120/140 | Rate: 0.15/s | ETA: 2.3m
+  Progress: 121/140 | Rate: 0.15/s | ETA: 2.1m
+  Progress: 122/140 | Rate: 0.15/s | ETA: 2.0m
+  Progress: 123/140 | Rate: 0.15/s | ETA: 1.9m
+  Progress: 124/140 | Rate: 0.15/s | ETA: 1.8m
+  Progress: 125/140 | Rate: 0.15/s | ETA: 1.7m
+  Progress: 126/140 | Rate: 0.15/s | ETA: 1.6m
+  Progress: 127/140 | Rate: 0.15/s | ETA: 1.5m
+  Progress: 128/140 | Rate: 0.15/s | ETA: 1.3m
+  Progress: 129/140 | Rate: 0.15/s | ETA: 1.2m
+  Progress: 130/140 | Rate: 0.15/s | ETA: 1.1m
+  Progress: 131/140 | Rate: 0.15/s | ETA: 1.0m
+  Progress: 132/140 | Rate: 0.15/s | ETA: 0.9m
+  Progress: 133/140 | Rate: 0.15/s | ETA: 0.8m
+  Progress: 134/140 | Rate: 0.15/s | ETA: 0.7m
+  Progress: 135/140 | Rate: 0.15/s | ETA: 0.6m
+  Progress: 136/140 | Rate: 0.15/s | ETA: 0.4m
+  Progress: 137/140 | Rate: 0.15/s | ETA: 0.3m
+  Progress: 138/140 | Rate: 0.15/s | ETA: 0.2m
+  Progress: 139/140 | Rate: 0.15/s | ETA: 0.1m
+  Progress: 140/140 | Rate: 0.15/s | ETA: 0.0m
+
+✔ Done. 140 responses in 940.9s (0.15/s)
+
+>>> regime=utility_first  sample=1  22:19:42Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   87C    P0             88W /  100W |    5461MiB /   8151MiB |     89%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  utility_first  |  Sample: 1  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_utility_first_sample1_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.17/s | ETA: 13.5m
+  Progress: 2/140 | Rate: 0.16/s | ETA: 14.1m
+  Progress: 3/140 | Rate: 0.16/s | ETA: 14.0m
+  Progress: 4/140 | Rate: 0.15/s | ETA: 14.6m
+  Progress: 5/140 | Rate: 0.16/s | ETA: 14.0m
+  Progress: 6/140 | Rate: 0.16/s | ETA: 13.5m
+  Progress: 7/140 | Rate: 0.16/s | ETA: 13.6m
+  Progress: 8/140 | Rate: 0.16/s | ETA: 13.4m
+  Progress: 9/140 | Rate: 0.16/s | ETA: 13.4m
+  Progress: 10/140 | Rate: 0.17/s | ETA: 13.0m
+  Progress: 11/140 | Rate: 0.16/s | ETA: 13.7m
+  Progress: 12/140 | Rate: 0.15/s | ETA: 13.9m
+  Progress: 13/140 | Rate: 0.15/s | ETA: 13.8m
+  Progress: 14/140 | Rate: 0.15/s | ETA: 13.7m
+  Progress: 15/140 | Rate: 0.15/s | ETA: 13.8m
+  Progress: 16/140 | Rate: 0.15/s | ETA: 13.8m
+  Progress: 17/140 | Rate: 0.15/s | ETA: 13.8m
+  Progress: 18/140 | Rate: 0.15/s | ETA: 13.8m
+  Progress: 19/140 | Rate: 0.15/s | ETA: 13.7m
+  Progress: 20/140 | Rate: 0.15/s | ETA: 13.7m
+  Progress: 21/140 | Rate: 0.14/s | ETA: 13.8m
+  Progress: 22/140 | Rate: 0.14/s | ETA: 13.7m
+  Progress: 23/140 | Rate: 0.14/s | ETA: 13.5m
+  Progress: 24/140 | Rate: 0.15/s | ETA: 13.2m
+  Progress: 25/140 | Rate: 0.15/s | ETA: 13.0m
+  Progress: 26/140 | Rate: 0.15/s | ETA: 12.9m
+  Progress: 27/140 | Rate: 0.15/s | ETA: 12.6m
+  Progress: 28/140 | Rate: 0.15/s | ETA: 12.5m
+  Progress: 29/140 | Rate: 0.15/s | ETA: 12.5m
+  Progress: 30/140 | Rate: 0.15/s | ETA: 12.4m
+  Progress: 31/140 | Rate: 0.15/s | ETA: 12.3m
+  Progress: 32/140 | Rate: 0.15/s | ETA: 12.2m
+  Progress: 33/140 | Rate: 0.15/s | ETA: 12.1m
+  Progress: 34/140 | Rate: 0.15/s | ETA: 12.0m
+  Progress: 35/140 | Rate: 0.15/s | ETA: 11.9m
+  Progress: 36/140 | Rate: 0.15/s | ETA: 11.8m
+  Progress: 37/140 | Rate: 0.15/s | ETA: 11.8m
+  Progress: 38/140 | Rate: 0.15/s | ETA: 11.7m
+  Progress: 39/140 | Rate: 0.15/s | ETA: 11.6m
+  Progress: 40/140 | Rate: 0.14/s | ETA: 11.6m
+  Progress: 41/140 | Rate: 0.14/s | ETA: 11.5m
+  Progress: 42/140 | Rate: 0.14/s | ETA: 11.4m
+  Progress: 43/140 | Rate: 0.14/s | ETA: 11.3m
+  Progress: 44/140 | Rate: 0.14/s | ETA: 11.2m
+  Progress: 45/140 | Rate: 0.14/s | ETA: 11.1m
+  Progress: 46/140 | Rate: 0.14/s | ETA: 11.1m
+  Progress: 47/140 | Rate: 0.14/s | ETA: 11.0m
+  Progress: 48/140 | Rate: 0.14/s | ETA: 10.9m
+  Progress: 49/140 | Rate: 0.14/s | ETA: 10.7m
+  Progress: 50/140 | Rate: 0.14/s | ETA: 10.7m
+  Progress: 51/140 | Rate: 0.14/s | ETA: 10.5m
+  Progress: 52/140 | Rate: 0.14/s | ETA: 10.4m
+  Progress: 53/140 | Rate: 0.14/s | ETA: 10.3m
+  Progress: 54/140 | Rate: 0.14/s | ETA: 10.1m
+  Progress: 55/140 | Rate: 0.14/s | ETA: 10.0m
+  Progress: 56/140 | Rate: 0.14/s | ETA: 9.9m
+  Progress: 57/140 | Rate: 0.14/s | ETA: 9.8m
+  Progress: 58/140 | Rate: 0.14/s | ETA: 9.6m
+  Progress: 59/140 | Rate: 0.14/s | ETA: 9.3m
+  Progress: 60/140 | Rate: 0.14/s | ETA: 9.2m
+  Progress: 61/140 | Rate: 0.14/s | ETA: 9.1m
+  Progress: 62/140 | Rate: 0.14/s | ETA: 9.0m
+  Progress: 63/140 | Rate: 0.14/s | ETA: 8.9m
+  Progress: 64/140 | Rate: 0.14/s | ETA: 8.7m
+  Progress: 65/140 | Rate: 0.15/s | ETA: 8.6m
+  Progress: 66/140 | Rate: 0.15/s | ETA: 8.5m
+  Progress: 67/140 | Rate: 0.15/s | ETA: 8.3m
+  Progress: 68/140 | Rate: 0.15/s | ETA: 8.2m
+  Progress: 69/140 | Rate: 0.15/s | ETA: 8.1m
+  Progress: 70/140 | Rate: 0.15/s | ETA: 7.9m
+  Progress: 71/140 | Rate: 0.15/s | ETA: 7.8m
+  Progress: 72/140 | Rate: 0.15/s | ETA: 7.7m
+  Progress: 73/140 | Rate: 0.15/s | ETA: 7.6m
+  Progress: 74/140 | Rate: 0.15/s | ETA: 7.5m
+  Progress: 75/140 | Rate: 0.15/s | ETA: 7.4m
+  Progress: 76/140 | Rate: 0.15/s | ETA: 7.2m
+  Progress: 77/140 | Rate: 0.15/s | ETA: 7.1m
+  Progress: 78/140 | Rate: 0.15/s | ETA: 7.0m
+  Progress: 79/140 | Rate: 0.15/s | ETA: 6.8m
+  Progress: 80/140 | Rate: 0.15/s | ETA: 6.7m
+  Progress: 81/140 | Rate: 0.15/s | ETA: 6.6m
+  Progress: 82/140 | Rate: 0.15/s | ETA: 6.5m
+  Progress: 83/140 | Rate: 0.15/s | ETA: 6.4m
+  Progress: 84/140 | Rate: 0.15/s | ETA: 6.3m
+  Progress: 85/140 | Rate: 0.15/s | ETA: 6.2m
+  Progress: 86/140 | Rate: 0.15/s | ETA: 6.1m
+  Progress: 87/140 | Rate: 0.15/s | ETA: 6.0m
+  Progress: 88/140 | Rate: 0.15/s | ETA: 5.9m
+  Progress: 89/140 | Rate: 0.15/s | ETA: 5.7m
+  Progress: 90/140 | Rate: 0.15/s | ETA: 5.6m
+  Progress: 91/140 | Rate: 0.15/s | ETA: 5.5m
+  Progress: 92/140 | Rate: 0.15/s | ETA: 5.4m
+  Progress: 93/140 | Rate: 0.15/s | ETA: 5.3m
+  Progress: 94/140 | Rate: 0.15/s | ETA: 5.1m
+  Progress: 95/140 | Rate: 0.15/s | ETA: 5.0m
+  Progress: 96/140 | Rate: 0.15/s | ETA: 4.9m
+  Progress: 97/140 | Rate: 0.15/s | ETA: 4.8m
+  Progress: 98/140 | Rate: 0.15/s | ETA: 4.7m
+  Progress: 99/140 | Rate: 0.15/s | ETA: 4.5m
+  Progress: 100/140 | Rate: 0.15/s | ETA: 4.4m
+  Progress: 101/140 | Rate: 0.15/s | ETA: 4.3m
+  Progress: 102/140 | Rate: 0.15/s | ETA: 4.2m
+  Progress: 103/140 | Rate: 0.15/s | ETA: 4.1m
+  Progress: 104/140 | Rate: 0.15/s | ETA: 4.0m
+  Progress: 105/140 | Rate: 0.15/s | ETA: 3.9m
+  Progress: 106/140 | Rate: 0.15/s | ETA: 3.8m
+  Progress: 107/140 | Rate: 0.15/s | ETA: 3.7m
+  Progress: 108/140 | Rate: 0.15/s | ETA: 3.6m
+  Progress: 109/140 | Rate: 0.15/s | ETA: 3.5m
+  Progress: 110/140 | Rate: 0.15/s | ETA: 3.4m
+  Progress: 111/140 | Rate: 0.15/s | ETA: 3.3m
+  Progress: 112/140 | Rate: 0.15/s | ETA: 3.2m
+  Progress: 113/140 | Rate: 0.15/s | ETA: 3.0m
+  Progress: 114/140 | Rate: 0.15/s | ETA: 2.9m
+  Progress: 115/140 | Rate: 0.15/s | ETA: 2.8m
+  Progress: 116/140 | Rate: 0.15/s | ETA: 2.7m
+  Progress: 117/140 | Rate: 0.15/s | ETA: 2.6m
+  Progress: 118/140 | Rate: 0.15/s | ETA: 2.5m
+  Progress: 119/140 | Rate: 0.15/s | ETA: 2.4m
+  Progress: 120/140 | Rate: 0.15/s | ETA: 2.3m
+  Progress: 121/140 | Rate: 0.15/s | ETA: 2.2m
+  Progress: 122/140 | Rate: 0.15/s | ETA: 2.0m
+  Progress: 123/140 | Rate: 0.15/s | ETA: 1.9m
+  Progress: 124/140 | Rate: 0.15/s | ETA: 1.8m
+  Progress: 125/140 | Rate: 0.15/s | ETA: 1.7m
+  Progress: 126/140 | Rate: 0.15/s | ETA: 1.6m
+  Progress: 127/140 | Rate: 0.15/s | ETA: 1.5m
+  Progress: 128/140 | Rate: 0.15/s | ETA: 1.3m
+  Progress: 129/140 | Rate: 0.15/s | ETA: 1.2m
+  Progress: 130/140 | Rate: 0.15/s | ETA: 1.1m
+  Progress: 131/140 | Rate: 0.15/s | ETA: 1.0m
+  Progress: 132/140 | Rate: 0.15/s | ETA: 0.9m
+  Progress: 133/140 | Rate: 0.15/s | ETA: 0.8m
+  Progress: 134/140 | Rate: 0.15/s | ETA: 0.7m
+  Progress: 135/140 | Rate: 0.15/s | ETA: 0.6m
+  Progress: 136/140 | Rate: 0.15/s | ETA: 0.4m
+  Progress: 137/140 | Rate: 0.15/s | ETA: 0.3m
+  Progress: 138/140 | Rate: 0.15/s | ETA: 0.2m
+  Progress: 139/140 | Rate: 0.15/s | ETA: 0.1m
+  Progress: 140/140 | Rate: 0.15/s | ETA: 0.0m
+
+✔ Done. 140 responses in 928.4s (0.15/s)
+
+>>> regime=utility_first  sample=2  22:35:11Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   87C    P0             88W /  100W |    5461MiB /   8151MiB |     91%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  utility_first  |  Sample: 2  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_utility_first_sample2_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.14/s | ETA: 16.5m
+  Progress: 2/140 | Rate: 0.15/s | ETA: 15.7m
+  Progress: 3/140 | Rate: 0.20/s | ETA: 11.2m
+  Progress: 4/140 | Rate: 0.20/s | ETA: 11.6m
+  Progress: 5/140 | Rate: 0.19/s | ETA: 11.7m
+  Progress: 6/140 | Rate: 0.19/s | ETA: 11.9m
+  Progress: 7/140 | Rate: 0.18/s | ETA: 12.2m
+  Progress: 8/140 | Rate: 0.18/s | ETA: 12.4m
+  Progress: 9/140 | Rate: 0.17/s | ETA: 12.5m
+  Progress: 10/140 | Rate: 0.17/s | ETA: 12.5m
+  Progress: 11/140 | Rate: 0.17/s | ETA: 12.8m
+  Progress: 12/140 | Rate: 0.17/s | ETA: 12.8m
+  Progress: 13/140 | Rate: 0.16/s | ETA: 13.1m
+  Progress: 14/140 | Rate: 0.16/s | ETA: 13.0m
+  Progress: 15/140 | Rate: 0.16/s | ETA: 13.2m
+  Progress: 16/140 | Rate: 0.16/s | ETA: 13.3m
+  Progress: 17/140 | Rate: 0.15/s | ETA: 13.3m
+  Progress: 18/140 | Rate: 0.15/s | ETA: 13.5m
+  Progress: 19/140 | Rate: 0.15/s | ETA: 13.5m
+  Progress: 20/140 | Rate: 0.15/s | ETA: 13.5m
+  Progress: 21/140 | Rate: 0.15/s | ETA: 13.3m
+  Progress: 22/140 | Rate: 0.15/s | ETA: 13.3m
+  Progress: 23/140 | Rate: 0.15/s | ETA: 13.2m
+  Progress: 24/140 | Rate: 0.15/s | ETA: 12.9m
+  Progress: 25/140 | Rate: 0.15/s | ETA: 12.8m
+  Progress: 26/140 | Rate: 0.15/s | ETA: 12.6m
+  Progress: 27/140 | Rate: 0.15/s | ETA: 12.4m
+  Progress: 28/140 | Rate: 0.15/s | ETA: 12.3m
+  Progress: 29/140 | Rate: 0.15/s | ETA: 12.3m
+  Progress: 30/140 | Rate: 0.15/s | ETA: 12.1m
+  Progress: 31/140 | Rate: 0.15/s | ETA: 12.1m
+  Progress: 32/140 | Rate: 0.15/s | ETA: 12.0m
+  Progress: 33/140 | Rate: 0.15/s | ETA: 12.0m
+  Progress: 34/140 | Rate: 0.15/s | ETA: 11.9m
+  Progress: 35/140 | Rate: 0.15/s | ETA: 11.8m
+  Progress: 36/140 | Rate: 0.15/s | ETA: 11.6m
+  Progress: 37/140 | Rate: 0.15/s | ETA: 11.5m
+  Progress: 38/140 | Rate: 0.15/s | ETA: 11.4m
+  Progress: 39/140 | Rate: 0.15/s | ETA: 11.4m
+  Progress: 40/140 | Rate: 0.15/s | ETA: 11.3m
+  Progress: 41/140 | Rate: 0.15/s | ETA: 11.2m
+  Progress: 42/140 | Rate: 0.14/s | ETA: 11.3m
+  Progress: 43/140 | Rate: 0.14/s | ETA: 11.2m
+  Progress: 44/140 | Rate: 0.14/s | ETA: 11.1m
+  Progress: 45/140 | Rate: 0.14/s | ETA: 11.0m
+  Progress: 46/140 | Rate: 0.14/s | ETA: 10.9m
+  Progress: 47/140 | Rate: 0.14/s | ETA: 10.8m
+  Progress: 48/140 | Rate: 0.14/s | ETA: 10.8m
+  Progress: 49/140 | Rate: 0.14/s | ETA: 10.7m
+  Progress: 50/140 | Rate: 0.14/s | ETA: 10.7m
+  Progress: 51/140 | Rate: 0.14/s | ETA: 10.6m
+  Progress: 52/140 | Rate: 0.14/s | ETA: 10.4m
+  Progress: 53/140 | Rate: 0.14/s | ETA: 10.4m
+  Progress: 54/140 | Rate: 0.14/s | ETA: 10.2m
+  Progress: 55/140 | Rate: 0.14/s | ETA: 10.0m
+  Progress: 56/140 | Rate: 0.14/s | ETA: 9.9m
+  Progress: 57/140 | Rate: 0.14/s | ETA: 9.8m
+  Progress: 58/140 | Rate: 0.14/s | ETA: 9.7m
+  Progress: 59/140 | Rate: 0.14/s | ETA: 9.6m
+  Progress: 60/140 | Rate: 0.14/s | ETA: 9.6m
+  Progress: 61/140 | Rate: 0.14/s | ETA: 9.4m
+  Progress: 62/140 | Rate: 0.14/s | ETA: 9.3m
+  Progress: 63/140 | Rate: 0.14/s | ETA: 9.2m
+  Progress: 64/140 | Rate: 0.14/s | ETA: 9.1m
+  Progress: 65/140 | Rate: 0.14/s | ETA: 8.9m
+  Progress: 66/140 | Rate: 0.14/s | ETA: 8.8m
+  Progress: 67/140 | Rate: 0.14/s | ETA: 8.6m
+  Progress: 68/140 | Rate: 0.14/s | ETA: 8.5m
+  Progress: 69/140 | Rate: 0.14/s | ETA: 8.3m
+  Progress: 70/140 | Rate: 0.14/s | ETA: 8.2m
+  Progress: 71/140 | Rate: 0.14/s | ETA: 8.1m
+  Progress: 72/140 | Rate: 0.14/s | ETA: 8.0m
+  Progress: 73/140 | Rate: 0.14/s | ETA: 7.8m
+  Progress: 74/140 | Rate: 0.14/s | ETA: 7.7m
+  Progress: 75/140 | Rate: 0.14/s | ETA: 7.6m
+  Progress: 76/140 | Rate: 0.14/s | ETA: 7.5m
+  Progress: 77/140 | Rate: 0.14/s | ETA: 7.4m
+  Progress: 78/140 | Rate: 0.14/s | ETA: 7.2m
+  Progress: 79/140 | Rate: 0.14/s | ETA: 7.1m
+  Progress: 80/140 | Rate: 0.14/s | ETA: 7.0m
+  Progress: 81/140 | Rate: 0.14/s | ETA: 6.9m
+  Progress: 82/140 | Rate: 0.14/s | ETA: 6.8m
+  Progress: 83/140 | Rate: 0.14/s | ETA: 6.6m
+  Progress: 84/140 | Rate: 0.14/s | ETA: 6.5m
+  Progress: 85/140 | Rate: 0.14/s | ETA: 6.4m
+  Progress: 86/140 | Rate: 0.14/s | ETA: 6.3m
+  Progress: 87/140 | Rate: 0.14/s | ETA: 6.2m
+  Progress: 88/140 | Rate: 0.14/s | ETA: 6.1m
+  Progress: 89/140 | Rate: 0.14/s | ETA: 5.9m
+  Progress: 90/140 | Rate: 0.14/s | ETA: 5.8m
+  Progress: 91/140 | Rate: 0.14/s | ETA: 5.7m
+  Progress: 92/140 | Rate: 0.14/s | ETA: 5.6m
+  Progress: 93/140 | Rate: 0.14/s | ETA: 5.4m
+  Progress: 94/140 | Rate: 0.14/s | ETA: 5.3m
+  Progress: 95/140 | Rate: 0.14/s | ETA: 5.2m
+  Progress: 96/140 | Rate: 0.14/s | ETA: 5.1m
+  Progress: 97/140 | Rate: 0.14/s | ETA: 5.0m
+  Progress: 98/140 | Rate: 0.15/s | ETA: 4.8m
+  Progress: 99/140 | Rate: 0.15/s | ETA: 4.7m
+  Progress: 100/140 | Rate: 0.15/s | ETA: 4.6m
+  Progress: 101/140 | Rate: 0.15/s | ETA: 4.5m
+  Progress: 102/140 | Rate: 0.15/s | ETA: 4.4m
+  Progress: 103/140 | Rate: 0.15/s | ETA: 4.3m
+  Progress: 104/140 | Rate: 0.14/s | ETA: 4.1m
+  Progress: 105/140 | Rate: 0.14/s | ETA: 4.0m
+  Progress: 106/140 | Rate: 0.15/s | ETA: 3.9m
+  Progress: 107/140 | Rate: 0.15/s | ETA: 3.8m
+  Progress: 108/140 | Rate: 0.15/s | ETA: 3.7m
+  Progress: 109/140 | Rate: 0.14/s | ETA: 3.6m
+  Progress: 110/140 | Rate: 0.14/s | ETA: 3.5m
+  Progress: 111/140 | Rate: 0.14/s | ETA: 3.3m
+  Progress: 112/140 | Rate: 0.14/s | ETA: 3.2m
+  Progress: 113/140 | Rate: 0.14/s | ETA: 3.1m
+  Progress: 114/140 | Rate: 0.14/s | ETA: 3.0m
+  Progress: 115/140 | Rate: 0.14/s | ETA: 2.9m
+  Progress: 116/140 | Rate: 0.14/s | ETA: 2.8m
+  Progress: 117/140 | Rate: 0.14/s | ETA: 2.7m
+  Progress: 118/140 | Rate: 0.14/s | ETA: 2.6m
+  Progress: 119/140 | Rate: 0.14/s | ETA: 2.5m
+  Progress: 120/140 | Rate: 0.14/s | ETA: 2.3m
+  Progress: 121/140 | Rate: 0.14/s | ETA: 2.2m
+  Progress: 122/140 | Rate: 0.14/s | ETA: 2.1m
+  Progress: 123/140 | Rate: 0.14/s | ETA: 2.0m
+  Progress: 124/140 | Rate: 0.14/s | ETA: 1.9m
+  Progress: 125/140 | Rate: 0.14/s | ETA: 1.7m
+  Progress: 126/140 | Rate: 0.14/s | ETA: 1.6m
+  Progress: 127/140 | Rate: 0.14/s | ETA: 1.5m
+  Progress: 128/140 | Rate: 0.14/s | ETA: 1.4m
+  Progress: 129/140 | Rate: 0.14/s | ETA: 1.3m
+  Progress: 130/140 | Rate: 0.14/s | ETA: 1.2m
+  Progress: 131/140 | Rate: 0.14/s | ETA: 1.0m
+  Progress: 132/140 | Rate: 0.14/s | ETA: 0.9m
+  Progress: 133/140 | Rate: 0.14/s | ETA: 0.8m
+  Progress: 134/140 | Rate: 0.14/s | ETA: 0.7m
+  Progress: 135/140 | Rate: 0.15/s | ETA: 0.6m
+  Progress: 136/140 | Rate: 0.15/s | ETA: 0.5m
+  Progress: 137/140 | Rate: 0.15/s | ETA: 0.3m
+  Progress: 138/140 | Rate: 0.14/s | ETA: 0.2m
+  Progress: 139/140 | Rate: 0.14/s | ETA: 0.1m
+  Progress: 140/140 | Rate: 0.14/s | ETA: 0.0m
+
+✔ Done. 140 responses in 970.0s (0.14/s)
+
+>>> regime=neutrality_oriented  sample=0  22:51:21Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   83C    P0             81W /  100W |    5461MiB /   8151MiB |     87%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  neutrality_oriented  |  Sample: 0  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_neutrality_oriented_sample0_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.10/s | ETA: 23.1m
+  Progress: 2/140 | Rate: 0.08/s | ETA: 28.0m
+  Progress: 3/140 | Rate: 0.08/s | ETA: 29.5m
+  Progress: 4/140 | Rate: 0.07/s | ETA: 30.3m
+  Progress: 5/140 | Rate: 0.08/s | ETA: 28.3m
+  Progress: 6/140 | Rate: 0.08/s | ETA: 28.8m
+  Progress: 7/140 | Rate: 0.08/s | ETA: 28.0m
+  Progress: 8/140 | Rate: 0.08/s | ETA: 27.1m
+  Progress: 9/140 | Rate: 0.08/s | ETA: 27.4m
+  Progress: 10/140 | Rate: 0.08/s | ETA: 27.4m
+  Progress: 11/140 | Rate: 0.08/s | ETA: 27.5m
+  Progress: 12/140 | Rate: 0.08/s | ETA: 27.7m
+  Progress: 13/140 | Rate: 0.08/s | ETA: 27.7m
+  Progress: 14/140 | Rate: 0.08/s | ETA: 27.7m
+  Progress: 15/140 | Rate: 0.08/s | ETA: 27.6m
+  Progress: 16/140 | Rate: 0.07/s | ETA: 27.6m
+  Progress: 17/140 | Rate: 0.07/s | ETA: 27.5m
+  Progress: 18/140 | Rate: 0.07/s | ETA: 27.4m
+  Progress: 19/140 | Rate: 0.07/s | ETA: 27.3m
+  Progress: 20/140 | Rate: 0.07/s | ETA: 27.1m
+  Progress: 21/140 | Rate: 0.07/s | ETA: 27.0m
+  Progress: 22/140 | Rate: 0.07/s | ETA: 26.8m
+  Progress: 23/140 | Rate: 0.07/s | ETA: 26.6m
+  Progress: 24/140 | Rate: 0.07/s | ETA: 26.4m
+  Progress: 25/140 | Rate: 0.07/s | ETA: 26.2m
+  Progress: 26/140 | Rate: 0.07/s | ETA: 26.0m
+  Progress: 27/140 | Rate: 0.07/s | ETA: 25.6m
+  Progress: 28/140 | Rate: 0.07/s | ETA: 25.4m
+  Progress: 29/140 | Rate: 0.07/s | ETA: 25.3m
+  Progress: 30/140 | Rate: 0.07/s | ETA: 25.0m
+  Progress: 31/140 | Rate: 0.07/s | ETA: 24.8m
+  Progress: 32/140 | Rate: 0.07/s | ETA: 24.6m
+  Progress: 33/140 | Rate: 0.07/s | ETA: 24.4m
+  Progress: 34/140 | Rate: 0.07/s | ETA: 24.2m
+  Progress: 35/140 | Rate: 0.07/s | ETA: 24.0m
+  Progress: 36/140 | Rate: 0.07/s | ETA: 23.8m
+  Progress: 37/140 | Rate: 0.07/s | ETA: 23.6m
+  Progress: 38/140 | Rate: 0.07/s | ETA: 23.4m
+  Progress: 39/140 | Rate: 0.07/s | ETA: 23.2m
+  Progress: 40/140 | Rate: 0.07/s | ETA: 23.0m
+  Progress: 41/140 | Rate: 0.07/s | ETA: 22.7m
+  Progress: 42/140 | Rate: 0.07/s | ETA: 22.5m
+  Progress: 43/140 | Rate: 0.07/s | ETA: 22.3m
+  Progress: 44/140 | Rate: 0.07/s | ETA: 22.1m
+  Progress: 45/140 | Rate: 0.07/s | ETA: 21.9m
+  Progress: 46/140 | Rate: 0.07/s | ETA: 21.6m
+  Progress: 47/140 | Rate: 0.07/s | ETA: 21.4m
+  Progress: 48/140 | Rate: 0.07/s | ETA: 21.2m
+  Progress: 49/140 | Rate: 0.07/s | ETA: 21.0m
+  Progress: 50/140 | Rate: 0.07/s | ETA: 20.7m
+  Progress: 51/140 | Rate: 0.07/s | ETA: 20.2m
+  Progress: 52/140 | Rate: 0.07/s | ETA: 20.0m
+  Progress: 53/140 | Rate: 0.07/s | ETA: 19.6m
+  Progress: 54/140 | Rate: 0.07/s | ETA: 19.2m
+  Progress: 55/140 | Rate: 0.07/s | ETA: 19.0m
+  Progress: 56/140 | Rate: 0.07/s | ETA: 18.8m
+  Progress: 57/140 | Rate: 0.08/s | ETA: 18.4m
+  Progress: 58/140 | Rate: 0.08/s | ETA: 18.0m
+  Progress: 59/140 | Rate: 0.08/s | ETA: 17.7m
+  Progress: 60/140 | Rate: 0.08/s | ETA: 17.4m
+  Progress: 61/140 | Rate: 0.08/s | ETA: 17.2m
+  Progress: 62/140 | Rate: 0.08/s | ETA: 17.0m
+  Progress: 63/140 | Rate: 0.08/s | ETA: 16.8m
+  Progress: 64/140 | Rate: 0.08/s | ETA: 16.6m
+  Progress: 65/140 | Rate: 0.08/s | ETA: 16.3m
+  Progress: 66/140 | Rate: 0.08/s | ETA: 16.1m
+  Progress: 67/140 | Rate: 0.08/s | ETA: 15.9m
+  Progress: 68/140 | Rate: 0.08/s | ETA: 15.7m
+  Progress: 69/140 | Rate: 0.08/s | ETA: 15.4m
+  Progress: 70/140 | Rate: 0.08/s | ETA: 15.2m
+  Progress: 71/140 | Rate: 0.08/s | ETA: 15.0m
+  Progress: 72/140 | Rate: 0.08/s | ETA: 14.8m
+  Progress: 73/140 | Rate: 0.08/s | ETA: 14.6m
+  Progress: 74/140 | Rate: 0.08/s | ETA: 14.4m
+  Progress: 75/140 | Rate: 0.08/s | ETA: 14.2m
+  Progress: 76/140 | Rate: 0.08/s | ETA: 14.0m
+  Progress: 77/140 | Rate: 0.08/s | ETA: 13.8m
+  Progress: 78/140 | Rate: 0.08/s | ETA: 13.6m
+  Progress: 79/140 | Rate: 0.08/s | ETA: 13.4m
+  Progress: 80/140 | Rate: 0.08/s | ETA: 13.2m
+  Progress: 81/140 | Rate: 0.08/s | ETA: 13.0m
+  Progress: 82/140 | Rate: 0.08/s | ETA: 12.8m
+  Progress: 83/140 | Rate: 0.08/s | ETA: 12.5m
+  Progress: 84/140 | Rate: 0.08/s | ETA: 12.3m
+  Progress: 85/140 | Rate: 0.08/s | ETA: 12.1m
+  Progress: 86/140 | Rate: 0.08/s | ETA: 11.9m
+  Progress: 87/140 | Rate: 0.08/s | ETA: 11.7m
+  Progress: 88/140 | Rate: 0.08/s | ETA: 11.5m
+  Progress: 89/140 | Rate: 0.08/s | ETA: 11.3m
+  Progress: 90/140 | Rate: 0.08/s | ETA: 11.1m
+  Progress: 91/140 | Rate: 0.08/s | ETA: 10.8m
+  Progress: 92/140 | Rate: 0.08/s | ETA: 10.6m
+  Progress: 93/140 | Rate: 0.08/s | ETA: 10.4m
+  Progress: 94/140 | Rate: 0.08/s | ETA: 10.2m
+  Progress: 95/140 | Rate: 0.08/s | ETA: 10.0m
+  Progress: 96/140 | Rate: 0.07/s | ETA: 9.8m
+  Progress: 97/140 | Rate: 0.07/s | ETA: 9.6m
+  Progress: 98/140 | Rate: 0.07/s | ETA: 9.3m
+  Progress: 99/140 | Rate: 0.07/s | ETA: 9.1m
+  Progress: 100/140 | Rate: 0.07/s | ETA: 8.9m
+  Progress: 101/140 | Rate: 0.07/s | ETA: 8.7m
+  Progress: 102/140 | Rate: 0.07/s | ETA: 8.5m
+  Progress: 103/140 | Rate: 0.07/s | ETA: 8.3m
+  Progress: 104/140 | Rate: 0.07/s | ETA: 8.0m
+  Progress: 105/140 | Rate: 0.07/s | ETA: 7.8m
+  Progress: 106/140 | Rate: 0.07/s | ETA: 7.6m
+  Progress: 107/140 | Rate: 0.07/s | ETA: 7.4m
+  Progress: 108/140 | Rate: 0.07/s | ETA: 7.2m
+  Progress: 109/140 | Rate: 0.07/s | ETA: 6.9m
+  Progress: 110/140 | Rate: 0.07/s | ETA: 6.7m
+  Progress: 111/140 | Rate: 0.07/s | ETA: 6.5m
+  Progress: 112/140 | Rate: 0.07/s | ETA: 6.3m
+  Progress: 113/140 | Rate: 0.07/s | ETA: 6.1m
+  Progress: 114/140 | Rate: 0.07/s | ETA: 5.8m
+  Progress: 115/140 | Rate: 0.07/s | ETA: 5.6m
+  Progress: 116/140 | Rate: 0.07/s | ETA: 5.4m
+  Progress: 117/140 | Rate: 0.07/s | ETA: 5.2m
+  Progress: 118/140 | Rate: 0.07/s | ETA: 5.0m
+  Progress: 119/140 | Rate: 0.07/s | ETA: 4.7m
+  Progress: 120/140 | Rate: 0.07/s | ETA: 4.5m
+  Progress: 121/140 | Rate: 0.07/s | ETA: 4.3m
+  Progress: 122/140 | Rate: 0.07/s | ETA: 4.0m
+  Progress: 123/140 | Rate: 0.07/s | ETA: 3.8m
+  Progress: 124/140 | Rate: 0.08/s | ETA: 3.5m
+  Progress: 125/140 | Rate: 0.08/s | ETA: 3.3m
+  Progress: 126/140 | Rate: 0.08/s | ETA: 3.1m
+  Progress: 127/140 | Rate: 0.08/s | ETA: 2.9m
+  Progress: 128/140 | Rate: 0.08/s | ETA: 2.6m
+  Progress: 129/140 | Rate: 0.08/s | ETA: 2.4m
+  Progress: 130/140 | Rate: 0.08/s | ETA: 2.2m
+  Progress: 131/140 | Rate: 0.08/s | ETA: 2.0m
+  Progress: 132/140 | Rate: 0.08/s | ETA: 1.7m
+  Progress: 133/140 | Rate: 0.08/s | ETA: 1.5m
+  Progress: 134/140 | Rate: 0.08/s | ETA: 1.3m
+  Progress: 135/140 | Rate: 0.08/s | ETA: 1.1m
+  Progress: 136/140 | Rate: 0.08/s | ETA: 0.9m
+  Progress: 137/140 | Rate: 0.08/s | ETA: 0.7m
+  Progress: 138/140 | Rate: 0.08/s | ETA: 0.4m
+  Progress: 139/140 | Rate: 0.08/s | ETA: 0.2m
+  Progress: 140/140 | Rate: 0.08/s | ETA: 0.0m
+
+✔ Done. 140 responses in 1843.5s (0.08/s)
+
+>>> regime=neutrality_oriented  sample=1  23:22:05Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   86C    P0             86W /  101W |    5463MiB /   8151MiB |     91%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  neutrality_oriented  |  Sample: 1  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_neutrality_oriented_sample1_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.08/s | ETA: 30.2m
+  Progress: 2/140 | Rate: 0.07/s | ETA: 31.3m
+  Progress: 3/140 | Rate: 0.07/s | ETA: 31.6m
+  Progress: 4/140 | Rate: 0.07/s | ETA: 31.4m
+  Progress: 5/140 | Rate: 0.07/s | ETA: 30.4m
+  Progress: 6/140 | Rate: 0.07/s | ETA: 30.4m
+  Progress: 7/140 | Rate: 0.07/s | ETA: 29.8m
+  Progress: 8/140 | Rate: 0.07/s | ETA: 29.8m
+  Progress: 9/140 | Rate: 0.07/s | ETA: 29.7m
+  Progress: 10/140 | Rate: 0.07/s | ETA: 29.6m
+  Progress: 11/140 | Rate: 0.07/s | ETA: 29.4m
+  Progress: 12/140 | Rate: 0.07/s | ETA: 29.3m
+  Progress: 13/140 | Rate: 0.07/s | ETA: 29.1m
+  Progress: 14/140 | Rate: 0.07/s | ETA: 28.9m
+  Progress: 15/140 | Rate: 0.07/s | ETA: 28.7m
+  Progress: 16/140 | Rate: 0.07/s | ETA: 28.5m
+  Progress: 17/140 | Rate: 0.07/s | ETA: 28.3m
+  Progress: 18/140 | Rate: 0.07/s | ETA: 28.1m
+  Progress: 19/140 | Rate: 0.07/s | ETA: 27.9m
+  Progress: 20/140 | Rate: 0.07/s | ETA: 27.7m
+  Progress: 21/140 | Rate: 0.07/s | ETA: 27.5m
+  Progress: 22/140 | Rate: 0.07/s | ETA: 27.3m
+  Progress: 23/140 | Rate: 0.07/s | ETA: 27.1m
+  Progress: 24/140 | Rate: 0.07/s | ETA: 26.9m
+  Progress: 25/140 | Rate: 0.07/s | ETA: 26.6m
+  Progress: 26/140 | Rate: 0.07/s | ETA: 26.4m
+  Progress: 27/140 | Rate: 0.07/s | ETA: 26.2m
+  Progress: 28/140 | Rate: 0.07/s | ETA: 26.0m
+  Progress: 29/140 | Rate: 0.07/s | ETA: 25.8m
+  Progress: 30/140 | Rate: 0.07/s | ETA: 25.5m
+  Progress: 31/140 | Rate: 0.07/s | ETA: 25.3m
+  Progress: 32/140 | Rate: 0.07/s | ETA: 25.1m
+  Progress: 33/140 | Rate: 0.07/s | ETA: 24.9m
+  Progress: 34/140 | Rate: 0.07/s | ETA: 24.7m
+  Progress: 35/140 | Rate: 0.07/s | ETA: 24.4m
+  Progress: 36/140 | Rate: 0.07/s | ETA: 24.2m
+  Progress: 37/140 | Rate: 0.07/s | ETA: 24.0m
+  Progress: 38/140 | Rate: 0.07/s | ETA: 23.8m
+  Progress: 39/140 | Rate: 0.07/s | ETA: 23.5m
+  Progress: 40/140 | Rate: 0.07/s | ETA: 23.3m
+  Progress: 41/140 | Rate: 0.07/s | ETA: 23.1m
+  Progress: 42/140 | Rate: 0.07/s | ETA: 22.8m
+  Progress: 43/140 | Rate: 0.07/s | ETA: 22.6m
+  Progress: 44/140 | Rate: 0.07/s | ETA: 22.4m
+  Progress: 45/140 | Rate: 0.07/s | ETA: 22.1m
+  Progress: 46/140 | Rate: 0.07/s | ETA: 21.9m
+  Progress: 47/140 | Rate: 0.07/s | ETA: 21.7m
+  Progress: 48/140 | Rate: 0.07/s | ETA: 21.5m
+  Progress: 49/140 | Rate: 0.07/s | ETA: 21.3m
+  Progress: 50/140 | Rate: 0.07/s | ETA: 21.0m
+  Progress: 51/140 | Rate: 0.07/s | ETA: 20.5m
+  Progress: 52/140 | Rate: 0.07/s | ETA: 20.3m
+  Progress: 53/140 | Rate: 0.07/s | ETA: 19.9m
+  Progress: 54/140 | Rate: 0.07/s | ETA: 19.6m
+  Progress: 55/140 | Rate: 0.07/s | ETA: 19.3m
+  Progress: 56/140 | Rate: 0.07/s | ETA: 19.1m
+  Progress: 57/140 | Rate: 0.07/s | ETA: 18.7m
+  Progress: 58/140 | Rate: 0.07/s | ETA: 18.4m
+  Progress: 59/140 | Rate: 0.08/s | ETA: 18.0m
+  Progress: 60/140 | Rate: 0.08/s | ETA: 17.6m
+  Progress: 61/140 | Rate: 0.08/s | ETA: 17.4m
+  Progress: 62/140 | Rate: 0.08/s | ETA: 17.2m
+  Progress: 63/140 | Rate: 0.08/s | ETA: 17.0m
+  Progress: 64/140 | Rate: 0.08/s | ETA: 16.9m
+  Progress: 65/140 | Rate: 0.08/s | ETA: 16.6m
+  Progress: 66/140 | Rate: 0.08/s | ETA: 16.4m
+  Progress: 67/140 | Rate: 0.08/s | ETA: 16.2m
+  Progress: 68/140 | Rate: 0.08/s | ETA: 15.9m
+  Progress: 69/140 | Rate: 0.08/s | ETA: 15.7m
+  Progress: 70/140 | Rate: 0.08/s | ETA: 15.5m
+  Progress: 71/140 | Rate: 0.08/s | ETA: 15.3m
+  Progress: 72/140 | Rate: 0.08/s | ETA: 15.1m
+  Progress: 73/140 | Rate: 0.08/s | ETA: 14.9m
+  Progress: 74/140 | Rate: 0.08/s | ETA: 14.6m
+  Progress: 75/140 | Rate: 0.08/s | ETA: 14.4m
+  Progress: 76/140 | Rate: 0.07/s | ETA: 14.2m
+  Progress: 77/140 | Rate: 0.07/s | ETA: 14.0m
+  Progress: 78/140 | Rate: 0.07/s | ETA: 13.8m
+  Progress: 79/140 | Rate: 0.07/s | ETA: 13.6m
+  Progress: 80/140 | Rate: 0.07/s | ETA: 13.4m
+  Progress: 81/140 | Rate: 0.07/s | ETA: 13.2m
+  Progress: 82/140 | Rate: 0.07/s | ETA: 13.0m
+  Progress: 83/140 | Rate: 0.07/s | ETA: 12.7m
+  Progress: 84/140 | Rate: 0.07/s | ETA: 12.5m
+  Progress: 85/140 | Rate: 0.07/s | ETA: 12.3m
+  Progress: 86/140 | Rate: 0.07/s | ETA: 12.1m
+  Progress: 87/140 | Rate: 0.07/s | ETA: 11.9m
+  Progress: 88/140 | Rate: 0.07/s | ETA: 11.7m
+  Progress: 89/140 | Rate: 0.07/s | ETA: 11.4m
+  Progress: 90/140 | Rate: 0.07/s | ETA: 11.2m
+  Progress: 91/140 | Rate: 0.07/s | ETA: 11.0m
+  Progress: 92/140 | Rate: 0.07/s | ETA: 10.8m
+  Progress: 93/140 | Rate: 0.07/s | ETA: 10.6m
+  Progress: 94/140 | Rate: 0.07/s | ETA: 10.3m
+  Progress: 95/140 | Rate: 0.07/s | ETA: 10.1m
+  Progress: 96/140 | Rate: 0.07/s | ETA: 9.9m
+  Progress: 97/140 | Rate: 0.07/s | ETA: 9.7m
+  Progress: 98/140 | Rate: 0.07/s | ETA: 9.5m
+  Progress: 99/140 | Rate: 0.07/s | ETA: 9.2m
+  Progress: 100/140 | Rate: 0.07/s | ETA: 9.0m
+  Progress: 101/140 | Rate: 0.07/s | ETA: 8.8m
+  Progress: 102/140 | Rate: 0.07/s | ETA: 8.6m
+  Progress: 103/140 | Rate: 0.07/s | ETA: 8.4m
+  Progress: 104/140 | Rate: 0.07/s | ETA: 8.1m
+  Progress: 105/140 | Rate: 0.07/s | ETA: 7.9m
+  Progress: 106/140 | Rate: 0.07/s | ETA: 7.7m
+  Progress: 107/140 | Rate: 0.07/s | ETA: 7.5m
+  Progress: 108/140 | Rate: 0.07/s | ETA: 7.2m
+  Progress: 109/140 | Rate: 0.07/s | ETA: 7.0m
+  Progress: 110/140 | Rate: 0.07/s | ETA: 6.8m
+  Progress: 111/140 | Rate: 0.07/s | ETA: 6.6m
+  Progress: 112/140 | Rate: 0.07/s | ETA: 6.3m
+  Progress: 113/140 | Rate: 0.07/s | ETA: 6.1m
+  Progress: 114/140 | Rate: 0.07/s | ETA: 5.9m
+  Progress: 115/140 | Rate: 0.07/s | ETA: 5.7m
+  Progress: 116/140 | Rate: 0.07/s | ETA: 5.4m
+  Progress: 117/140 | Rate: 0.07/s | ETA: 5.2m
+  Progress: 118/140 | Rate: 0.07/s | ETA: 5.0m
+  Progress: 119/140 | Rate: 0.07/s | ETA: 4.8m
+  Progress: 120/140 | Rate: 0.07/s | ETA: 4.5m
+  Progress: 121/140 | Rate: 0.07/s | ETA: 4.3m
+  Progress: 122/140 | Rate: 0.07/s | ETA: 4.0m
+  Progress: 123/140 | Rate: 0.07/s | ETA: 3.8m
+  Progress: 124/140 | Rate: 0.07/s | ETA: 3.6m
+  Progress: 125/140 | Rate: 0.07/s | ETA: 3.3m
+  Progress: 126/140 | Rate: 0.07/s | ETA: 3.1m
+  Progress: 127/140 | Rate: 0.07/s | ETA: 2.9m
+  Progress: 128/140 | Rate: 0.08/s | ETA: 2.7m
+  Progress: 129/140 | Rate: 0.08/s | ETA: 2.4m
+  Progress: 130/140 | Rate: 0.08/s | ETA: 2.2m
+  Progress: 131/140 | Rate: 0.08/s | ETA: 2.0m
+  Progress: 132/140 | Rate: 0.08/s | ETA: 1.8m
+  Progress: 133/140 | Rate: 0.08/s | ETA: 1.5m
+  Progress: 134/140 | Rate: 0.08/s | ETA: 1.3m
+  Progress: 135/140 | Rate: 0.08/s | ETA: 1.1m
+  Progress: 136/140 | Rate: 0.08/s | ETA: 0.9m
+  Progress: 137/140 | Rate: 0.08/s | ETA: 0.7m
+  Progress: 138/140 | Rate: 0.08/s | ETA: 0.4m
+  Progress: 139/140 | Rate: 0.08/s | ETA: 0.2m
+  Progress: 140/140 | Rate: 0.08/s | ETA: 0.0m
+
+✔ Done. 140 responses in 1859.2s (0.08/s)
+
+>>> regime=neutrality_oriented  sample=2  23:53:04Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   80C    P0             85W /  100W |    5463MiB /   8151MiB |     26%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  neutrality_oriented  |  Sample: 2  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_neutrality_oriented_sample2_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.07/s | ETA: 31.5m
+  Progress: 2/140 | Rate: 0.07/s | ETA: 32.5m
+  Progress: 3/140 | Rate: 0.07/s | ETA: 32.5m
+  Progress: 4/140 | Rate: 0.07/s | ETA: 32.4m
+  Progress: 5/140 | Rate: 0.07/s | ETA: 30.6m
+  Progress: 6/140 | Rate: 0.07/s | ETA: 30.8m
+  Progress: 7/140 | Rate: 0.07/s | ETA: 29.7m
+  Progress: 8/140 | Rate: 0.07/s | ETA: 29.8m
+  Progress: 9/140 | Rate: 0.07/s | ETA: 29.8m
+  Progress: 10/140 | Rate: 0.07/s | ETA: 29.5m
+  Progress: 11/140 | Rate: 0.07/s | ETA: 29.5m
+  Progress: 12/140 | Rate: 0.07/s | ETA: 29.4m
+  Progress: 13/140 | Rate: 0.07/s | ETA: 29.2m
+  Progress: 14/140 | Rate: 0.07/s | ETA: 29.1m
+  Progress: 15/140 | Rate: 0.07/s | ETA: 29.0m
+  Progress: 16/140 | Rate: 0.07/s | ETA: 28.8m
+  Progress: 17/140 | Rate: 0.07/s | ETA: 28.6m
+  Progress: 18/140 | Rate: 0.07/s | ETA: 28.5m
+  Progress: 19/140 | Rate: 0.07/s | ETA: 28.3m
+  Progress: 20/140 | Rate: 0.07/s | ETA: 28.1m
+  Progress: 21/140 | Rate: 0.07/s | ETA: 27.9m
+  Progress: 22/140 | Rate: 0.07/s | ETA: 27.7m
+  Progress: 23/140 | Rate: 0.07/s | ETA: 27.5m
+  Progress: 24/140 | Rate: 0.07/s | ETA: 27.3m
+  Progress: 25/140 | Rate: 0.07/s | ETA: 27.1m
+  Progress: 26/140 | Rate: 0.07/s | ETA: 26.9m
+  Progress: 27/140 | Rate: 0.07/s | ETA: 26.4m
+  Progress: 28/140 | Rate: 0.07/s | ETA: 26.1m
+  Progress: 29/140 | Rate: 0.07/s | ETA: 25.9m
+  Progress: 30/140 | Rate: 0.07/s | ETA: 25.7m
+  Progress: 31/140 | Rate: 0.07/s | ETA: 25.5m
+  Progress: 32/140 | Rate: 0.07/s | ETA: 25.3m
+  Progress: 33/140 | Rate: 0.07/s | ETA: 25.1m
+  Progress: 34/140 | Rate: 0.07/s | ETA: 24.9m
+  Progress: 35/140 | Rate: 0.07/s | ETA: 24.7m
+  Progress: 36/140 | Rate: 0.07/s | ETA: 24.5m
+  Progress: 37/140 | Rate: 0.07/s | ETA: 24.2m
+  Progress: 38/140 | Rate: 0.07/s | ETA: 24.0m
+  Progress: 39/140 | Rate: 0.07/s | ETA: 23.8m
+  Progress: 40/140 | Rate: 0.07/s | ETA: 23.6m
+  Progress: 41/140 | Rate: 0.07/s | ETA: 23.3m
+  Progress: 42/140 | Rate: 0.07/s | ETA: 23.1m
+  Progress: 43/140 | Rate: 0.07/s | ETA: 22.9m
+  Progress: 44/140 | Rate: 0.07/s | ETA: 22.6m
+  Progress: 45/140 | Rate: 0.07/s | ETA: 22.4m
+  Progress: 46/140 | Rate: 0.07/s | ETA: 22.2m
+  Progress: 47/140 | Rate: 0.07/s | ETA: 21.9m
+  Progress: 48/140 | Rate: 0.07/s | ETA: 21.7m
+  Progress: 49/140 | Rate: 0.07/s | ETA: 21.4m
+  Progress: 50/140 | Rate: 0.07/s | ETA: 21.2m
+  Progress: 51/140 | Rate: 0.07/s | ETA: 20.7m
+  Progress: 52/140 | Rate: 0.07/s | ETA: 20.5m
+  Progress: 53/140 | Rate: 0.07/s | ETA: 20.1m
+  Progress: 54/140 | Rate: 0.07/s | ETA: 19.7m
+  Progress: 55/140 | Rate: 0.07/s | ETA: 19.5m
+  Progress: 56/140 | Rate: 0.07/s | ETA: 19.3m
+  Progress: 57/140 | Rate: 0.07/s | ETA: 18.8m
+  Progress: 58/140 | Rate: 0.07/s | ETA: 18.6m
+  Progress: 59/140 | Rate: 0.07/s | ETA: 18.2m
+  Progress: 60/140 | Rate: 0.07/s | ETA: 18.0m
+  Progress: 61/140 | Rate: 0.07/s | ETA: 17.8m
+  Progress: 62/140 | Rate: 0.07/s | ETA: 17.5m
+  Progress: 63/140 | Rate: 0.07/s | ETA: 17.3m
+  Progress: 64/140 | Rate: 0.07/s | ETA: 17.1m
+  Progress: 65/140 | Rate: 0.07/s | ETA: 16.8m
+  Progress: 66/140 | Rate: 0.07/s | ETA: 16.5m
+  Progress: 67/140 | Rate: 0.07/s | ETA: 16.3m
+  Progress: 68/140 | Rate: 0.07/s | ETA: 16.1m
+  Progress: 69/140 | Rate: 0.07/s | ETA: 15.9m
+  Progress: 70/140 | Rate: 0.07/s | ETA: 15.7m
+  Progress: 71/140 | Rate: 0.07/s | ETA: 15.5m
+  Progress: 72/140 | Rate: 0.07/s | ETA: 15.3m
+  Progress: 73/140 | Rate: 0.07/s | ETA: 15.1m
+  Progress: 74/140 | Rate: 0.07/s | ETA: 14.9m
+  Progress: 75/140 | Rate: 0.07/s | ETA: 14.7m
+  Progress: 76/140 | Rate: 0.07/s | ETA: 14.5m
+  Progress: 77/140 | Rate: 0.07/s | ETA: 14.2m
+  Progress: 78/140 | Rate: 0.07/s | ETA: 14.0m
+  Progress: 79/140 | Rate: 0.07/s | ETA: 13.8m
+  Progress: 80/140 | Rate: 0.07/s | ETA: 13.6m
+  Progress: 81/140 | Rate: 0.07/s | ETA: 13.4m
+  Progress: 82/140 | Rate: 0.07/s | ETA: 13.1m
+  Progress: 83/140 | Rate: 0.07/s | ETA: 12.9m
+  Progress: 84/140 | Rate: 0.07/s | ETA: 12.7m
+  Progress: 85/140 | Rate: 0.07/s | ETA: 12.5m
+  Progress: 86/140 | Rate: 0.07/s | ETA: 12.3m
+  Progress: 87/140 | Rate: 0.07/s | ETA: 12.0m
+  Progress: 88/140 | Rate: 0.07/s | ETA: 11.8m
+  Progress: 89/140 | Rate: 0.07/s | ETA: 11.6m
+  Progress: 90/140 | Rate: 0.07/s | ETA: 11.4m
+  Progress: 91/140 | Rate: 0.07/s | ETA: 11.1m
+  Progress: 92/140 | Rate: 0.07/s | ETA: 10.9m
+  Progress: 93/140 | Rate: 0.07/s | ETA: 10.7m
+  Progress: 94/140 | Rate: 0.07/s | ETA: 10.5m
+  Progress: 95/140 | Rate: 0.07/s | ETA: 10.2m
+  Progress: 96/140 | Rate: 0.07/s | ETA: 10.0m
+  Progress: 97/140 | Rate: 0.07/s | ETA: 9.8m
+  Progress: 98/140 | Rate: 0.07/s | ETA: 9.6m
+  Progress: 99/140 | Rate: 0.07/s | ETA: 9.3m
+  Progress: 100/140 | Rate: 0.07/s | ETA: 9.1m
+  Progress: 101/140 | Rate: 0.07/s | ETA: 8.9m
+  Progress: 102/140 | Rate: 0.07/s | ETA: 8.7m
+  Progress: 103/140 | Rate: 0.07/s | ETA: 8.4m
+  Progress: 104/140 | Rate: 0.07/s | ETA: 8.2m
+  Progress: 105/140 | Rate: 0.07/s | ETA: 8.0m
+  Progress: 106/140 | Rate: 0.07/s | ETA: 7.8m
+  Progress: 107/140 | Rate: 0.07/s | ETA: 7.5m
+  Progress: 108/140 | Rate: 0.07/s | ETA: 7.3m
+  Progress: 109/140 | Rate: 0.07/s | ETA: 7.1m
+  Progress: 110/140 | Rate: 0.07/s | ETA: 6.9m
+  Progress: 111/140 | Rate: 0.07/s | ETA: 6.6m
+  Progress: 112/140 | Rate: 0.07/s | ETA: 6.4m
+  Progress: 113/140 | Rate: 0.07/s | ETA: 6.2m
+  Progress: 114/140 | Rate: 0.07/s | ETA: 5.9m
+  Progress: 115/140 | Rate: 0.07/s | ETA: 5.7m
+  Progress: 116/140 | Rate: 0.07/s | ETA: 5.5m
+  Progress: 117/140 | Rate: 0.07/s | ETA: 5.3m
+  Progress: 118/140 | Rate: 0.07/s | ETA: 5.0m
+  Progress: 119/140 | Rate: 0.07/s | ETA: 4.8m
+  Progress: 120/140 | Rate: 0.07/s | ETA: 4.6m
+  Progress: 121/140 | Rate: 0.07/s | ETA: 4.3m
+  Progress: 122/140 | Rate: 0.07/s | ETA: 4.1m
+  Progress: 123/140 | Rate: 0.07/s | ETA: 3.8m
+  Progress: 124/140 | Rate: 0.07/s | ETA: 3.6m
+  Progress: 125/140 | Rate: 0.07/s | ETA: 3.3m
+  Progress: 126/140 | Rate: 0.07/s | ETA: 3.1m
+  Progress: 127/140 | Rate: 0.07/s | ETA: 2.9m
+  Progress: 128/140 | Rate: 0.07/s | ETA: 2.7m
+  Progress: 129/140 | Rate: 0.08/s | ETA: 2.4m
+  Progress: 130/140 | Rate: 0.08/s | ETA: 2.2m
+  Progress: 131/140 | Rate: 0.08/s | ETA: 2.0m
+  Progress: 132/140 | Rate: 0.08/s | ETA: 1.8m
+  Progress: 133/140 | Rate: 0.08/s | ETA: 1.5m
+  Progress: 134/140 | Rate: 0.08/s | ETA: 1.3m
+  Progress: 135/140 | Rate: 0.08/s | ETA: 1.1m
+  Progress: 136/140 | Rate: 0.08/s | ETA: 0.9m
+  Progress: 137/140 | Rate: 0.08/s | ETA: 0.7m
+  Progress: 138/140 | Rate: 0.08/s | ETA: 0.4m
+  Progress: 139/140 | Rate: 0.08/s | ETA: 0.2m
+  Progress: 140/140 | Rate: 0.08/s | ETA: 0.0m
+
+✔ Done. 140 responses in 1865.1s (0.08/s)
+
+>>> regime=clarification_first  sample=0  00:24:09Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   75C    P0             74W /  102W |    5463MiB /   8151MiB |      0%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  clarification_first  |  Sample: 0  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_clarification_first_sample0_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.22/s | ETA: 10.5m
+  Progress: 2/140 | Rate: 0.15/s | ETA: 15.7m
+  Progress: 3/140 | Rate: 0.16/s | ETA: 14.5m
+  Progress: 4/140 | Rate: 0.15/s | ETA: 14.8m
+  Progress: 5/140 | Rate: 0.16/s | ETA: 14.1m
+  Progress: 6/140 | Rate: 0.17/s | ETA: 13.5m
+  Progress: 7/140 | Rate: 0.17/s | ETA: 13.1m
+  Progress: 8/140 | Rate: 0.16/s | ETA: 13.4m
+  Progress: 9/140 | Rate: 0.16/s | ETA: 13.3m
+  Progress: 10/140 | Rate: 0.17/s | ETA: 12.8m
+  Progress: 11/140 | Rate: 0.17/s | ETA: 12.6m
+  Progress: 12/140 | Rate: 0.17/s | ETA: 12.7m
+  Progress: 13/140 | Rate: 0.17/s | ETA: 12.4m
+  Progress: 14/140 | Rate: 0.17/s | ETA: 12.4m
+  Progress: 15/140 | Rate: 0.16/s | ETA: 12.8m
+  Progress: 16/140 | Rate: 0.16/s | ETA: 12.9m
+  Progress: 17/140 | Rate: 0.16/s | ETA: 12.8m
+  Progress: 18/140 | Rate: 0.16/s | ETA: 12.7m
+  Progress: 19/140 | Rate: 0.16/s | ETA: 12.6m
+  Progress: 20/140 | Rate: 0.16/s | ETA: 12.5m
+  Progress: 21/140 | Rate: 0.16/s | ETA: 12.2m
+  Progress: 22/140 | Rate: 0.16/s | ETA: 12.0m
+  Progress: 23/140 | Rate: 0.17/s | ETA: 11.7m
+  Progress: 24/140 | Rate: 0.17/s | ETA: 11.5m
+  Progress: 25/140 | Rate: 0.17/s | ETA: 11.4m
+  Progress: 26/140 | Rate: 0.17/s | ETA: 11.2m
+  Progress: 27/140 | Rate: 0.17/s | ETA: 11.1m
+  Progress: 28/140 | Rate: 0.17/s | ETA: 10.9m
+  Progress: 29/140 | Rate: 0.17/s | ETA: 10.7m
+  Progress: 30/140 | Rate: 0.17/s | ETA: 10.5m
+  Progress: 31/140 | Rate: 0.17/s | ETA: 10.4m
+  Progress: 32/140 | Rate: 0.17/s | ETA: 10.4m
+  Progress: 33/140 | Rate: 0.17/s | ETA: 10.3m
+  Progress: 34/140 | Rate: 0.17/s | ETA: 10.1m
+  Progress: 35/140 | Rate: 0.17/s | ETA: 10.1m
+  Progress: 36/140 | Rate: 0.17/s | ETA: 10.0m
+  Progress: 37/140 | Rate: 0.17/s | ETA: 9.9m
+  Progress: 38/140 | Rate: 0.17/s | ETA: 9.8m
+  Progress: 39/140 | Rate: 0.17/s | ETA: 9.7m
+  Progress: 40/140 | Rate: 0.17/s | ETA: 9.6m
+  Progress: 41/140 | Rate: 0.17/s | ETA: 9.6m
+  Progress: 42/140 | Rate: 0.17/s | ETA: 9.5m
+  Progress: 43/140 | Rate: 0.17/s | ETA: 9.4m
+  Progress: 44/140 | Rate: 0.17/s | ETA: 9.3m
+  Progress: 45/140 | Rate: 0.17/s | ETA: 9.3m
+  Progress: 46/140 | Rate: 0.17/s | ETA: 9.1m
+  Progress: 47/140 | Rate: 0.17/s | ETA: 9.0m
+  Progress: 48/140 | Rate: 0.17/s | ETA: 9.0m
+  Progress: 49/140 | Rate: 0.17/s | ETA: 8.8m
+  Progress: 50/140 | Rate: 0.17/s | ETA: 8.8m
+  Progress: 51/140 | Rate: 0.17/s | ETA: 8.7m
+  Progress: 52/140 | Rate: 0.17/s | ETA: 8.5m
+  Progress: 53/140 | Rate: 0.17/s | ETA: 8.4m
+  Progress: 54/140 | Rate: 0.17/s | ETA: 8.3m
+  Progress: 55/140 | Rate: 0.17/s | ETA: 8.2m
+  Progress: 56/140 | Rate: 0.17/s | ETA: 8.1m
+  Progress: 57/140 | Rate: 0.17/s | ETA: 7.9m
+  Progress: 58/140 | Rate: 0.17/s | ETA: 7.8m
+  Progress: 59/140 | Rate: 0.17/s | ETA: 7.7m
+  Progress: 60/140 | Rate: 0.17/s | ETA: 7.6m
+  Progress: 61/140 | Rate: 0.17/s | ETA: 7.5m
+  Progress: 62/140 | Rate: 0.18/s | ETA: 7.4m
+  Progress: 63/140 | Rate: 0.18/s | ETA: 7.3m
+  Progress: 64/140 | Rate: 0.18/s | ETA: 7.2m
+  Progress: 65/140 | Rate: 0.18/s | ETA: 7.1m
+  Progress: 66/140 | Rate: 0.18/s | ETA: 7.0m
+  Progress: 67/140 | Rate: 0.18/s | ETA: 6.9m
+  Progress: 68/140 | Rate: 0.18/s | ETA: 6.8m
+  Progress: 69/140 | Rate: 0.18/s | ETA: 6.7m
+  Progress: 70/140 | Rate: 0.18/s | ETA: 6.6m
+  Progress: 71/140 | Rate: 0.18/s | ETA: 6.5m
+  Progress: 72/140 | Rate: 0.18/s | ETA: 6.4m
+  Progress: 73/140 | Rate: 0.18/s | ETA: 6.3m
+  Progress: 74/140 | Rate: 0.18/s | ETA: 6.2m
+  Progress: 75/140 | Rate: 0.18/s | ETA: 6.1m
+  Progress: 76/140 | Rate: 0.18/s | ETA: 6.0m
+  Progress: 77/140 | Rate: 0.18/s | ETA: 5.9m
+  Progress: 78/140 | Rate: 0.18/s | ETA: 5.8m
+  Progress: 79/140 | Rate: 0.18/s | ETA: 5.8m
+  Progress: 80/140 | Rate: 0.18/s | ETA: 5.7m
+  Progress: 81/140 | Rate: 0.18/s | ETA: 5.6m
+  Progress: 82/140 | Rate: 0.18/s | ETA: 5.5m
+  Progress: 83/140 | Rate: 0.18/s | ETA: 5.4m
+  Progress: 84/140 | Rate: 0.18/s | ETA: 5.3m
+  Progress: 85/140 | Rate: 0.18/s | ETA: 5.2m
+  Progress: 86/140 | Rate: 0.18/s | ETA: 5.1m
+  Progress: 87/140 | Rate: 0.18/s | ETA: 5.0m
+  Progress: 88/140 | Rate: 0.18/s | ETA: 4.9m
+  Progress: 89/140 | Rate: 0.18/s | ETA: 4.8m
+  Progress: 90/140 | Rate: 0.18/s | ETA: 4.7m
+  Progress: 91/140 | Rate: 0.18/s | ETA: 4.6m
+  Progress: 92/140 | Rate: 0.18/s | ETA: 4.5m
+  Progress: 93/140 | Rate: 0.18/s | ETA: 4.4m
+  Progress: 94/140 | Rate: 0.18/s | ETA: 4.3m
+  Progress: 95/140 | Rate: 0.18/s | ETA: 4.2m
+  Progress: 96/140 | Rate: 0.18/s | ETA: 4.1m
+  Progress: 97/140 | Rate: 0.18/s | ETA: 4.0m
+  Progress: 98/140 | Rate: 0.18/s | ETA: 3.9m
+  Progress: 99/140 | Rate: 0.18/s | ETA: 3.8m
+  Progress: 100/140 | Rate: 0.18/s | ETA: 3.7m
+  Progress: 101/140 | Rate: 0.18/s | ETA: 3.6m
+  Progress: 102/140 | Rate: 0.18/s | ETA: 3.5m
+  Progress: 103/140 | Rate: 0.18/s | ETA: 3.4m
+  Progress: 104/140 | Rate: 0.18/s | ETA: 3.4m
+  Progress: 105/140 | Rate: 0.18/s | ETA: 3.3m
+  Progress: 106/140 | Rate: 0.18/s | ETA: 3.2m
+  Progress: 107/140 | Rate: 0.18/s | ETA: 3.1m
+  Progress: 108/140 | Rate: 0.18/s | ETA: 3.0m
+  Progress: 109/140 | Rate: 0.18/s | ETA: 2.9m
+  Progress: 110/140 | Rate: 0.18/s | ETA: 2.8m
+  Progress: 111/140 | Rate: 0.18/s | ETA: 2.7m
+  Progress: 112/140 | Rate: 0.18/s | ETA: 2.6m
+  Progress: 113/140 | Rate: 0.18/s | ETA: 2.5m
+  Progress: 114/140 | Rate: 0.18/s | ETA: 2.4m
+  Progress: 115/140 | Rate: 0.18/s | ETA: 2.3m
+  Progress: 116/140 | Rate: 0.18/s | ETA: 2.2m
+  Progress: 117/140 | Rate: 0.18/s | ETA: 2.1m
+  Progress: 118/140 | Rate: 0.18/s | ETA: 2.1m
+  Progress: 119/140 | Rate: 0.18/s | ETA: 2.0m
+  Progress: 120/140 | Rate: 0.18/s | ETA: 1.9m
+  Progress: 121/140 | Rate: 0.18/s | ETA: 1.8m
+  Progress: 122/140 | Rate: 0.18/s | ETA: 1.7m
+  Progress: 123/140 | Rate: 0.18/s | ETA: 1.6m
+  Progress: 124/140 | Rate: 0.18/s | ETA: 1.5m
+  Progress: 125/140 | Rate: 0.18/s | ETA: 1.4m
+  Progress: 126/140 | Rate: 0.18/s | ETA: 1.3m
+  Progress: 127/140 | Rate: 0.18/s | ETA: 1.2m
+  Progress: 128/140 | Rate: 0.18/s | ETA: 1.1m
+  Progress: 129/140 | Rate: 0.18/s | ETA: 1.0m
+  Progress: 130/140 | Rate: 0.18/s | ETA: 0.9m
+  Progress: 131/140 | Rate: 0.18/s | ETA: 0.8m
+  Progress: 132/140 | Rate: 0.18/s | ETA: 0.7m
+  Progress: 133/140 | Rate: 0.18/s | ETA: 0.7m
+  Progress: 134/140 | Rate: 0.18/s | ETA: 0.6m
+  Progress: 135/140 | Rate: 0.18/s | ETA: 0.5m
+  Progress: 136/140 | Rate: 0.18/s | ETA: 0.4m
+  Progress: 137/140 | Rate: 0.18/s | ETA: 0.3m
+  Progress: 138/140 | Rate: 0.18/s | ETA: 0.2m
+  Progress: 139/140 | Rate: 0.18/s | ETA: 0.1m
+  Progress: 140/140 | Rate: 0.18/s | ETA: 0.0m
+
+✔ Done. 140 responses in 779.6s (0.18/s)
+
+>>> regime=clarification_first  sample=1  00:37:09Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   76C    P0             78W /  100W |    5463MiB /   8151MiB |      0%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  clarification_first  |  Sample: 1  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_clarification_first_sample1_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.22/s | ETA: 10.6m
+  Progress: 2/140 | Rate: 0.18/s | ETA: 12.8m
+  Progress: 3/140 | Rate: 0.19/s | ETA: 12.2m
+  Progress: 4/140 | Rate: 0.18/s | ETA: 12.6m
+  Progress: 5/140 | Rate: 0.19/s | ETA: 11.9m
+  Progress: 6/140 | Rate: 0.20/s | ETA: 11.5m
+  Progress: 7/140 | Rate: 0.19/s | ETA: 11.4m
+  Progress: 8/140 | Rate: 0.19/s | ETA: 11.6m
+  Progress: 9/140 | Rate: 0.19/s | ETA: 11.6m
+  Progress: 10/140 | Rate: 0.19/s | ETA: 11.4m
+  Progress: 11/140 | Rate: 0.19/s | ETA: 11.5m
+  Progress: 12/140 | Rate: 0.19/s | ETA: 11.4m
+  Progress: 13/140 | Rate: 0.18/s | ETA: 11.5m
+  Progress: 14/140 | Rate: 0.18/s | ETA: 11.6m
+  Progress: 15/140 | Rate: 0.18/s | ETA: 11.6m
+  Progress: 16/140 | Rate: 0.18/s | ETA: 11.4m
+  Progress: 17/140 | Rate: 0.18/s | ETA: 11.7m
+  Progress: 18/140 | Rate: 0.17/s | ETA: 11.6m
+  Progress: 19/140 | Rate: 0.17/s | ETA: 11.6m
+  Progress: 20/140 | Rate: 0.17/s | ETA: 11.5m
+  Progress: 21/140 | Rate: 0.17/s | ETA: 11.4m
+  Progress: 22/140 | Rate: 0.18/s | ETA: 11.2m
+  Progress: 23/140 | Rate: 0.18/s | ETA: 11.0m
+  Progress: 24/140 | Rate: 0.18/s | ETA: 10.9m
+  Progress: 25/140 | Rate: 0.18/s | ETA: 10.7m
+  Progress: 26/140 | Rate: 0.18/s | ETA: 10.6m
+  Progress: 27/140 | Rate: 0.18/s | ETA: 10.5m
+  Progress: 28/140 | Rate: 0.18/s | ETA: 10.4m
+  Progress: 29/140 | Rate: 0.18/s | ETA: 10.2m
+  Progress: 30/140 | Rate: 0.18/s | ETA: 10.1m
+  Progress: 31/140 | Rate: 0.18/s | ETA: 10.0m
+  Progress: 32/140 | Rate: 0.18/s | ETA: 10.0m
+  Progress: 33/140 | Rate: 0.18/s | ETA: 10.0m
+  Progress: 34/140 | Rate: 0.18/s | ETA: 9.9m
+  Progress: 35/140 | Rate: 0.18/s | ETA: 9.8m
+  Progress: 36/140 | Rate: 0.18/s | ETA: 9.8m
+  Progress: 37/140 | Rate: 0.18/s | ETA: 9.6m
+  Progress: 38/140 | Rate: 0.18/s | ETA: 9.6m
+  Progress: 39/140 | Rate: 0.18/s | ETA: 9.5m
+  Progress: 40/140 | Rate: 0.18/s | ETA: 9.4m
+  Progress: 41/140 | Rate: 0.18/s | ETA: 9.3m
+  Progress: 42/140 | Rate: 0.17/s | ETA: 9.3m
+  Progress: 43/140 | Rate: 0.17/s | ETA: 9.3m
+  Progress: 44/140 | Rate: 0.17/s | ETA: 9.3m
+  Progress: 45/140 | Rate: 0.17/s | ETA: 9.2m
+  Progress: 46/140 | Rate: 0.17/s | ETA: 9.2m
+  Progress: 47/140 | Rate: 0.17/s | ETA: 9.0m
+  Progress: 48/140 | Rate: 0.17/s | ETA: 9.0m
+  Progress: 49/140 | Rate: 0.17/s | ETA: 8.9m
+  Progress: 50/140 | Rate: 0.17/s | ETA: 8.9m
+  Progress: 51/140 | Rate: 0.17/s | ETA: 8.7m
+  Progress: 52/140 | Rate: 0.17/s | ETA: 8.6m
+  Progress: 53/140 | Rate: 0.17/s | ETA: 8.5m
+  Progress: 54/140 | Rate: 0.17/s | ETA: 8.3m
+  Progress: 55/140 | Rate: 0.17/s | ETA: 8.2m
+  Progress: 56/140 | Rate: 0.17/s | ETA: 8.1m
+  Progress: 57/140 | Rate: 0.17/s | ETA: 8.0m
+  Progress: 58/140 | Rate: 0.18/s | ETA: 7.8m
+  Progress: 59/140 | Rate: 0.18/s | ETA: 7.7m
+  Progress: 60/140 | Rate: 0.18/s | ETA: 7.6m
+  Progress: 61/140 | Rate: 0.18/s | ETA: 7.5m
+  Progress: 62/140 | Rate: 0.18/s | ETA: 7.4m
+  Progress: 63/140 | Rate: 0.18/s | ETA: 7.3m
+  Progress: 64/140 | Rate: 0.18/s | ETA: 7.2m
+  Progress: 65/140 | Rate: 0.18/s | ETA: 7.1m
+  Progress: 66/140 | Rate: 0.18/s | ETA: 7.0m
+  Progress: 67/140 | Rate: 0.18/s | ETA: 6.9m
+  Progress: 68/140 | Rate: 0.18/s | ETA: 6.8m
+  Progress: 69/140 | Rate: 0.18/s | ETA: 6.7m
+  Progress: 70/140 | Rate: 0.18/s | ETA: 6.6m
+  Progress: 71/140 | Rate: 0.18/s | ETA: 6.5m
+  Progress: 72/140 | Rate: 0.18/s | ETA: 6.3m
+  Progress: 73/140 | Rate: 0.18/s | ETA: 6.2m
+  Progress: 74/140 | Rate: 0.18/s | ETA: 6.2m
+  Progress: 75/140 | Rate: 0.18/s | ETA: 6.1m
+  Progress: 76/140 | Rate: 0.18/s | ETA: 6.0m
+  Progress: 77/140 | Rate: 0.18/s | ETA: 5.9m
+  Progress: 78/140 | Rate: 0.18/s | ETA: 5.8m
+  Progress: 79/140 | Rate: 0.18/s | ETA: 5.7m
+  Progress: 80/140 | Rate: 0.18/s | ETA: 5.6m
+  Progress: 81/140 | Rate: 0.18/s | ETA: 5.5m
+  Progress: 82/140 | Rate: 0.18/s | ETA: 5.4m
+  Progress: 83/140 | Rate: 0.18/s | ETA: 5.3m
+  Progress: 84/140 | Rate: 0.18/s | ETA: 5.3m
+  Progress: 85/140 | Rate: 0.18/s | ETA: 5.2m
+  Progress: 86/140 | Rate: 0.18/s | ETA: 5.1m
+  Progress: 87/140 | Rate: 0.18/s | ETA: 5.0m
+  Progress: 88/140 | Rate: 0.18/s | ETA: 4.9m
+  Progress: 89/140 | Rate: 0.18/s | ETA: 4.8m
+  Progress: 90/140 | Rate: 0.18/s | ETA: 4.7m
+  Progress: 91/140 | Rate: 0.18/s | ETA: 4.6m
+  Progress: 92/140 | Rate: 0.18/s | ETA: 4.5m
+  Progress: 93/140 | Rate: 0.18/s | ETA: 4.4m
+  Progress: 94/140 | Rate: 0.18/s | ETA: 4.3m
+  Progress: 95/140 | Rate: 0.18/s | ETA: 4.2m
+  Progress: 96/140 | Rate: 0.18/s | ETA: 4.1m
+  Progress: 97/140 | Rate: 0.18/s | ETA: 4.0m
+  Progress: 98/140 | Rate: 0.18/s | ETA: 3.9m
+  Progress: 99/140 | Rate: 0.18/s | ETA: 3.8m
+  Progress: 100/140 | Rate: 0.18/s | ETA: 3.7m
+  Progress: 101/140 | Rate: 0.18/s | ETA: 3.6m
+  Progress: 102/140 | Rate: 0.18/s | ETA: 3.5m
+  Progress: 103/140 | Rate: 0.18/s | ETA: 3.5m
+  Progress: 104/140 | Rate: 0.18/s | ETA: 3.4m
+  Progress: 105/140 | Rate: 0.18/s | ETA: 3.3m
+  Progress: 106/140 | Rate: 0.18/s | ETA: 3.2m
+  Progress: 107/140 | Rate: 0.18/s | ETA: 3.1m
+  Progress: 108/140 | Rate: 0.18/s | ETA: 3.0m
+  Progress: 109/140 | Rate: 0.18/s | ETA: 2.9m
+  Progress: 110/140 | Rate: 0.18/s | ETA: 2.8m
+  Progress: 111/140 | Rate: 0.18/s | ETA: 2.7m
+  Progress: 112/140 | Rate: 0.18/s | ETA: 2.6m
+  Progress: 113/140 | Rate: 0.18/s | ETA: 2.6m
+  Progress: 114/140 | Rate: 0.18/s | ETA: 2.5m
+  Progress: 115/140 | Rate: 0.18/s | ETA: 2.4m
+  Progress: 116/140 | Rate: 0.18/s | ETA: 2.3m
+  Progress: 117/140 | Rate: 0.18/s | ETA: 2.2m
+  Progress: 118/140 | Rate: 0.18/s | ETA: 2.1m
+  Progress: 119/140 | Rate: 0.18/s | ETA: 2.0m
+  Progress: 120/140 | Rate: 0.18/s | ETA: 1.9m
+  Progress: 121/140 | Rate: 0.18/s | ETA: 1.8m
+  Progress: 122/140 | Rate: 0.18/s | ETA: 1.7m
+  Progress: 123/140 | Rate: 0.18/s | ETA: 1.6m
+  Progress: 124/140 | Rate: 0.18/s | ETA: 1.5m
+  Progress: 125/140 | Rate: 0.18/s | ETA: 1.4m
+  Progress: 126/140 | Rate: 0.18/s | ETA: 1.3m
+  Progress: 127/140 | Rate: 0.18/s | ETA: 1.2m
+  Progress: 128/140 | Rate: 0.18/s | ETA: 1.1m
+  Progress: 129/140 | Rate: 0.18/s | ETA: 1.0m
+  Progress: 130/140 | Rate: 0.18/s | ETA: 0.9m
+  Progress: 131/140 | Rate: 0.18/s | ETA: 0.8m
+  Progress: 132/140 | Rate: 0.18/s | ETA: 0.8m
+  Progress: 133/140 | Rate: 0.18/s | ETA: 0.7m
+  Progress: 134/140 | Rate: 0.18/s | ETA: 0.6m
+  Progress: 135/140 | Rate: 0.18/s | ETA: 0.5m
+  Progress: 136/140 | Rate: 0.18/s | ETA: 0.4m
+  Progress: 137/140 | Rate: 0.18/s | ETA: 0.3m
+  Progress: 138/140 | Rate: 0.18/s | ETA: 0.2m
+  Progress: 139/140 | Rate: 0.18/s | ETA: 0.1m
+  Progress: 140/140 | Rate: 0.18/s | ETA: 0.0m
+
+✔ Done. 140 responses in 788.2s (0.18/s)
+
+>>> regime=clarification_first  sample=2  00:50:18Z
+
+--- [LM Studio model management] ---
+  [GPU] |   0  NVIDIA GeForce RTX 5060 ...    Off |   00000000:01:00.0 Off |                  N/A |
+  [GPU] | N/A   80C    P0             84W /  100W |    5463MiB /   8151MiB |     35%      Default |
+  Active models: ['google/gemma-4-e4b', 'qwen/qwen3.5-9b', 'huihui-qwen3.5-9b-claude-4.6-opus-abliterated', 'huihui-qwen3.5-4b-claude-4.6-opus-abliterated', 'qwen3-8b-claude-4.5-opus-high-reasoning-distill', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2', 'qwen3.5-9b-claude-4.6-opus-uncensored-distilled', 'crow-9b-opus-4.6-distill-heretic_qwen3.5', 'qwen3.5-9b-claude-4.6-opus-reasoning-distilled', 'qwen3.5-4b-claude-4.6-opus-reasoning-distilled', 'deepseek/deepseek-r1-0528-qwen3-8b', 'qwen3.5-9b-uncensored-hauhaucs-aggressive', 'text-embedding-nomic-embed-text-v1.5']
+  ✔ 'google/gemma-4-e4b' already loaded.
+
+============================================================
+  Model:   gemma4_e4b (google/gemma-4-e4b)
+  Host:    http://127.0.0.1:1234/v1
+  Regime:  clarification_first  |  Sample: 2  |  Run: run_20260521
+  Output:  /home/satvik/Documents/CIKM/runs/run_20260521/responses/gemma4_e4b_clarification_first_sample2_responses.jsonl
+============================================================
+  Remaining: 140 prompts
+  Progress: 1/140 | Rate: 0.22/s | ETA: 10.8m
+  Progress: 2/140 | Rate: 0.16/s | ETA: 14.3m
+  Progress: 3/140 | Rate: 0.16/s | ETA: 14.1m
+  Progress: 4/140 | Rate: 0.16/s | ETA: 14.3m
+  Progress: 5/140 | Rate: 0.16/s | ETA: 13.8m
+  Progress: 6/140 | Rate: 0.17/s | ETA: 13.3m
+  Progress: 7/140 | Rate: 0.17/s | ETA: 12.9m
+  Progress: 8/140 | Rate: 0.17/s | ETA: 12.8m
+  Progress: 9/140 | Rate: 0.17/s | ETA: 12.6m
+  Progress: 10/140 | Rate: 0.17/s | ETA: 13.0m
+  Progress: 11/140 | Rate: 0.17/s | ETA: 12.9m
+  Progress: 12/140 | Rate: 0.17/s | ETA: 12.7m
+  Progress: 13/140 | Rate: 0.17/s | ETA: 12.8m
+  Progress: 14/140 | Rate: 0.17/s | ETA: 12.7m
+  Progress: 15/140 | Rate: 0.16/s | ETA: 12.6m
+  Progress: 16/140 | Rate: 0.16/s | ETA: 12.6m
+  Progress: 17/140 | Rate: 0.16/s | ETA: 12.7m
+  Progress: 18/140 | Rate: 0.16/s | ETA: 12.8m
+  Progress: 19/140 | Rate: 0.16/s | ETA: 12.6m
+  Progress: 20/140 | Rate: 0.16/s | ETA: 12.4m
+  Progress: 21/140 | Rate: 0.16/s | ETA: 12.3m
+  Progress: 22/140 | Rate: 0.16/s | ETA: 12.0m
+  Progress: 23/140 | Rate: 0.17/s | ETA: 11.8m
+  Progress: 24/140 | Rate: 0.17/s | ETA: 11.6m
+  Progress: 25/140 | Rate: 0.17/s | ETA: 11.3m
+  Progress: 26/140 | Rate: 0.17/s | ETA: 11.2m
+  Progress: 27/140 | Rate: 0.17/s | ETA: 11.0m
+  Progress: 28/140 | Rate: 0.17/s | ETA: 10.8m
+  Progress: 29/140 | Rate: 0.17/s | ETA: 10.7m
+  Progress: 30/140 | Rate: 0.17/s | ETA: 10.5m
+  Progress: 31/140 | Rate: 0.17/s | ETA: 10.5m
+  Progress: 32/140 | Rate: 0.17/s | ETA: 10.4m
+  Progress: 33/140 | Rate: 0.17/s | ETA: 10.3m
+  Progress: 34/140 | Rate: 0.17/s | ETA: 10.2m
+  Progress: 35/140 | Rate: 0.17/s | ETA: 10.3m
+  Progress: 36/140 | Rate: 0.17/s | ETA: 10.2m
+  Progress: 37/140 | Rate: 0.17/s | ETA: 10.1m
+  Progress: 38/140 | Rate: 0.17/s | ETA: 10.0m
+  Progress: 39/140 | Rate: 0.17/s | ETA: 9.9m
+  Progress: 40/140 | Rate: 0.17/s | ETA: 9.8m
+  Progress: 41/140 | Rate: 0.17/s | ETA: 9.7m
+  Progress: 42/140 | Rate: 0.17/s | ETA: 9.7m
+  Progress: 43/140 | Rate: 0.17/s | ETA: 9.6m
+  Progress: 44/140 | Rate: 0.17/s | ETA: 9.6m
+  Progress: 45/140 | Rate: 0.17/s | ETA: 9.5m
+  Progress: 46/140 | Rate: 0.17/s | ETA: 9.4m
+  Progress: 47/140 | Rate: 0.17/s | ETA: 9.4m
+  Progress: 48/140 | Rate: 0.17/s | ETA: 9.3m
+  Progress: 49/140 | Rate: 0.17/s | ETA: 9.2m
+  Progress: 50/140 | Rate: 0.16/s | ETA: 9.1m
+  Progress: 51/140 | Rate: 0.17/s | ETA: 9.0m
+  Progress: 52/140 | Rate: 0.17/s | ETA: 8.8m
+  Progress: 53/140 | Rate: 0.17/s | ETA: 8.7m
+  Progress: 54/140 | Rate: 0.17/s | ETA: 8.6m
+  Progress: 55/140 | Rate: 0.17/s | ETA: 8.4m
+  Progress: 56/140 | Rate: 0.17/s | ETA: 8.3m
+  Progress: 57/140 | Rate: 0.17/s | ETA: 8.2m
+  Progress: 58/140 | Rate: 0.17/s | ETA: 8.1m
+  Progress: 59/140 | Rate: 0.17/s | ETA: 7.9m
+  Progress: 60/140 | Rate: 0.17/s | ETA: 7.8m
+  Progress: 61/140 | Rate: 0.17/s | ETA: 7.7m
+  Progress: 62/140 | Rate: 0.17/s | ETA: 7.6m
+  Progress: 63/140 | Rate: 0.17/s | ETA: 7.5m
+  Progress: 64/140 | Rate: 0.17/s | ETA: 7.4m
+  Progress: 65/140 | Rate: 0.17/s | ETA: 7.3m
+  Progress: 66/140 | Rate: 0.17/s | ETA: 7.2m
+  Progress: 67/140 | Rate: 0.17/s | ETA: 7.1m
+  Progress: 68/140 | Rate: 0.17/s | ETA: 7.0m
+  Progress: 69/140 | Rate: 0.17/s | ETA: 6.9m
+  Progress: 70/140 | Rate: 0.17/s | ETA: 6.8m
+  Progress: 71/140 | Rate: 0.17/s | ETA: 6.7m
+  Progress: 72/140 | Rate: 0.17/s | ETA: 6.5m
+  Progress: 73/140 | Rate: 0.17/s | ETA: 6.5m
+  Progress: 74/140 | Rate: 0.17/s | ETA: 6.4m
+  Progress: 75/140 | Rate: 0.17/s | ETA: 6.3m
+  Progress: 76/140 | Rate: 0.17/s | ETA: 6.2m
+  Progress: 77/140 | Rate: 0.17/s | ETA: 6.1m
+  Progress: 78/140 | Rate: 0.17/s | ETA: 6.0m
+  Progress: 79/140 | Rate: 0.17/s | ETA: 5.9m
+  Progress: 80/140 | Rate: 0.17/s | ETA: 5.8m
+  Progress: 81/140 | Rate: 0.17/s | ETA: 5.7m
+  Progress: 82/140 | Rate: 0.17/s | ETA: 5.6m
+  Progress: 83/140 | Rate: 0.17/s | ETA: 5.5m
+  Progress: 84/140 | Rate: 0.17/s | ETA: 5.4m
+  Progress: 85/140 | Rate: 0.17/s | ETA: 5.3m
+  Progress: 86/140 | Rate: 0.17/s | ETA: 5.2m
+  Progress: 87/140 | Rate: 0.17/s | ETA: 5.1m
+  Progress: 88/140 | Rate: 0.17/s | ETA: 5.0m
+  Progress: 89/140 | Rate: 0.17/s | ETA: 4.9m
+  Progress: 90/140 | Rate: 0.17/s | ETA: 4.8m
+  Progress: 91/140 | Rate: 0.17/s | ETA: 4.7m
+  Progress: 92/140 | Rate: 0.17/s | ETA: 4.6m
+  Progress: 93/140 | Rate: 0.17/s | ETA: 4.5m
+  Progress: 94/140 | Rate: 0.17/s | ETA: 4.4m
+  Progress: 95/140 | Rate: 0.17/s | ETA: 4.3m
+  Progress: 96/140 | Rate: 0.17/s | ETA: 4.2m
+  Progress: 97/140 | Rate: 0.17/s | ETA: 4.1m
+  Progress: 98/140 | Rate: 0.17/s | ETA: 4.0m
+  Progress: 99/140 | Rate: 0.17/s | ETA: 3.9m
+  Progress: 100/140 | Rate: 0.17/s | ETA: 3.8m
+  Progress: 101/140 | Rate: 0.17/s | ETA: 3.7m
+  Progress: 102/140 | Rate: 0.17/s | ETA: 3.6m
+  Progress: 103/140 | Rate: 0.17/s | ETA: 3.5m
+  Progress: 104/140 | Rate: 0.17/s | ETA: 3.5m
+  Progress: 105/140 | Rate: 0.17/s | ETA: 3.4m
+  Progress: 106/140 | Rate: 0.17/s | ETA: 3.3m
+  Progress: 107/140 | Rate: 0.17/s | ETA: 3.2m
+  Progress: 108/140 | Rate: 0.17/s | ETA: 3.1m
+  Progress: 109/140 | Rate: 0.17/s | ETA: 3.0m
+  Progress: 110/140 | Rate: 0.17/s | ETA: 2.9m
+  Progress: 111/140 | Rate: 0.17/s | ETA: 2.8m
+  Progress: 112/140 | Rate: 0.17/s | ETA: 2.7m
+  Progress: 113/140 | Rate: 0.17/s | ETA: 2.6m
+  Progress: 114/140 | Rate: 0.17/s | ETA: 2.5m
+  Progress: 115/140 | Rate: 0.17/s | ETA: 2.4m
+  Progress: 116/140 | Rate: 0.17/s | ETA: 2.3m
+  Progress: 117/140 | Rate: 0.17/s | ETA: 2.2m
+  Progress: 118/140 | Rate: 0.17/s | ETA: 2.1m
+  Progress: 119/140 | Rate: 0.17/s | ETA: 2.0m
+  Progress: 120/140 | Rate: 0.17/s | ETA: 1.9m
+  Progress: 121/140 | Rate: 0.17/s | ETA: 1.8m
+  Progress: 122/140 | Rate: 0.17/s | ETA: 1.7m
+  Progress: 123/140 | Rate: 0.17/s | ETA: 1.6m
+  Progress: 124/140 | Rate: 0.17/s | ETA: 1.5m
+  Progress: 125/140 | Rate: 0.17/s | ETA: 1.4m
+  Progress: 126/140 | Rate: 0.17/s | ETA: 1.3m
+  Progress: 127/140 | Rate: 0.18/s | ETA: 1.2m
+  Progress: 128/140 | Rate: 0.18/s | ETA: 1.1m
+  Progress: 129/140 | Rate: 0.18/s | ETA: 1.0m
+  Progress: 130/140 | Rate: 0.18/s | ETA: 1.0m
+  Progress: 131/140 | Rate: 0.18/s | ETA: 0.9m
+  Progress: 132/140 | Rate: 0.18/s | ETA: 0.8m
+  Progress: 133/140 | Rate: 0.18/s | ETA: 0.7m
+  Progress: 134/140 | Rate: 0.18/s | ETA: 0.6m
+  Progress: 135/140 | Rate: 0.18/s | ETA: 0.5m
+  Progress: 136/140 | Rate: 0.18/s | ETA: 0.4m
+  Progress: 137/140 | Rate: 0.18/s | ETA: 0.3m
+  Progress: 138/140 | Rate: 0.18/s | ETA: 0.2m
+  Progress: 139/140 | Rate: 0.18/s | ETA: 0.1m
+  Progress: 140/140 | Rate: 0.18/s | ETA: 0.0m
+
+✔ Done. 140 responses in 794.6s (0.18/s)
+
+=== Gemma 4 E4B COMPLETE at 2026-05-21T01:03:32Z ===

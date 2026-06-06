@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-05-20T19:47:28Z",
+  "bonferroni_n_tests": 24,
+  "bonferroni_alpha": 0.002083,
+  "per_regime": {
+    "gemma4_e4b/vanilla": {
+      "utility": 1.4,
+      "utility_ci": [
+        1.0,
+        1.8
+      ],
+      "satisfaction": 1.4,
+      "satisfaction_ci": [
+        1.0,
+        1.8
+      ],
+      "css_primary": 0.0235,
+      "css_primary_ci": [
+        0.0095,
+        0.0375
+      ]
+    }
+  },
+  "judge_agreement": {
+    "fleiss_kappa_response_type_nominal": null
+  },
+  "friedman": {},
+  "significant_pairwise": [],
+  "data_summary": {
+    "n_eval_rows": 5,
+    "n_prompts": 5,
+    "n_models": 1,
+    "n_regimes": 1,
+    "pct_disputed": 100.0,
+    "n_judges_mean": 1.0
+  }
+}
